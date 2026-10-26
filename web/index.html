@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>¿Quién salió por delante?</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mobile.css" media="(max-width: 720px)">
+  <script>
+    (function () {
+      var chosen = localStorage.getItem("plan-mery-lang") === "en" ? "en" : "es";
+      document.documentElement.lang = chosen;
+      if (chosen === "en") document.title = "Who came out ahead";
+    })();
+  </script>
+</head>
+<body>
+  <header class="site">
+    <a class="mark" href="#/">Plan Mery</a>
+    <div class="site-tools">
+      <nav>
+        <a href="#/" data-page="home" data-i18n="navHome">Presidentes</a>
+        <a href="#/communities" data-page="communities" data-i18n="navCommunities">Comunidades</a>
+        <a href="#/method" data-page="method" data-i18n="navMethod">Cómo se calcula</a>
+        <a href="#/data" data-page="data" data-i18n="navData">Los datos</a>
+        <a href="#/missing" data-page="missing" data-i18n="navMissing">Qué falta</a>
+      </nav>
+      <div class="lang" role="group" aria-label="Idioma">
+        <button type="button" data-lang="es" class="is-on" aria-pressed="true">ES</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+    </div>
+  </header>
+  <main id="app">Cargando la comparación…</main>
+  <script>
+    if (document.documentElement.lang === "en") {
+      document.getElementById("app").textContent = "Loading the comparison…";
+    }
+  </script>
+  <script src="i18n.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,4505 @@
+{
+  "presidents_source": "Wikidata P39, replaced by Spanish Wikipedia when that list covers 2000–2025",
+  "members_source": "Wikidata cabinet posts (consejero, conseller, vicepresidente) for autonomous communities. Coverage is uneven; Ceuta and Melilla have no cabinet extract.",
+  "corrections": "data/office-corrections.json",
+  "regions": [
+    {
+      "slug": "andalucia",
+      "name": "Andalucía",
+      "president_source": "wikipedia",
+      "presidents": [
+        {
+          "name": "Manuel María Chaves González",
+          "party": "PSOE",
+          "started_on": "1996-04-13",
+          "ended_on": "2009-04-06",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Gaspar Carlos Zarrías Arévalo",
+          "party": "",
+          "started_on": "2009-04-07",
+          "ended_on": "2009-04-22",
+          "wikidata_id": ""
+        },
+        {
+          "name": "José Antonio Griñán Martínez",
+          "party": "PSOE",
+          "started_on": "2009-04-23",
+          "ended_on": "2013-09-05",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Susana Díaz Pacheco",
+          "party": "PSOE+Cs",
+          "started_on": "2013-09-06",
+          "ended_on": "2019-01-17",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Juan Manuel Moreno Bonilla",
+          "party": "PP+Cs+Vox",
+          "started_on": "2019-01-18",
+          "ended_on": null,
+          "wikidata_id": ""
+        }
+      ],
+      "members": [
+        {
+          "name": "Carmen Calvo Poyato",
+          "office": "consejero de Cultura de la Junta de Andalucía",
+          "started_on": "1996-04-17",
+          "ended_on": "2004-02-07",
+          "wikidata_id": "Q2614472"
+        },
+        {
+          "name": "María Jesús Montero",
+          "office": "consejero de Sanidad y Consumo de la Junta de Andalucía",
+          "started_on": "2004-04-25",
+          "ended_on": "2012-05-07",
+          "wikidata_id": "Q6003983"
+        },
+        {
+          "name": "Clara Aguilera",
+          "office": "Consejero de Gobernación de la Junta de Andalucía",
+          "started_on": "2008-04-18",
+          "ended_on": "2009-04-24",
+          "wikidata_id": "Q5771098"
+        },
+        {
+          "name": "Clara Aguilera",
+          "office": "Consejero de Agricultura y Pesca de la Junta de Andalucía",
+          "started_on": "2009-04-24",
+          "ended_on": "2012-05-07",
+          "wikidata_id": "Q5771098"
+        },
+        {
+          "name": "Luis Planas",
+          "office": "Consejero de Agricultura, Pesca y Medio Ambiente de la Junta de Andalucía",
+          "started_on": "2012-05-05",
+          "ended_on": "2013-09-10",
+          "wikidata_id": "Q11689876"
+        },
+        {
+          "name": "Susana Díaz",
+          "office": "consejero de Presidencia e Igualdad de la Junta de Andalucía",
+          "started_on": "2012-05-07",
+          "ended_on": "2013-09-07",
+          "wikidata_id": "Q6136317"
+        },
+        {
+          "name": "Alberto García Valera",
+          "office": "consejero de la Junta de Andalucía",
+          "started_on": "2019-01-22",
+          "ended_on": "2019-02-11",
+          "wikidata_id": "Q60782446"
+        },
+        {
+          "name": "Marifrán Carazo",
+          "office": "consejero de Fomento de la Junta de Andalucía",
+          "started_on": "2019-01-22",
+          "ended_on": "2023-04-03",
+          "wikidata_id": "Q60830321"
+        },
+        {
+          "name": "Rocío Díaz Jiménez",
+          "office": "consejero de Fomento de la Junta de Andalucía",
+          "started_on": "2023-04-03",
+          "ended_on": null,
+          "wikidata_id": "Q128194325"
+        }
+      ]
+    },
+    {
+      "slug": "aragon",
+      "name": "Aragón",
+      "president_source": "wikipedia",
+      "presidents": [
+        {
+          "name": "Marcelino Iglesias",
+          "party": "PSOE",
+          "started_on": "1999-08-02",
+          "ended_on": "2011-07-13",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Luisa Fernanda Rudi",
+          "party": "PP",
+          "started_on": "2011-07-14",
+          "ended_on": "2015-07-04",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Javier Lambán",
+          "party": "PSOE",
+          "started_on": "2015-07-05",
+          "ended_on": "2023-08-10",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Jorge Azcón",
+          "party": "PP",
+          "started_on": "2023-08-11",
+          "ended_on": null,
+          "wikidata_id": ""
+        }
+      ],
+      "members": [
+        {
+          "name": "María Victoria Broto",
+          "office": "consejero de Ciencia, Tecnología y Universidad del Gobierno de Aragón",
+          "started_on": "2007-01-01",
+          "ended_on": "2008-01-01",
+          "wikidata_id": "Q20604165"
+        },
+        {
+          "name": "María Victoria Broto",
+          "office": "consejero de Educación, Cultura y Deporte del Gobierno de Aragón",
+          "started_on": "2008-01-01",
+          "ended_on": "2011-01-01",
+          "wikidata_id": "Q20604165"
+        },
+        {
+          "name": "María Victoria Broto",
+          "office": "consejero de Ciudadanía y Derechos Sociales del Gobierno de Aragón",
+          "started_on": "2015-01-01",
+          "ended_on": null,
+          "wikidata_id": "Q20604165"
+        },
+        {
+          "name": "Arturo Aliaga López",
+          "office": "consejero de Industria, Comercio y Turismo del Gobierno de Aragón",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q13048432"
+        }
+      ]
+    },
+    {
+      "slug": "asturias",
+      "name": "Asturias",
+      "president_source": "wikipedia",
+      "presidents": [
+        {
+          "name": "Vicente Álvarez Areces",
+          "party": "FSA+PSOE",
+          "started_on": "1999-07-22",
+          "ended_on": "2011-07-15",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Francisco Álvarez-Cascos",
+          "party": "FAC",
+          "started_on": "2011-07-16",
+          "ended_on": "2012-05-25",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Javier Fernández",
+          "party": "FSA+PSOE",
+          "started_on": "2012-05-26",
+          "ended_on": "2019-07-19",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Adrián Barbón",
+          "party": "FSA+PSOE",
+          "started_on": "2019-07-20",
+          "ended_on": null,
+          "wikidata_id": ""
+        }
+      ],
+      "members": [
+        {
+          "name": "María José Ramos Rubiera",
+          "office": "consejero del Principado de Asturias",
+          "started_on": "1999-01-01",
+          "ended_on": "2011-01-01",
+          "wikidata_id": "Q19722084"
+        },
+        {
+          "name": "Pablo Fernández Muñiz",
+          "office": "Consejero de Sanidad del Principado de Asturias",
+          "started_on": "2019-01-01",
+          "ended_on": null,
+          "wikidata_id": "Q87769196"
+        },
+        {
+          "name": "Berta Piñán",
+          "office": "Consejero de Cultura, Política Lingüística y Turismo del Principado de Asturias",
+          "started_on": "2019-07-25",
+          "ended_on": null,
+          "wikidata_id": "Q617455"
+        },
+        {
+          "name": "Ovidio Zapico González",
+          "office": "consejero del Principado de Asturias",
+          "started_on": "2023-08-01",
+          "ended_on": null,
+          "wikidata_id": "Q25578709"
+        },
+        {
+          "name": "Laura González Álvarez",
+          "office": "consejero del Principado de Asturias",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q11753241"
+        }
+      ]
+    },
+    {
+      "slug": "baleares",
+      "name": "Illes Balears",
+      "president_source": "wikipedia",
+      "presidents": [
+        {
+          "name": "Francesc Antich",
+          "party": "PSOE",
+          "started_on": "1999-07-27",
+          "ended_on": "2003-06-26",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Jaume Matas",
+          "party": "PP",
+          "started_on": "2003-06-27",
+          "ended_on": "2007-07-05",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Francesc Antich",
+          "party": "PSOE",
+          "started_on": "2007-07-06",
+          "ended_on": "2011-06-17",
+          "wikidata_id": ""
+        },
+        {
+          "name": "José Ramón Bauzá",
+          "party": "PP",
+          "started_on": "2011-06-18",
+          "ended_on": "2015-07-01",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Francina Armengol",
+          "party": "PSOE",
+          "started_on": "2015-07-02",
+          "ended_on": "2023-06-18",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Mae de la Concha",
+          "party": "Podemos",
+          "started_on": "2023-06-19",
+          "ended_on": "2023-07-06",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Marga Prohens",
+          "party": "PP",
+          "started_on": "2023-07-07",
+          "ended_on": null,
+          "wikidata_id": ""
+        }
+      ],
+      "members": [
+        {
+          "name": "Antoni Rami Alós",
+          "office": "consejero de Economía y Hacienda",
+          "started_on": "1996-06-18",
+          "ended_on": "1999-07-27",
+          "wikidata_id": "Q61994600"
+        },
+        {
+          "name": "Guillem Camps Coll",
+          "office": "consejero de Trabajo y Formación",
+          "started_on": "1996-06-18",
+          "ended_on": "1999-07-27",
+          "wikidata_id": "Q16183892"
+        },
+        {
+          "name": "Joan Verger",
+          "office": "Consejero de Fomento",
+          "started_on": "1996-06-18",
+          "ended_on": "1999-07-27",
+          "wikidata_id": "Q2842793"
+        },
+        {
+          "name": "Josep Juan Cardona",
+          "office": "consejero de Agricultura, Comercio e Industria",
+          "started_on": "1996-06-18",
+          "ended_on": "1999-07-09",
+          "wikidata_id": "Q14378340"
+        },
+        {
+          "name": "José María González Ortea",
+          "office": "Consejero de Turismo del Gobierno de las Islas Baleares",
+          "started_on": "1996-06-18",
+          "ended_on": "1999-07-27",
+          "wikidata_id": "Q20004409"
+        },
+        {
+          "name": "Rosa Estaràs",
+          "office": "consejero de Presidencia de las Islas Baleares",
+          "started_on": "1996-06-18",
+          "ended_on": "1999-07-27",
+          "wikidata_id": "Q4894822"
+        },
+        {
+          "name": "Damià Pons",
+          "office": "Consejero de Educación y Cultura del Gobierno de las Islas Baleares",
+          "started_on": "1999-01-01",
+          "ended_on": "2003-01-01",
+          "wikidata_id": "Q8353509"
+        },
+        {
+          "name": "Antoni Garcias Coll",
+          "office": "consejero de Presidencia de las Islas Baleares",
+          "started_on": "1999-07-27",
+          "ended_on": "2003-07-01",
+          "wikidata_id": "Q8201061"
+        },
+        {
+          "name": "Celestí Alomar Mateu",
+          "office": "Consejero de Turismo del Gobierno de las Islas Baleares",
+          "started_on": "1999-07-27",
+          "ended_on": "2003-06-30",
+          "wikidata_id": "Q11913378"
+        },
+        {
+          "name": "Joan Mesquida",
+          "office": "consejero de Hacienda, Presupuestos, Energía e Innovación Tecnológica",
+          "started_on": "1999-07-27",
+          "ended_on": "2000-03-16",
+          "wikidata_id": "Q9011984"
+        },
+        {
+          "name": "Josep Maria Costa Serra",
+          "office": "Consejero de Interior",
+          "started_on": "1999-07-27",
+          "ended_on": "2003-07-01",
+          "wikidata_id": "Q16189989"
+        },
+        {
+          "name": "Pere Sampol Mas",
+          "office": "Vicepresidente del gobierno de las Islas Baleares",
+          "started_on": "1999-07-27",
+          "ended_on": "2003-07-01",
+          "wikidata_id": "Q9058387"
+        },
+        {
+          "name": "Margalida Rosselló Pons",
+          "office": "consejero de Medio Ambiente",
+          "started_on": "1999-07-28",
+          "ended_on": "2003-06-30",
+          "wikidata_id": "Q19716586"
+        },
+        {
+          "name": "Eberhard Grosske",
+          "office": "consejero de Trabajo y Bienestar Social",
+          "started_on": "1999-08-27",
+          "ended_on": "2000-03-17",
+          "wikidata_id": "Q5406656"
+        },
+        {
+          "name": "Joan Mayol Serra",
+          "office": "Consejero de Agricultura y Pesca",
+          "started_on": "2000-03-16",
+          "ended_on": "2000-05-30",
+          "wikidata_id": "Q11927840"
+        },
+        {
+          "name": "Joan Mesquida",
+          "office": "consejero de Hacienda y Presupuestos",
+          "started_on": "2000-03-16",
+          "ended_on": "2003-06-30",
+          "wikidata_id": "Q9011984"
+        },
+        {
+          "name": "Eberhard Grosske",
+          "office": "consejero de Trabajo y Formación",
+          "started_on": "2000-03-17",
+          "ended_on": "2002-10-24",
+          "wikidata_id": "Q5406656"
+        },
+        {
+          "name": "Mateu Morro Marcé",
+          "office": "Consejero de Agricultura y Pesca",
+          "started_on": "2000-06-01",
+          "ended_on": "2003-06-30",
+          "wikidata_id": "Q19715848"
+        },
+        {
+          "name": "Francesc Quetglas Rosanes",
+          "office": "consejero de Obras Públicas, Vivienda y Transportes",
+          "started_on": "2001-09-28",
+          "ended_on": "2003-06-30",
+          "wikidata_id": "Q11681921"
+        },
+        {
+          "name": "Francesc Fiol Amengual",
+          "office": "Consejero de Educación y Cultura del Gobierno de las Islas Baleares",
+          "started_on": "2003-06-30",
+          "ended_on": "2007-07-06",
+          "wikidata_id": "Q11922753"
+        },
+        {
+          "name": "Jaume Font",
+          "office": "consejero de Medio Ambiente",
+          "started_on": "2003-06-30",
+          "ended_on": "2007-07-06",
+          "wikidata_id": "Q6451402"
+        },
+        {
+          "name": "Josep Juan Cardona",
+          "office": "Consejero de Comercio, Industria y Energía",
+          "started_on": "2003-06-30",
+          "ended_on": "2007-07-09",
+          "wikidata_id": "Q14378340"
+        },
+        {
+          "name": "Margarita Isabel Cabrer González",
+          "office": "consejero de Obras Públicas, Vivienda y Transportes",
+          "started_on": "2003-06-30",
+          "ended_on": "2007-07-06",
+          "wikidata_id": "Q11935399"
+        },
+        {
+          "name": "Rosa Estaràs",
+          "office": "vicepresidente y consejero de Relaciones Institucionales",
+          "started_on": "2003-06-30",
+          "ended_on": "2007-07-09",
+          "wikidata_id": "Q4894822"
+        },
+        {
+          "name": "Joan Flaquer Riutort",
+          "office": "Consejero de Turismo del Gobierno de las Islas Baleares",
+          "started_on": "2003-07-01",
+          "ended_on": "2007-07-09",
+          "wikidata_id": "Q20003492"
+        },
+        {
+          "name": "José María Rodríguez Barberá",
+          "office": "Consejero de Interior",
+          "started_on": "2003-07-01",
+          "ended_on": "2007-07-09",
+          "wikidata_id": "Q20004415"
+        },
+        {
+          "name": "Margalida Moner Tugores",
+          "office": "Consejero de Agricultura y Pesca",
+          "started_on": "2003-10-13",
+          "ended_on": "2007-07-05",
+          "wikidata_id": "Q19715823"
+        },
+        {
+          "name": "Cristòfol Huguet Sintes",
+          "office": "consejero de Trabajo y Formación",
+          "started_on": "2004-05-21",
+          "ended_on": "2007-07-06",
+          "wikidata_id": "Q11916136"
+        },
+        {
+          "name": "Encarnación Pastor Sánchez",
+          "office": "consejero de Inmigración y Cooperación",
+          "started_on": "2005-10-18",
+          "ended_on": "2007-07-09",
+          "wikidata_id": "Q19716143"
+        },
+        {
+          "name": "Mateo Cañellas",
+          "office": "consejero de Deportes y Juventud",
+          "started_on": "2007-07-06",
+          "ended_on": "2010-02-05",
+          "wikidata_id": "Q984610"
+        },
+        {
+          "name": "Albert Moragues Gomila",
+          "office": "consejero de Presidencia de las Islas Baleares",
+          "started_on": "2007-07-09",
+          "ended_on": "2011-06-20",
+          "wikidata_id": "Q2831417"
+        },
+        {
+          "name": "Bàrbara Galmés Chicón",
+          "office": "Consejero de Educación y Cultura del Gobierno de las Islas Baleares",
+          "started_on": "2007-07-09",
+          "ended_on": "2009-09-15",
+          "wikidata_id": "Q11910234"
+        },
+        {
+          "name": "Carles Manera Erbina",
+          "office": "consejero de Economía, Hacienda e Innovación",
+          "started_on": "2007-07-09",
+          "ended_on": "2009-09-15",
+          "wikidata_id": "Q2939063"
+        },
+        {
+          "name": "Francesc Buils Huguet",
+          "office": "Consejero de Turismo del Gobierno de las Islas Baleares",
+          "started_on": "2007-07-09",
+          "ended_on": "2008-10-01",
+          "wikidata_id": "Q16181167"
+        },
+        {
+          "name": "Gabriel Vicens Mir",
+          "office": "consejero de Movilidad y Ordenación del Territorio",
+          "started_on": "2007-07-09",
+          "ended_on": "2011-06-16",
+          "wikidata_id": "Q11923480"
+        },
+        {
+          "name": "Jaume Carbonero Malbertí",
+          "office": "consejero de Vivienda y Obras Públicas",
+          "started_on": "2007-07-09",
+          "ended_on": "2011-06-16",
+          "wikidata_id": "Q11927254"
+        },
+        {
+          "name": "Josefina Santiago Rodríguez",
+          "office": "consejero de Asuntos Sociales, Promoción e Inmigración",
+          "started_on": "2007-07-09",
+          "ended_on": "2011-06-16",
+          "wikidata_id": "Q11928411"
+        },
+        {
+          "name": "Margarita Nájera Aranzábal",
+          "office": "consejero de Trabajo y Formación",
+          "started_on": "2007-07-09",
+          "ended_on": "2008-09-17",
+          "wikidata_id": "Q11935400"
+        },
+        {
+          "name": "María Ángeles Leciñena Esteban",
+          "office": "Consejero de Interior",
+          "started_on": "2007-07-09",
+          "ended_on": "2009-09-15",
+          "wikidata_id": "Q17278944"
+        },
+        {
+          "name": "Mercè Amer Riera",
+          "office": "Consejero de Agricultura y Pesca",
+          "started_on": "2007-07-09",
+          "ended_on": "2010-06-05",
+          "wikidata_id": "Q16165763"
+        },
+        {
+          "name": "Miquel Àngel Grimalt Vert",
+          "office": "consejero de Medio Ambiente",
+          "started_on": "2007-07-09",
+          "ended_on": "2010-02-05",
+          "wikidata_id": "Q11936992"
+        },
+        {
+          "name": "Joana Barceló",
+          "office": "consejero de Trabajo y Formación",
+          "started_on": "2008-09-17",
+          "ended_on": "2010-02-08",
+          "wikidata_id": "Q9012109"
+        },
+        {
+          "name": "Pilar Costa",
+          "office": "Consejero de Innovación, Interior y Justicia",
+          "started_on": "2009-09-14",
+          "ended_on": "2011-06-16",
+          "wikidata_id": "Q9059618"
+        },
+        {
+          "name": "Bartomeu Llinàs Ferrà",
+          "office": "Consejero de Educación y Cultura del Gobierno de las Islas Baleares",
+          "started_on": "2009-09-15",
+          "ended_on": "2011-06-20",
+          "wikidata_id": "Q19998032"
+        },
+        {
+          "name": "Carles Manera Erbina",
+          "office": "consejero de Economía y Hacienda",
+          "started_on": "2009-09-15",
+          "ended_on": "2011-06-21",
+          "wikidata_id": "Q2939063"
+        },
+        {
+          "name": "Miquel Ferrer Viver",
+          "office": "Consejero de Turismo del Gobierno de las Islas Baleares",
+          "started_on": "2009-12-10",
+          "ended_on": "2010-02-05",
+          "wikidata_id": "Q11936905"
+        },
+        {
+          "name": "Joana Barceló",
+          "office": "Consejero de Turismo del Gobierno de las Islas Baleares",
+          "started_on": "2010-02-08",
+          "ended_on": "2011-06-16",
+          "wikidata_id": "Q9012109"
+        },
+        {
+          "name": "José Simón Gornés Hachero",
+          "office": "consejero de Administraciones Públicas",
+          "started_on": "2011-06-18",
+          "ended_on": "2013-05-02",
+          "wikidata_id": "Q11929200"
+        },
+        {
+          "name": "Antonio Gómez Pérez",
+          "office": "consejero de Presidencia de las Islas Baleares",
+          "started_on": "2011-06-20",
+          "ended_on": "2015-07-02",
+          "wikidata_id": "Q19997926"
+        },
+        {
+          "name": "Carlos Delgado Truyols",
+          "office": "Consejero de Turismo y Deportes",
+          "started_on": "2011-06-20",
+          "ended_on": "2013-12-27",
+          "wikidata_id": "Q5487424"
+        },
+        {
+          "name": "José Vicente Marí Bosó",
+          "office": "consejero de Hacienda y Presupuestos",
+          "started_on": "2013-05-02",
+          "ended_on": "2015-07-02",
+          "wikidata_id": "Q21006597"
+        },
+        {
+          "name": "Núria Riera Martos",
+          "office": "consejero de Administraciones Públicas",
+          "started_on": "2013-05-02",
+          "ended_on": "2014-09-26",
+          "wikidata_id": "Q20006119"
+        },
+        {
+          "name": "Sandra Fernández Herranz",
+          "office": "Consejero de Familia y Servicios Sociales del Gobierno de las Islas Baleares",
+          "started_on": "2013-05-02",
+          "ended_on": "2015-07-02",
+          "wikidata_id": "Q21001210"
+        },
+        {
+          "name": "Jaime Martínez Llabrés",
+          "office": "Consejero de Turismo y Deportes",
+          "started_on": "2013-12-27",
+          "ended_on": "2015-07-02",
+          "wikidata_id": "Q61998499"
+        },
+        {
+          "name": "Juan Manuel Lafuente Mir",
+          "office": "consejero de Administraciones Públicas",
+          "started_on": "2014-09-26",
+          "ended_on": "2015-07-02",
+          "wikidata_id": "Q21001298"
+        },
+        {
+          "name": "Esperança Camps Barber",
+          "office": "consejero de Cultura de las Islas Baleares",
+          "started_on": "2015-07-02",
+          "ended_on": "2016-04-06",
+          "wikidata_id": "Q11920635"
+        },
+        {
+          "name": "Gabriel Barceló",
+          "office": "vicepresidente y consejero de de Innovación, Investigación y Turismo",
+          "started_on": "2015-07-02",
+          "ended_on": "2017-12-14",
+          "wikidata_id": "Q9265088"
+        },
+        {
+          "name": "Joan Boned Roig",
+          "office": "Consejero de Territorio, Energía y Movilidad",
+          "started_on": "2015-07-02",
+          "ended_on": "2016-04-07",
+          "wikidata_id": "Q20877098"
+        },
+        {
+          "name": "Marc Pons Pons",
+          "office": "consejero de Presidencia de las Islas Baleares",
+          "started_on": "2015-07-02",
+          "ended_on": "2016-04-07",
+          "wikidata_id": "Q9028503"
+        },
+        {
+          "name": "Vicenç Vidal Matas",
+          "office": "consejero de Medio Ambiente",
+          "started_on": "2015-07-02",
+          "ended_on": "2019-07-02",
+          "wikidata_id": "Q20850401"
+        },
+        {
+          "name": "Ruth Mateu Vinent",
+          "office": "consejero de Cultura de las Islas Baleares",
+          "started_on": "2016-01-01",
+          "ended_on": "2017-01-01",
+          "wikidata_id": "Q23730993"
+        },
+        {
+          "name": "Marc Pons Pons",
+          "office": "Consejero de Territorio, Energía y Movilidad",
+          "started_on": "2016-04-07",
+          "ended_on": "2019-07-03",
+          "wikidata_id": "Q9028503"
+        },
+        {
+          "name": "Pilar Costa",
+          "office": "consejero de Presidencia de las Islas Baleares",
+          "started_on": "2016-04-07",
+          "ended_on": "2019-07-03",
+          "wikidata_id": "Q9059618"
+        },
+        {
+          "name": "Fanny Tur Riera",
+          "office": "consejero de Cultura de las Islas Baleares",
+          "started_on": "2017-04-01",
+          "ended_on": null,
+          "wikidata_id": "Q30077799"
+        },
+        {
+          "name": "Bel Busquets",
+          "office": "vicepresidente y consejero de de Innovación, Investigación y Turismo",
+          "started_on": "2017-12-18",
+          "ended_on": "2019-07-03",
+          "wikidata_id": "Q47067503"
+        },
+        {
+          "name": "Josefina Santiago Rodríguez",
+          "office": "Consejero de Asuntos Sociales y Deportes",
+          "started_on": "2019-07-03",
+          "ended_on": null,
+          "wikidata_id": "Q11928411"
+        },
+        {
+          "name": "Juan Pedro Yllanes Suárez",
+          "office": "Vicepresidente del gobierno de las Islas Baleares",
+          "started_on": "2019-07-03",
+          "ended_on": "2023-07-10",
+          "wikidata_id": "Q22893655"
+        },
+        {
+          "name": "Marc Pons Pons",
+          "office": "consejero de Movilidad y Vivienda",
+          "started_on": "2019-07-03",
+          "ended_on": "2021-02-14",
+          "wikidata_id": "Q9028503"
+        },
+        {
+          "name": "Pilar Costa",
+          "office": "consejero de Presidencia, Cultura e Igualdad",
+          "started_on": "2019-07-03",
+          "ended_on": "2021-02-14",
+          "wikidata_id": "Q9059618"
+        },
+        {
+          "name": "Josep Marí Ribas",
+          "office": "consejero de Movilidad y Vivienda",
+          "started_on": "2021-02-14",
+          "ended_on": "2023-06-23",
+          "wikidata_id": "Q20877122"
+        },
+        {
+          "name": "Antoni Vera",
+          "office": "consejero del Gobierno de las Islas Baleares",
+          "started_on": "2023-07-10",
+          "ended_on": null,
+          "wikidata_id": "Q120513728"
+        },
+        {
+          "name": "Antonio Costa Costa",
+          "office": "Vicepresidente del gobierno de las Islas Baleares",
+          "started_on": "2023-07-10",
+          "ended_on": null,
+          "wikidata_id": "Q111108203"
+        },
+        {
+          "name": "Jaume Bauzà Mayol",
+          "office": "Consejero de Turismo y Deportes",
+          "started_on": "2023-07-10",
+          "ended_on": null,
+          "wikidata_id": "Q120540925"
+        },
+        {
+          "name": "Marta Vidal Crespo",
+          "office": "consejero de Vivienda, Territorio y Movilidad",
+          "started_on": "2023-07-10",
+          "ended_on": null,
+          "wikidata_id": "Q120599890"
+        },
+        {
+          "name": "Miquel Nadal i Buades",
+          "office": "Consejero de Turismo del Gobierno de las Islas Baleares",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q11936941"
+        }
+      ]
+    },
+    {
+      "slug": "canarias",
+      "name": "Canarias",
+      "president_source": "wikipedia",
+      "presidents": [
+        {
+          "name": "Román Rodríguez",
+          "party": "CC",
+          "started_on": "1999-07-17",
+          "ended_on": "2003-07-07",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Adán Martín",
+          "party": "CC",
+          "started_on": "2003-07-08",
+          "ended_on": "2007-07-12",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Paulino Rivero",
+          "party": "CC",
+          "started_on": "2007-07-13",
+          "ended_on": "2015-07-08",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Fernando Clavijo",
+          "party": "CC",
+          "started_on": "2015-07-09",
+          "ended_on": "2019-07-15",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Ángel Víctor Torres",
+          "party": "PSOE",
+          "started_on": "2019-07-16",
+          "ended_on": "2023-07-13",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Fernando Clavijo",
+          "party": "CC",
+          "started_on": "2023-07-14",
+          "ended_on": null,
+          "wikidata_id": ""
+        }
+      ],
+      "members": [
+        {
+          "name": "Carolina Darias San Sebastián",
+          "office": "Consejero de Economía, Conocimiento y Empleo del Gobierno de Canarias",
+          "started_on": "2019-07-18",
+          "ended_on": null,
+          "wikidata_id": "Q5753193"
+        },
+        {
+          "name": "Cristina Valido García",
+          "office": "consejero del Gobierno de Canarias",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q81763033"
+        },
+        {
+          "name": "Pedro Ortega Rodríguez",
+          "office": "consejero del Gobierno de Canarias",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q81762953"
+        }
+      ]
+    },
+    {
+      "slug": "cantabria",
+      "name": "Cantabria",
+      "president_source": "wikipedia",
+      "presidents": [
+        {
+          "name": "José Joaquín Martínez Sieso",
+          "party": "PP",
+          "started_on": "1999-07-27",
+          "ended_on": "2003-07-01",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Miguel Ángel Revilla",
+          "party": "PRC",
+          "started_on": "2003-07-02",
+          "ended_on": "2011-06-26",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Ignacio Diego",
+          "party": "PP",
+          "started_on": "2011-06-27",
+          "ended_on": "2015-07-06",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Miguel Ángel Revilla",
+          "party": "PRC",
+          "started_on": "2015-07-07",
+          "ended_on": "2023-07-04",
+          "wikidata_id": ""
+        },
+        {
+          "name": "María José Sáenz de Buruaga",
+          "party": "PP",
+          "started_on": "2023-07-05",
+          "ended_on": null,
+          "wikidata_id": ""
+        }
+      ],
+      "members": [
+        {
+          "name": "José María Mazón Ramos",
+          "office": "Consejero de Obras Públicas, Ordenación del Territorio, Vivienda y Urbanismo del Gobierno de Cantabria",
+          "started_on": "2003-06-27",
+          "ended_on": "2011-06-28",
+          "wikidata_id": "Q49842104"
+        },
+        {
+          "name": "José María Mazón Ramos",
+          "office": "Consejero de Obras Públicas y Viviendadel Gobierno de Cantabria",
+          "started_on": "2015-07-10",
+          "ended_on": "2019-03-21",
+          "wikidata_id": "Q49842104"
+        },
+        {
+          "name": "Paula Fernández Viaña",
+          "office": "Consejera de Presidencia, Interior, Justicia y Acción Exterior de Cantabria",
+          "started_on": "2019-07-08",
+          "ended_on": null,
+          "wikidata_id": "Q115570137"
+        },
+        {
+          "name": "José Luis Gochicoa González",
+          "office": "consejero del Gobierno de Cantabria",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q80086278"
+        }
+      ]
+    },
+    {
+      "slug": "castilla-y-leon",
+      "name": "Castilla y León",
+      "president_source": "wikipedia",
+      "presidents": [
+        {
+          "name": "Juan José Lucas",
+          "party": "PP",
+          "started_on": "1999-07-13",
+          "ended_on": "2001-03-14",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Juan Vicente Herrera",
+          "party": "PP",
+          "started_on": "2001-03-15",
+          "ended_on": "2019-07-08",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Alfonso Fernández Mañueco",
+          "party": "PP",
+          "started_on": "2019-07-09",
+          "ended_on": null,
+          "wikidata_id": ""
+        }
+      ],
+      "members": [
+        {
+          "name": "Francisco Jambrina",
+          "office": "consejero de la Junta de Castilla y León",
+          "started_on": "1991-01-01",
+          "ended_on": null,
+          "wikidata_id": "Q5866074"
+        },
+        {
+          "name": "Jesús Merino Delgado",
+          "office": "consejero de Fomento de la Junta de Castilla y León",
+          "started_on": "1991-07-01",
+          "ended_on": "1999-07-01",
+          "wikidata_id": "Q44522864"
+        },
+        {
+          "name": "José Valín",
+          "office": "consejero de Agricultura y Ganadería de la Junta de Castilla y León",
+          "started_on": "1996-05-01",
+          "ended_on": "2007-07-01",
+          "wikidata_id": "Q50348049"
+        },
+        {
+          "name": "José Luis González Vallvé",
+          "office": "consejero de Fomento de la Junta de Castilla y León",
+          "started_on": "1999-01-01",
+          "ended_on": "2001-01-01",
+          "wikidata_id": "Q55154466"
+        },
+        {
+          "name": "María José Salgueiro Cortiñas",
+          "office": "consejero de Presidencia y Administración Territorial de la Junta de Castilla y León",
+          "started_on": "2000-01-01",
+          "ended_on": "2003-01-01",
+          "wikidata_id": "Q29438421"
+        },
+        {
+          "name": "José Manuel Fernández Santiago",
+          "office": "consejero de Fomento de la Junta de Castilla y León",
+          "started_on": "2001-01-01",
+          "ended_on": "2003-01-01",
+          "wikidata_id": "Q5942084"
+        },
+        {
+          "name": "Silvia Clemente Municio",
+          "office": "consejero de Medio Ambiente de la Junta de Castilla y León",
+          "started_on": "2001-03-01",
+          "ended_on": "2003-07-01",
+          "wikidata_id": "Q22999252"
+        },
+        {
+          "name": "Francisco Javier Álvarez Guisasola",
+          "office": "consejero de Educación de la Junta de Castilla y León",
+          "started_on": "2003-07-01",
+          "ended_on": "2007-07-01",
+          "wikidata_id": "Q50334638"
+        },
+        {
+          "name": "Silvia Clemente Municio",
+          "office": "consejero de Cultura y Turismo de la Junta de Castilla y León",
+          "started_on": "2003-07-01",
+          "ended_on": "2007-07-01",
+          "wikidata_id": "Q22999252"
+        },
+        {
+          "name": "Pilar del Olmo",
+          "office": "consejero de Economía y Hacienda de la Junta de Castilla y León",
+          "started_on": "2003-07-04",
+          "ended_on": null,
+          "wikidata_id": "Q20891407"
+        },
+        {
+          "name": "María José Salgueiro Cortiñas",
+          "office": "consejero de Cultura y Turismo de la Junta de Castilla y León",
+          "started_on": "2007-01-01",
+          "ended_on": "2011-01-01",
+          "wikidata_id": "Q29438421"
+        },
+        {
+          "name": "Francisco Javier Álvarez Guisasola",
+          "office": "consejero de Sanidad de la Junta de Castilla y León",
+          "started_on": "2007-07-01",
+          "ended_on": "2011-06-01",
+          "wikidata_id": "Q50334638"
+        },
+        {
+          "name": "Juan José Mateos Otero",
+          "office": "consejero de Educación de la Junta de Castilla y León",
+          "started_on": "2007-07-01",
+          "ended_on": null,
+          "wikidata_id": "Q50332219"
+        },
+        {
+          "name": "Silvia Clemente Municio",
+          "office": "consejero de Agricultura y Ganadería de la Junta de Castilla y León",
+          "started_on": "2007-07-01",
+          "ended_on": "2015-06-01",
+          "wikidata_id": "Q22999252"
+        },
+        {
+          "name": "Alicia García Rodríguez",
+          "office": "consejero de Cultura y Turismo de la Junta de Castilla y León",
+          "started_on": "2011-01-01",
+          "ended_on": "2015-01-01",
+          "wikidata_id": "Q22999280"
+        },
+        {
+          "name": "Antonio María Sáez",
+          "office": "consejero de Sanidad de la Junta de Castilla y León",
+          "started_on": "2011-06-01",
+          "ended_on": null,
+          "wikidata_id": "Q21531598"
+        },
+        {
+          "name": "Josefa García Cirac",
+          "office": "consejero de Cultura y Turismo de la Junta de Castilla y León",
+          "started_on": "2015-07-01",
+          "ended_on": "2019-07-17",
+          "wikidata_id": "Q21094896"
+        },
+        {
+          "name": "Francisco Igea Arisqueta",
+          "office": "vicepresidente de la Junta de Castilla y León",
+          "started_on": "2019-07-17",
+          "ended_on": "2021-12-20",
+          "wikidata_id": "Q22083531"
+        },
+        {
+          "name": "Jesús Julio Carnero",
+          "office": "consejero de Agricultura y Ganadería de la Junta de Castilla y León",
+          "started_on": "2019-07-17",
+          "ended_on": "2022-04-20",
+          "wikidata_id": "Q6452315"
+        },
+        {
+          "name": "Jesús Julio Carnero",
+          "office": "consejero de la Presidencia de la Junta de Castilla y León",
+          "started_on": "2022-04-20",
+          "ended_on": "2023-05-12",
+          "wikidata_id": "Q6452315"
+        },
+        {
+          "name": "Juan García-Gallardo",
+          "office": "vicepresidente de la Junta de Castilla y León",
+          "started_on": "2022-04-20",
+          "ended_on": null,
+          "wikidata_id": "Q110820746"
+        },
+        {
+          "name": "Carlos Fernández Carriedo",
+          "office": "consejero de Medio Ambiente de la Junta de Castilla y León",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q28501707"
+        },
+        {
+          "name": "Fernando Rey Martínez",
+          "office": "consejero de Educación de la Junta de Castilla y León",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q20741665"
+        },
+        {
+          "name": "Jesús Mañueco Alonso",
+          "office": "consejero de Presidencia y Administración Territorial de la Junta de Castilla y León",
+          "started_on": null,
+          "ended_on": "2000-01-01",
+          "wikidata_id": "Q41073601"
+        },
+        {
+          "name": "José Antonio de Santiago-Juárez",
+          "office": "consejero de la Presidencia de la Junta de Castilla y León",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q19930138"
+        },
+        {
+          "name": "José Manuel Fernández Santiago",
+          "office": "consejero de Medio Ambiente de la Junta de Castilla y León",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q5942084"
+        },
+        {
+          "name": "Miguel Pérez Villar",
+          "office": "vicepresidente de la Junta de Castilla y León",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q41064534"
+        },
+        {
+          "name": "Milagros Marcos Ortega",
+          "office": "consejero de Agricultura y Ganadería de la Junta de Castilla y León",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q22999390"
+        }
+      ]
+    },
+    {
+      "slug": "castilla-la-mancha",
+      "name": "Castilla-La Mancha",
+      "president_source": "wikidata",
+      "presidents": [
+        {
+          "name": "José Bono",
+          "party": "PSOE",
+          "started_on": "1983-06-06",
+          "ended_on": "2004-04-17",
+          "wikidata_id": "Q1311580"
+        },
+        {
+          "name": "José María Barreda",
+          "party": "PSOE",
+          "started_on": "2004-04-29",
+          "ended_on": "2011-06-21",
+          "wikidata_id": "Q3179016"
+        },
+        {
+          "name": "María Dolores de Cospedal",
+          "party": "PP",
+          "started_on": "2011-06-22",
+          "ended_on": "2015-07-03",
+          "wikidata_id": "Q271658"
+        },
+        {
+          "name": "Emiliano García-Page",
+          "party": "PSOE",
+          "started_on": "2015-07-04",
+          "ended_on": null,
+          "wikidata_id": "Q3052296"
+        }
+      ],
+      "members": [
+        {
+          "name": "Matilde Valentín",
+          "office": "consejero de Sanidad del Gobierno de Castilla-La Mancha",
+          "started_on": "1995-07-01",
+          "ended_on": "2000-01-01",
+          "wikidata_id": "Q28872618"
+        },
+        {
+          "name": "Justo Zambrana Pineda",
+          "office": "consejero de Educación y Cultura del Gobierno de Castilla-La Mancha",
+          "started_on": "1995-07-07",
+          "ended_on": "1999-07-22",
+          "wikidata_id": "Q5957013"
+        },
+        {
+          "name": "Araceli Muñoz de Pedro",
+          "office": "consejero de Obras Públicas del Gobierno de Castilla-La Mancha",
+          "started_on": "1998-01-01",
+          "ended_on": "1999-01-01",
+          "wikidata_id": "Q47175537"
+        },
+        {
+          "name": "Emiliano García-Page",
+          "office": "consejero portavoz del Gobierno de Castilla-La Mancha",
+          "started_on": "1998-03-24",
+          "ended_on": "1999-07-22",
+          "wikidata_id": "Q3052296"
+        },
+        {
+          "name": "Emiliano García-Page",
+          "office": "consejero portavoz del Gobierno de Castilla-La Mancha",
+          "started_on": "2001-02-21",
+          "ended_on": "2004-05-03",
+          "wikidata_id": "Q3052296"
+        },
+        {
+          "name": "Mercedes Gómez",
+          "office": "consejero de Agricultura del Gobierno de Castilla-La Mancha",
+          "started_on": "2003-07-01",
+          "ended_on": "2008-09-01",
+          "wikidata_id": "Q66789546"
+        },
+        {
+          "name": "Francisco Pardo Piqueras",
+          "office": "consejero de la Presidencia de la Junta de Comunidades de Castilla-La Mancha",
+          "started_on": "2003-07-07",
+          "ended_on": "2004-04-20",
+          "wikidata_id": "Q5867009"
+        },
+        {
+          "name": "María Luisa Soriano",
+          "office": "consejero de Agricultura del Gobierno de Castilla-La Mancha",
+          "started_on": "2011-05-27",
+          "ended_on": "2015-07-09",
+          "wikidata_id": "Q58414440"
+        },
+        {
+          "name": "Juan Alfonso Ruiz Molina",
+          "office": "consejero de Hacienda y Administraciones Públicas del Gobierno de Castilla-La Mancha",
+          "started_on": "2015-01-01",
+          "ended_on": null,
+          "wikidata_id": "Q58413717"
+        },
+        {
+          "name": "Elena de la Cruz",
+          "office": "consejero de Fomento del Gobierno de Castilla-La Mancha",
+          "started_on": "2015-07-09",
+          "ended_on": "2017-04-04",
+          "wikidata_id": "Q33001457"
+        },
+        {
+          "name": "Reyes Estévez Forneiro",
+          "office": "consejero de Educación, Cultura y Deportes del Gobierno de Castilla-La Mancha",
+          "started_on": "2015-07-09",
+          "ended_on": "2016-05-06",
+          "wikidata_id": "Q58414310"
+        },
+        {
+          "name": "Ángel Felpeto",
+          "office": "consejero de Educación, Cultura y Deportes del Gobierno de Castilla-La Mancha",
+          "started_on": "2016-05-06",
+          "ended_on": "2019-07-08",
+          "wikidata_id": "Q29533943"
+        },
+        {
+          "name": "María Agustina García Élez",
+          "office": "consejero de Fomento del Gobierno de Castilla-La Mancha",
+          "started_on": "2017-04-08",
+          "ended_on": "2019-06-13",
+          "wikidata_id": "Q47495950"
+        },
+        {
+          "name": "Inmaculada Herranz",
+          "office": "consejero para la coordinación del Plan de Garantías Ciudadanas del Gobierno de Castilla-La Mancha (español)",
+          "started_on": "2017-08-10",
+          "ended_on": null,
+          "wikidata_id": "Q58764715"
+        },
+        {
+          "name": "José García Molina",
+          "office": "vicepresidente segundo del Gobierno de Castilla-La Mancha",
+          "started_on": "2017-08-10",
+          "ended_on": "2019-07-08",
+          "wikidata_id": "Q19891029"
+        },
+        {
+          "name": "Blanca Fernández",
+          "office": "consejero de Igualdad y portavoz del Gobierno de Castilla-La Mancha",
+          "started_on": "2019-07-08",
+          "ended_on": null,
+          "wikidata_id": "Q58443831"
+        },
+        {
+          "name": "Francisco Martínez Arroyo",
+          "office": "consejero del Gobierno de Castilla-La Mancha",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q65188113"
+        },
+        {
+          "name": "Jesús Fernández Sanz",
+          "office": "consejero del Gobierno de Castilla-La Mancha",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q65541294"
+        },
+        {
+          "name": "Matilde Valentín",
+          "office": "consejero de Administraciones Públicas del Gobierno de Castilla-La Mancha",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q28872618"
+        },
+        {
+          "name": "Máximo Díaz-Cano del Rey",
+          "office": "consejero portavoz del Gobierno de Castilla-La Mancha",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q5638508"
+        }
+      ]
+    },
+    {
+      "slug": "cataluna",
+      "name": "Cataluña",
+      "president_source": "wikipedia",
+      "presidents": [
+        {
+          "name": "Jordi Pujol",
+          "party": "CiU",
+          "started_on": "1999-12-22",
+          "ended_on": "2003-12-19",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Pasqual Maragall",
+          "party": "PSC",
+          "started_on": "2003-12-20",
+          "ended_on": "2006-11-27",
+          "wikidata_id": ""
+        },
+        {
+          "name": "José Montilla",
+          "party": "PSC",
+          "started_on": "2006-11-28",
+          "ended_on": "2010-12-26",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Artur Mas",
+          "party": "CiU",
+          "started_on": "2010-12-27",
+          "ended_on": "2016-01-11",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Carles Puigdemont",
+          "party": "Junts",
+          "started_on": "2016-01-12",
+          "ended_on": "2017-10-27",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Quim Torra",
+          "party": "Junts",
+          "started_on": "2018-05-17",
+          "ended_on": "2020-09-28",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Pere Aragonès",
+          "party": "ERC",
+          "started_on": "2020-09-29",
+          "ended_on": "2024-08-09",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Salvador Illa",
+          "party": "PSC",
+          "started_on": "2024-08-10",
+          "ended_on": null,
+          "wikidata_id": ""
+        }
+      ],
+      "members": [
+        {
+          "name": "Ignasi Farreres Bochaca",
+          "office": "consejero de Trabajo",
+          "started_on": "1988-07-04",
+          "ended_on": "1999-11-29",
+          "wikidata_id": "Q19291137"
+        },
+        {
+          "name": "Núria de Gispert",
+          "office": "consejero de Justicia de la Generalidad de Cataluña",
+          "started_on": "1995-02-01",
+          "ended_on": "2001-02-05",
+          "wikidata_id": "Q171194"
+        },
+        {
+          "name": "Eduard Rius i Pey",
+          "office": "Consejero de Salud y Seguridad Social",
+          "started_on": "1996-01-11",
+          "ended_on": "2002-11-04",
+          "wikidata_id": "Q11918077"
+        },
+        {
+          "name": "Xavier Trias",
+          "office": "Consejero de Presidencia de la Generalidad de Cataluña",
+          "started_on": "1996-01-11",
+          "ended_on": "2000-02-03",
+          "wikidata_id": "Q973064"
+        },
+        {
+          "name": "Antoni Subirà Claus",
+          "office": "consejero de Industria, Comercio y Turismo de Cataluña",
+          "started_on": "1996-06-07",
+          "ended_on": "2002-11-04",
+          "wikidata_id": "Q5697551"
+        },
+        {
+          "name": "Javier Hernández Moreno",
+          "office": "consejero de Enseñanza",
+          "started_on": "1996-06-07",
+          "ended_on": "1999-12-12",
+          "wikidata_id": "Q22964629"
+        },
+        {
+          "name": "Joan Maria Pujals i Vallvé",
+          "office": "Conseller de Cultura de la Generalitat de Cataluña",
+          "started_on": "1996-06-07",
+          "ended_on": "1999-11-29",
+          "wikidata_id": "Q17036108"
+        },
+        {
+          "name": "Artur Mas",
+          "office": "consejero de Economía y Finanzas de la Generalitat de Catalunya",
+          "started_on": "1997-07-30",
+          "ended_on": "2001-01-19",
+          "wikidata_id": "Q8015"
+        },
+        {
+          "name": "Joan Ignasi Puigdollers i Noblom",
+          "office": "Consejero de Medio Ambiente y Vivienda",
+          "started_on": "1997-07-30",
+          "ended_on": "1999-11-29",
+          "wikidata_id": "Q20876116"
+        },
+        {
+          "name": "Pere Macias",
+          "office": "consejero de Política Territorial y Obras Públicas",
+          "started_on": "1997-07-30",
+          "ended_on": "2001-11-20",
+          "wikidata_id": "Q11698889"
+        },
+        {
+          "name": "Carme Laura Gil i Miró",
+          "office": "consejero de Enseñanza",
+          "started_on": "1999-11-29",
+          "ended_on": "2003-12-20",
+          "wikidata_id": "Q5043235"
+        },
+        {
+          "name": "Jordi Vilajoana",
+          "office": "Conseller de Cultura de la Generalitat de Cataluña",
+          "started_on": "1999-11-29",
+          "ended_on": "2003-12-17",
+          "wikidata_id": "Q11685346"
+        },
+        {
+          "name": "Josep Antoni Duran i Lleida",
+          "office": "consejero de Gobernación y Relaciones Institucionales de la Generalidad de Cataluña",
+          "started_on": "1999-11-29",
+          "ended_on": "2001-02-05",
+          "wikidata_id": "Q276884"
+        },
+        {
+          "name": "Josep Grau i Seris",
+          "office": "Consejero de Agricultura, Ganadería y Pesca de la Generalitat de Catalunya",
+          "started_on": "1999-11-29",
+          "ended_on": "2003-12-20",
+          "wikidata_id": "Q17030992"
+        },
+        {
+          "name": "Lluís Franco i Sala",
+          "office": "consejero de Trabajo",
+          "started_on": "1999-11-29",
+          "ended_on": "2002-11-04",
+          "wikidata_id": "Q66666793"
+        },
+        {
+          "name": "Xavier Pomés i Abella",
+          "office": "Consejero de Interior de la Generalitat de Catalunya",
+          "started_on": "1999-11-29",
+          "ended_on": "2002-11-04",
+          "wikidata_id": "Q11955315"
+        },
+        {
+          "name": "Joaquim Triadú i Vila-Abadal",
+          "office": "Consejero de Presidencia de la Generalidad de Cataluña",
+          "started_on": "2000-02-01",
+          "ended_on": "2001-05-01",
+          "wikidata_id": "Q20876136"
+        },
+        {
+          "name": "Francesc Homs",
+          "office": "consejero de Economía e Hacienda de la Generalidad de Cataluña",
+          "started_on": "2001-01-17",
+          "ended_on": "2003-12-20",
+          "wikidata_id": "Q8962187"
+        },
+        {
+          "name": "Josep-Delfí Guàrdia",
+          "office": "consejero de Justicia de la Generalidad de Cataluña",
+          "started_on": "2001-02-05",
+          "ended_on": "2002-11-04",
+          "wikidata_id": "Q14917798"
+        },
+        {
+          "name": "Núria de Gispert",
+          "office": "consejero de Gobernación y Relaciones Institucionales de la Generalidad de Cataluña",
+          "started_on": "2001-02-05",
+          "ended_on": "2002-11-04",
+          "wikidata_id": "Q171194"
+        },
+        {
+          "name": "Felip Puig",
+          "office": "consejero de Política Territorial y Obras Públicas",
+          "started_on": "2001-11-20",
+          "ended_on": "2003-12-16",
+          "wikidata_id": "Q8961099"
+        },
+        {
+          "name": "Ramon Espadaler",
+          "office": "consejero de Medio Ambiente",
+          "started_on": "2001-11-20",
+          "ended_on": "2003-12-20",
+          "wikidata_id": "Q9066280"
+        },
+        {
+          "name": "Antoni Fernández Teixidó",
+          "office": "consejero de Trabajo, Industria, Comercio y Turismo de Cataluña",
+          "started_on": "2002-11-04",
+          "ended_on": "2003-12-17",
+          "wikidata_id": "Q968949"
+        },
+        {
+          "name": "Núria de Gispert",
+          "office": "consejero de Justicia e Interior de la Generalidad de Cataluña",
+          "started_on": "2002-11-04",
+          "ended_on": "2003-12-17",
+          "wikidata_id": "Q171194"
+        },
+        {
+          "name": "Xavier Pomés i Abella",
+          "office": "Consejero de Salud y Seguridad Social",
+          "started_on": "2002-11-04",
+          "ended_on": "2003-12-20",
+          "wikidata_id": "Q11955315"
+        },
+        {
+          "name": "Joan Saura i Laporta",
+          "office": "Consejero de Relaciones Institucionales y Participación",
+          "started_on": "2003-12-17",
+          "ended_on": "2006-11-29",
+          "wikidata_id": "Q12785"
+        },
+        {
+          "name": "Josep Bargalló",
+          "office": "consejero de Educación de la Generalidad de Cataluña",
+          "started_on": "2003-12-17",
+          "ended_on": "2004-02-20",
+          "wikidata_id": "Q3327197"
+        },
+        {
+          "name": "Josep Maria Rañé i Blasco",
+          "office": "consejero de Trabajo e Industria de Cataluña",
+          "started_on": "2003-12-17",
+          "ended_on": "2006-04-20",
+          "wikidata_id": "Q6280486"
+        },
+        {
+          "name": "Josep Maria Vallès i Casadevall",
+          "office": "consejero de Justicia de la Generalidad de Cataluña",
+          "started_on": "2003-12-17",
+          "ended_on": "2006-11-29",
+          "wikidata_id": "Q4893887"
+        },
+        {
+          "name": "Marina Geli",
+          "office": "Conseller de Sanidad",
+          "started_on": "2003-12-17",
+          "ended_on": "2010-12-27",
+          "wikidata_id": "Q339847"
+        },
+        {
+          "name": "Montserrat Tura",
+          "office": "Consejero de Interior de la Generalitat de Catalunya",
+          "started_on": "2003-12-17",
+          "ended_on": "2006-11-29",
+          "wikidata_id": "Q6745167"
+        },
+        {
+          "name": "Antoni Castells",
+          "office": "consejero de Economía y Finanzas de la Generalitat de Catalunya",
+          "started_on": "2003-12-20",
+          "ended_on": "2010-12-29",
+          "wikidata_id": "Q950599"
+        },
+        {
+          "name": "Caterina Mieras i Barceló",
+          "office": "Conseller de Cultura de la Generalitat de Cataluña",
+          "started_on": "2003-12-20",
+          "ended_on": "2006-04-20",
+          "wikidata_id": "Q5051920"
+        },
+        {
+          "name": "Joan Carretero",
+          "office": "consejero de Gobernación y Administraciones Públicas de la Generalitat de Catalunya",
+          "started_on": "2003-12-20",
+          "ended_on": "2006-04-20",
+          "wikidata_id": "Q4895294"
+        },
+        {
+          "name": "Antoni Siurana",
+          "office": "Consejero de Agricultura, Ganadería y Pesca de la Generalitat de Catalunya",
+          "started_on": "2003-12-22",
+          "ended_on": "2006-04-22",
+          "wikidata_id": "Q4776201"
+        },
+        {
+          "name": "Joaquim Nadal",
+          "office": "consejero de Política Territorial y Obras Públicas",
+          "started_on": "2003-12-22",
+          "ended_on": "2010-12-29",
+          "wikidata_id": "Q2876147"
+        },
+        {
+          "name": "Marta Cid",
+          "office": "consejero de Educación de la Generalidad de Cataluña",
+          "started_on": "2004-01-27",
+          "ended_on": "2006-05-11",
+          "wikidata_id": "Q4893335"
+        },
+        {
+          "name": "Josep Bargalló",
+          "office": "Consejero Primero del Gobierno de Cataluña",
+          "started_on": "2004-02-20",
+          "ended_on": "2006-05-11",
+          "wikidata_id": "Q3327197"
+        },
+        {
+          "name": "Joan Manuel Tresserras",
+          "office": "Conseller de Cultura de la Generalitat de Cataluña",
+          "started_on": "2006-01-01",
+          "ended_on": "2010-01-01",
+          "wikidata_id": "Q9011965"
+        },
+        {
+          "name": "Joaquim Llena i Cortina",
+          "office": "Consejero de la Generalidad de Cataluña",
+          "started_on": "2006-01-01",
+          "ended_on": "2010-01-01",
+          "wikidata_id": "Q17032460"
+        },
+        {
+          "name": "Ferran Mascarell",
+          "office": "Conseller de Cultura de la Generalitat de Cataluña",
+          "started_on": "2006-04-20",
+          "ended_on": "2006-11-29",
+          "wikidata_id": "Q8961453"
+        },
+        {
+          "name": "Francesc Baltasar i Albesa",
+          "office": "Consejero de Medio Ambiente y Vivienda",
+          "started_on": "2006-04-20",
+          "ended_on": "2010-12-29",
+          "wikidata_id": "Q11922699"
+        },
+        {
+          "name": "Jordi Valls",
+          "office": "consejero de Trabajo e Industria de Cataluña",
+          "started_on": "2006-04-20",
+          "ended_on": "2006-11-29",
+          "wikidata_id": "Q1703731"
+        },
+        {
+          "name": "Jordi William Carnes i Ayats",
+          "office": "Consejero de Agricultura, Ganadería y Pesca de la Generalitat de Catalunya",
+          "started_on": "2006-04-20",
+          "ended_on": "2006-11-26",
+          "wikidata_id": "Q11928384"
+        },
+        {
+          "name": "Xavier Vendrell",
+          "office": "consejero de Gobernación y Administraciones Públicas de la Generalitat de Catalunya",
+          "started_on": "2006-04-20",
+          "ended_on": "2006-05-13",
+          "wikidata_id": "Q4893910"
+        },
+        {
+          "name": "Carme Figueres i Siñol",
+          "office": "consejero de Bienestar y Familia",
+          "started_on": "2006-05-13",
+          "ended_on": "2006-11-28",
+          "wikidata_id": "Q5043234"
+        },
+        {
+          "name": "Joaquim Nadal",
+          "office": "Consejero de Presidencia de la Generalidad de Cataluña",
+          "started_on": "2006-05-13",
+          "ended_on": "2006-11-29",
+          "wikidata_id": "Q2876147"
+        },
+        {
+          "name": "Ernest Maragall",
+          "office": "consejero de Educación de la Generalidad de Cataluña",
+          "started_on": "2006-11-29",
+          "ended_on": "2010-12-29",
+          "wikidata_id": "Q1032587"
+        },
+        {
+          "name": "Joan Puigcercós",
+          "office": "consejero de Gobernación y Administraciones Públicas de la Generalitat de Catalunya",
+          "started_on": "2006-11-29",
+          "ended_on": "2008-03-10",
+          "wikidata_id": "Q3320335"
+        },
+        {
+          "name": "Joan Saura i Laporta",
+          "office": "Consejero de Interior, Relaciones Institucionales y Participación",
+          "started_on": "2006-11-29",
+          "ended_on": "2010-12-29",
+          "wikidata_id": "Q12785"
+        },
+        {
+          "name": "Mar Serna",
+          "office": "consejero de Trabajo",
+          "started_on": "2006-11-29",
+          "ended_on": "2010-12-29",
+          "wikidata_id": "Q19301068"
+        },
+        {
+          "name": "Montserrat Tura",
+          "office": "consejero de Justicia de la Generalidad de Cataluña",
+          "started_on": "2006-11-29",
+          "ended_on": "2010-12-29",
+          "wikidata_id": "Q6745167"
+        },
+        {
+          "name": "Jordi Ausàs",
+          "office": "consejero de Gobernación y Administraciones Públicas de la Generalitat de Catalunya",
+          "started_on": "2008-03-12",
+          "ended_on": "2010-12-29",
+          "wikidata_id": "Q4893047"
+        },
+        {
+          "name": "Josep-Lluís Carod-Rovira",
+          "office": "vicepresidente del Gobierno de Cataluña",
+          "started_on": "2008-12-03",
+          "ended_on": "2010-12-29",
+          "wikidata_id": "Q3055462"
+        },
+        {
+          "name": "Jaume Vernet i Llobet",
+          "office": "consejero secretario del Consejo de Garantías Estatutarias",
+          "started_on": "2009-01-01",
+          "ended_on": "2013-01-01",
+          "wikidata_id": "Q47068362"
+        },
+        {
+          "name": "Joan Egea i Fernández",
+          "office": "vicepresidente del Consejo de Garantías Estatutarias",
+          "started_on": "2009-01-01",
+          "ended_on": "2013-01-01",
+          "wikidata_id": "Q35028786"
+        },
+        {
+          "name": "Jaume Vernet i Llobet",
+          "office": "consejero del Consejo de Garantías Estatutarias",
+          "started_on": "2009-11-19",
+          "ended_on": null,
+          "wikidata_id": "Q47068362"
+        },
+        {
+          "name": "Marc Carrillo i López",
+          "office": "consejero del Consejo de Garantías Estatutarias",
+          "started_on": "2009-11-19",
+          "ended_on": "2019-07-23",
+          "wikidata_id": "Q47068294"
+        },
+        {
+          "name": "Pere Jover i Presa",
+          "office": "consejero del Consejo de Garantías Estatutarias",
+          "started_on": "2009-11-19",
+          "ended_on": null,
+          "wikidata_id": "Q11940995"
+        },
+        {
+          "name": "Àlex Bas i Vilafranca",
+          "office": "consejero del Consejo de Garantías Estatutarias",
+          "started_on": "2009-11-19",
+          "ended_on": null,
+          "wikidata_id": "Q47068411"
+        },
+        {
+          "name": "Antonia Agulló i Agüero",
+          "office": "consejero del Consejo de Garantías Estatutarias",
+          "started_on": "2009-11-23",
+          "ended_on": "2013-03-21",
+          "wikidata_id": "Q47069684"
+        },
+        {
+          "name": "Eliseo Aja",
+          "office": "consejero del Consejo de Garantías Estatutarias",
+          "started_on": "2009-11-23",
+          "ended_on": "2017-07-07",
+          "wikidata_id": "Q47069639"
+        },
+        {
+          "name": "Enric Fossas Espadaler",
+          "office": "consejero del Consejo de Garantías Estatutarias",
+          "started_on": "2009-11-23",
+          "ended_on": "2013-03-21",
+          "wikidata_id": "Q47069716"
+        },
+        {
+          "name": "Julio Añoveros Trias de Bes",
+          "office": "consejero del Consejo de Garantías Estatutarias",
+          "started_on": "2009-11-23",
+          "ended_on": "2012-08-05",
+          "wikidata_id": "Q11929423"
+        },
+        {
+          "name": "Andreu Mas-Colell",
+          "office": "consejero de Economía y Conocimiento de la Generalitat de Catalunya",
+          "started_on": "2010-12-29",
+          "ended_on": "2016-01-14",
+          "wikidata_id": "Q385512"
+        },
+        {
+          "name": "Boi Ruiz i Garcia",
+          "office": "Conseller de Sanidad",
+          "started_on": "2010-12-29",
+          "ended_on": "2016-01-14",
+          "wikidata_id": "Q11909563"
+        },
+        {
+          "name": "Felip Puig",
+          "office": "Consejero de Interior de la Generalitat de Catalunya",
+          "started_on": "2010-12-29",
+          "ended_on": "2012-12-27",
+          "wikidata_id": "Q8961099"
+        },
+        {
+          "name": "Ferran Mascarell",
+          "office": "Conseller de Cultura de la Generalitat de Cataluña",
+          "started_on": "2010-12-29",
+          "ended_on": "2016-01-14",
+          "wikidata_id": "Q8961453"
+        },
+        {
+          "name": "Irene Rigau Oliver",
+          "office": "consejero de Enseñanza",
+          "started_on": "2010-12-29",
+          "ended_on": "2016-01-14",
+          "wikidata_id": "Q15743807"
+        },
+        {
+          "name": "Joana Ortega",
+          "office": "vicepresidente del Gobierno de Cataluña",
+          "started_on": "2010-12-29",
+          "ended_on": "2015-06-22",
+          "wikidata_id": "Q4891067"
+        },
+        {
+          "name": "Joana Ortega",
+          "office": "consejero de Gobernación y Relaciones Institucionales de la Generalidad de Cataluña",
+          "started_on": "2010-12-29",
+          "ended_on": "2015-06-22",
+          "wikidata_id": "Q4891067"
+        },
+        {
+          "name": "Lluís Recoder",
+          "office": "consejero de Territorio y Sostenibilidad",
+          "started_on": "2010-12-29",
+          "ended_on": "2012-12-27",
+          "wikidata_id": "Q4891019"
+        },
+        {
+          "name": "Pilar Fernández i Bozal",
+          "office": "consejero de Justicia de la Generalidad de Cataluña",
+          "started_on": "2010-12-29",
+          "ended_on": "2012-12-27",
+          "wikidata_id": "Q19301595"
+        },
+        {
+          "name": "Francesc Homs Molist",
+          "office": "Consejero de Presidencia de la Generalidad de Cataluña",
+          "started_on": "2012-12-27",
+          "ended_on": "2015-11-16",
+          "wikidata_id": "Q11922769"
+        },
+        {
+          "name": "Germà Gordó Aubarell",
+          "office": "consejero de Justicia de la Generalidad de Cataluña",
+          "started_on": "2012-12-27",
+          "ended_on": "2016-01-14",
+          "wikidata_id": "Q11924122"
+        },
+        {
+          "name": "Ramon Espadaler",
+          "office": "Consejero de Interior de la Generalitat de Catalunya",
+          "started_on": "2012-12-27",
+          "ended_on": "2015-06-22",
+          "wikidata_id": "Q9066280"
+        },
+        {
+          "name": "Santi Vila Vicente",
+          "office": "consejero de Territorio y Sostenibilidad",
+          "started_on": "2012-12-27",
+          "ended_on": "2016-01-14",
+          "wikidata_id": "Q15731273"
+        },
+        {
+          "name": "Carles Jaume i Fernández",
+          "office": "consejero del Consejo de Garantías Estatutarias",
+          "started_on": "2013-03-20",
+          "ended_on": null,
+          "wikidata_id": "Q47068461"
+        },
+        {
+          "name": "Francesc de Paula Caminal i Badia",
+          "office": "consejero del Consejo de Garantías Estatutarias",
+          "started_on": "2013-03-20",
+          "ended_on": null,
+          "wikidata_id": "Q47068425"
+        },
+        {
+          "name": "Joan Ridao",
+          "office": "consejero del Consejo de Garantías Estatutarias",
+          "started_on": "2013-03-20",
+          "ended_on": "2016-12-30",
+          "wikidata_id": "Q4892821"
+        },
+        {
+          "name": "Pere Jover i Presa",
+          "office": "vicepresidente del Consejo de Garantías Estatutarias",
+          "started_on": "2013-04-18",
+          "ended_on": null,
+          "wikidata_id": "Q11940995"
+        },
+        {
+          "name": "Àlex Bas i Vilafranca",
+          "office": "consejero secretario del Consejo de Garantías Estatutarias",
+          "started_on": "2013-04-18",
+          "ended_on": null,
+          "wikidata_id": "Q47068411"
+        },
+        {
+          "name": "Jordi Jané",
+          "office": "Consejero de Interior de la Generalitat de Catalunya",
+          "started_on": "2015-06-22",
+          "ended_on": "2017-07-14",
+          "wikidata_id": "Q596435"
+        },
+        {
+          "name": "Meritxell Borràs",
+          "office": "consejero de Gobernación y Relaciones Institucionales de la Generalidad de Cataluña",
+          "started_on": "2015-06-22",
+          "ended_on": "2016-01-14",
+          "wikidata_id": "Q11936570"
+        },
+        {
+          "name": "Neus Munté",
+          "office": "vicepresidente del Gobierno de Cataluña",
+          "started_on": "2015-06-22",
+          "ended_on": "2016-01-14",
+          "wikidata_id": "Q11938637"
+        },
+        {
+          "name": "Antoni Comín",
+          "office": "Conseller de Sanidad",
+          "started_on": "2016-01-14",
+          "ended_on": "2017-10-27",
+          "wikidata_id": "Q16189675"
+        },
+        {
+          "name": "Carles Mundó Blanch",
+          "office": "consejero de Justicia de la Generalidad de Cataluña",
+          "started_on": "2016-01-14",
+          "ended_on": "2017-10-27",
+          "wikidata_id": "Q19290091"
+        },
+        {
+          "name": "Dolors Bassa",
+          "office": "conseller de Treball, Afers Socials i Famílies",
+          "started_on": "2016-01-14",
+          "ended_on": "2017-10-27",
+          "wikidata_id": "Q21126940"
+        },
+        {
+          "name": "Jordi Baiget i Cantons",
+          "office": "Conseller de Empresa y Conocimiento",
+          "started_on": "2016-01-14",
+          "ended_on": "2017-07-03",
+          "wikidata_id": "Q11928276"
+        },
+        {
+          "name": "Josep Rull i Andreu",
+          "office": "consejero de Territorio y Sostenibilidad",
+          "started_on": "2016-01-14",
+          "ended_on": "2017-10-27",
+          "wikidata_id": "Q17036721"
+        },
+        {
+          "name": "Meritxell Borràs",
+          "office": "Consejero de Gobernación, Administraciones Públicas y Vivienda",
+          "started_on": "2016-01-14",
+          "ended_on": "2017-10-27",
+          "wikidata_id": "Q11936570"
+        },
+        {
+          "name": "Meritxell Ruiz",
+          "office": "consejero de Enseñanza",
+          "started_on": "2016-01-14",
+          "ended_on": "2017-07-14",
+          "wikidata_id": "Q11936572"
+        },
+        {
+          "name": "Neus Munté",
+          "office": "Consejero de Presidencia de la Generalidad de Cataluña",
+          "started_on": "2016-01-14",
+          "ended_on": "2017-07-14",
+          "wikidata_id": "Q11938637"
+        },
+        {
+          "name": "Oriol Junqueras",
+          "office": "vicepresidente del Gobierno de Cataluña",
+          "started_on": "2016-01-14",
+          "ended_on": "2017-10-27",
+          "wikidata_id": "Q116812"
+        },
+        {
+          "name": "Oriol Junqueras",
+          "office": "consejero de Economía e Hacienda de la Generalidad de Cataluña",
+          "started_on": "2016-01-14",
+          "ended_on": "2017-10-27",
+          "wikidata_id": "Q116812"
+        },
+        {
+          "name": "Raül Romeva",
+          "office": "consejero de Asuntos Exteriores, Relaciones Institucionales y Transparencia",
+          "started_on": "2016-01-14",
+          "ended_on": "2017-10-27",
+          "wikidata_id": "Q2065232"
+        },
+        {
+          "name": "Santi Vila Vicente",
+          "office": "Conseller de Cultura de la Generalitat de Cataluña",
+          "started_on": "2016-01-14",
+          "ended_on": "2017-07-05",
+          "wikidata_id": "Q15731273"
+        },
+        {
+          "name": "Margarida Gil i Domènech",
+          "office": "consejero del Consejo de Garantías Estatutarias",
+          "started_on": "2017-06-13",
+          "ended_on": null,
+          "wikidata_id": "Q47068483"
+        },
+        {
+          "name": "Santi Vila Vicente",
+          "office": "Conseller de Empresa y Conocimiento",
+          "started_on": "2017-07-03",
+          "ended_on": "2017-10-26",
+          "wikidata_id": "Q15731273"
+        },
+        {
+          "name": "Lluís Puig",
+          "office": "Conseller de Cultura de la Generalitat de Cataluña",
+          "started_on": "2017-07-05",
+          "ended_on": "2017-10-27",
+          "wikidata_id": "Q31837305"
+        },
+        {
+          "name": "Clara Ponsatí",
+          "office": "consejero de Enseñanza",
+          "started_on": "2017-07-14",
+          "ended_on": "2017-10-27",
+          "wikidata_id": "Q33035647"
+        },
+        {
+          "name": "Joaquim Forn",
+          "office": "Consejero de Interior de la Generalitat de Catalunya",
+          "started_on": "2017-07-14",
+          "ended_on": "2017-10-27",
+          "wikidata_id": "Q28662924"
+        },
+        {
+          "name": "Jordi Turull",
+          "office": "Consejero de Presidencia de la Generalidad de Cataluña",
+          "started_on": "2017-07-14",
+          "ended_on": "2018-10-27",
+          "wikidata_id": "Q17037054"
+        },
+        {
+          "name": "Alba Vergés i Bosch",
+          "office": "Conseller de Sanidad",
+          "started_on": "2018-05-29",
+          "ended_on": "2021-05-25",
+          "wikidata_id": "Q19997671"
+        },
+        {
+          "name": "Chakir El Homrani Lesfar",
+          "office": "conseller de Treball, Afers Socials i Famílies",
+          "started_on": "2018-05-29",
+          "ended_on": "2021-05-26",
+          "wikidata_id": "Q20875705"
+        },
+        {
+          "name": "Damià Calvet",
+          "office": "consejero de Territorio y Sostenibilidad",
+          "started_on": "2018-05-29",
+          "ended_on": "2021-05-26",
+          "wikidata_id": "Q51845094"
+        },
+        {
+          "name": "Elsa Artadi",
+          "office": "Consejero de Presidencia de la Generalidad de Cataluña",
+          "started_on": "2018-05-29",
+          "ended_on": "2019-03-24",
+          "wikidata_id": "Q25847824"
+        },
+        {
+          "name": "Ernest Maragall",
+          "office": "Consejero de Acción Exterior, Relaciones Institucionales y Transparencia de la Generalidad de Cataluña",
+          "started_on": "2018-05-29",
+          "ended_on": "2018-11-22",
+          "wikidata_id": "Q1032587"
+        },
+        {
+          "name": "Ester Capella i Farré",
+          "office": "consejero de Justicia de la Generalidad de Cataluña",
+          "started_on": "2018-05-29",
+          "ended_on": "2021-05-25",
+          "wikidata_id": "Q19999367"
+        },
+        {
+          "name": "Jordi Puigneró i Ferrer",
+          "office": "Consejero de Políticas Digitales y Administración Pública",
+          "started_on": "2018-05-29",
+          "ended_on": "2021-05-26",
+          "wikidata_id": "Q19288997"
+        },
+        {
+          "name": "Josep Bargalló",
+          "office": "consejero de Educación de la Generalidad de Cataluña",
+          "started_on": "2018-05-29",
+          "ended_on": "2021-05-25",
+          "wikidata_id": "Q3327197"
+        },
+        {
+          "name": "Laura Borrás Castanyer",
+          "office": "Conseller de Cultura de la Generalitat de Cataluña",
+          "started_on": "2018-05-29",
+          "ended_on": "2019-03-24",
+          "wikidata_id": "Q16179626"
+        },
+        {
+          "name": "Miquel Buch",
+          "office": "Consejero de Interior de la Generalitat de Catalunya",
+          "started_on": "2018-05-29",
+          "ended_on": "2020-09-03",
+          "wikidata_id": "Q14041863"
+        },
+        {
+          "name": "Pere Aragonès",
+          "office": "vicepresidente del Gobierno de Cataluña",
+          "started_on": "2018-05-29",
+          "ended_on": "2021-05-25",
+          "wikidata_id": "Q16169026"
+        },
+        {
+          "name": "Pere Aragonès",
+          "office": "consejero de Economía e Hacienda de la Generalidad de Cataluña",
+          "started_on": "2018-05-29",
+          "ended_on": "2021-05-25",
+          "wikidata_id": "Q16169026"
+        },
+        {
+          "name": "Àngels Chacón",
+          "office": "Conseller de Empresa y Conocimiento",
+          "started_on": "2018-05-29",
+          "ended_on": "2020-09-03",
+          "wikidata_id": "Q54435048"
+        },
+        {
+          "name": "Alfred Bosch",
+          "office": "Consejero de Acción Exterior, Relaciones Institucionales y Transparencia de la Generalidad de Cataluña",
+          "started_on": "2018-11-22",
+          "ended_on": "2020-03-09",
+          "wikidata_id": "Q3325328"
+        },
+        {
+          "name": "Joan Ramon Casals i Mata",
+          "office": "Consejero de Presidencia de la Generalidad de Cataluña",
+          "started_on": "2019-01-29",
+          "ended_on": "2020-10-13",
+          "wikidata_id": "Q14040557"
+        },
+        {
+          "name": "Mariàngela Vilallonga",
+          "office": "Conseller de Cultura de la Generalitat de Cataluña",
+          "started_on": "2019-03-24",
+          "ended_on": "2020-09-03",
+          "wikidata_id": "Q11935596"
+        },
+        {
+          "name": "Meritxell Budó i Pla",
+          "office": "Consejero de Presidencia de la Generalidad de Cataluña",
+          "started_on": "2019-03-24",
+          "ended_on": "2021-05-25",
+          "wikidata_id": "Q14039842"
+        },
+        {
+          "name": "Joan Vintró i Castells",
+          "office": "consejero del Consejo de Garantías Estatutarias",
+          "started_on": "2019-07-23",
+          "ended_on": null,
+          "wikidata_id": "Q20876124"
+        },
+        {
+          "name": "Bernat Solé Barril",
+          "office": "Consejero de Acción Exterior, Relaciones Institucionales y Transparencia de la Generalidad de Cataluña",
+          "started_on": "2020-03-20",
+          "ended_on": "2021-05-25",
+          "wikidata_id": "Q14087414"
+        },
+        {
+          "name": "Miquel Sàmper y Rodríguez",
+          "office": "Consejero de Interior de la Generalitat de Catalunya",
+          "started_on": "2020-09-03",
+          "ended_on": "2021-05-25",
+          "wikidata_id": "Q98842742"
+        },
+        {
+          "name": "Ramon Tremosa",
+          "office": "Conseller de Empresa y Conocimiento",
+          "started_on": "2020-09-03",
+          "ended_on": "2021-05-25",
+          "wikidata_id": "Q2171878"
+        },
+        {
+          "name": "Àngels Ponsa i Roca",
+          "office": "Conseller de Cultura de la Generalitat de Cataluña",
+          "started_on": "2020-09-08",
+          "ended_on": "2021-05-25",
+          "wikidata_id": "Q20876874"
+        },
+        {
+          "name": "Gemma Geis i Carreras",
+          "office": "consejera de Investigación y Universides de la Generalitat de Catalunya",
+          "started_on": "2021-05-26",
+          "ended_on": "2022-10-10",
+          "wikidata_id": "Q44717119"
+        },
+        {
+          "name": "Jaume Giró",
+          "office": "consejero de Economía e Hacienda de la Generalidad de Cataluña",
+          "started_on": "2021-05-26",
+          "ended_on": "2022-10-10",
+          "wikidata_id": "Q26512007"
+        },
+        {
+          "name": "Joan Ignasi Elena i Garcia",
+          "office": "Consejero de Interior de la Generalitat de Catalunya",
+          "started_on": "2021-05-26",
+          "ended_on": "2024-08-12",
+          "wikidata_id": "Q17029245"
+        },
+        {
+          "name": "Jordi Puigneró i Ferrer",
+          "office": "vicepresidente del Gobierno de Cataluña",
+          "started_on": "2021-05-26",
+          "ended_on": "2022-09-28",
+          "wikidata_id": "Q19288997"
+        },
+        {
+          "name": "Josep González i Cambray",
+          "office": "consejero de Educación de la Generalidad de Cataluña",
+          "started_on": "2021-05-26",
+          "ended_on": "2023-06-12",
+          "wikidata_id": "Q100988087"
+        },
+        {
+          "name": "Josep Maria Argimon i Pallàs",
+          "office": "Conseller de Sanidad",
+          "started_on": "2021-05-26",
+          "ended_on": "2022-10-10",
+          "wikidata_id": "Q87735309"
+        },
+        {
+          "name": "Laura Vilagrà i Pons",
+          "office": "Consejero de Presidencia de la Generalidad de Cataluña",
+          "started_on": "2021-05-26",
+          "ended_on": "2024-08-12",
+          "wikidata_id": "Q11931226"
+        },
+        {
+          "name": "Lourdes Ciuró",
+          "office": "consejero de Justicia de la Generalidad de Cataluña",
+          "started_on": "2021-05-26",
+          "ended_on": "2022-10-10",
+          "wikidata_id": "Q20100417"
+        },
+        {
+          "name": "Natàlia Garriga i Ibáñez",
+          "office": "Conseller de Cultura de la Generalitat de Cataluña",
+          "started_on": "2021-05-26",
+          "ended_on": "2024-08-12",
+          "wikidata_id": "Q56650177"
+        },
+        {
+          "name": "Tània Verge i Mestre",
+          "office": "Consejera de Igualdad y Feminismo",
+          "started_on": "2021-05-26",
+          "ended_on": "2024-08-12",
+          "wikidata_id": "Q57495650"
+        },
+        {
+          "name": "Violant Cervera i Gòdia",
+          "office": "consejera de Derechos Sociales",
+          "started_on": "2021-05-26",
+          "ended_on": "2022-10-10",
+          "wikidata_id": "Q20963352"
+        },
+        {
+          "name": "Carles Campuzano",
+          "office": "consejera de Derechos Sociales",
+          "started_on": "2022-10-10",
+          "ended_on": "2024-08-12",
+          "wikidata_id": "Q6694437"
+        },
+        {
+          "name": "Gemma Ubasart",
+          "office": "consejero de Justicia, Derechos y Memoria de la Generalidad de Cataluña",
+          "started_on": "2022-10-10",
+          "ended_on": "2024-08-11",
+          "wikidata_id": "Q19291032"
+        },
+        {
+          "name": "Joaquim Nadal",
+          "office": "consejera de Investigación y Universides de la Generalitat de Catalunya",
+          "started_on": "2022-10-10",
+          "ended_on": "2024-08-12",
+          "wikidata_id": "Q2876147"
+        },
+        {
+          "name": "Manuel Balcells i Díaz",
+          "office": "Conseller de Sanidad",
+          "started_on": "2022-10-10",
+          "ended_on": "2024-08-12",
+          "wikidata_id": "Q6752432"
+        },
+        {
+          "name": "Natàlia Mas Guix",
+          "office": "consejero de Economía e Hacienda de la Generalidad de Cataluña",
+          "started_on": "2022-10-10",
+          "ended_on": "2024-08-12",
+          "wikidata_id": "Q106941907"
+        },
+        {
+          "name": "Anna Simó",
+          "office": "consejero de Educación de la Generalidad de Cataluña",
+          "started_on": "2023-06-13",
+          "ended_on": "2024-08-12",
+          "wikidata_id": "Q4767484"
+        },
+        {
+          "name": "F. Xavier Vila i Moreno",
+          "office": "consejero de Política Lingüística de la Generalidad de Cataluña",
+          "started_on": "2024-01-01",
+          "ended_on": null,
+          "wikidata_id": "Q106907752"
+        },
+        {
+          "name": "Laura Vilagrà i Pons",
+          "office": "vicepresidente del Gobierno de Cataluña",
+          "started_on": "2024-01-23",
+          "ended_on": null,
+          "wikidata_id": "Q11931226"
+        },
+        {
+          "name": "Albert Dalmau Miranda",
+          "office": "Consejero de Presidencia de la Generalidad de Cataluña",
+          "started_on": "2024-08-12",
+          "ended_on": null,
+          "wikidata_id": "Q128826567"
+        },
+        {
+          "name": "Alícia Romero",
+          "office": "consejero de Economía e Hacienda de la Generalidad de Cataluña",
+          "started_on": "2024-08-12",
+          "ended_on": null,
+          "wikidata_id": "Q21001447"
+        },
+        {
+          "name": "Berni Álvarez",
+          "office": "Consejero de Deportes",
+          "started_on": "2024-08-12",
+          "ended_on": null,
+          "wikidata_id": "Q4894270"
+        },
+        {
+          "name": "Esther Niubó Cidoncha",
+          "office": "consejero de Educación de la Generalidad de Cataluña",
+          "started_on": "2024-08-12",
+          "ended_on": null,
+          "wikidata_id": "Q20876464"
+        },
+        {
+          "name": "Eva María Menor Cantador",
+          "office": "Consejera de Igualdad y Feminismo",
+          "started_on": "2024-08-12",
+          "ended_on": null,
+          "wikidata_id": "Q14038189"
+        },
+        {
+          "name": "Mònica Martínez Bravo",
+          "office": "consejera de Derechos Sociales",
+          "started_on": "2024-08-12",
+          "ended_on": "2026-07-20",
+          "wikidata_id": "Q128904159"
+        },
+        {
+          "name": "Núria Montserrat",
+          "office": "consejera de Investigación y Universides de la Generalitat de Catalunya",
+          "started_on": "2024-08-12",
+          "ended_on": null,
+          "wikidata_id": "Q41679242"
+        },
+        {
+          "name": "Núria Parlon",
+          "office": "Consejero de Interior de la Generalitat de Catalunya",
+          "started_on": "2024-08-12",
+          "ended_on": null,
+          "wikidata_id": "Q9051334"
+        },
+        {
+          "name": "Olga Pané",
+          "office": "Conseller de Sanidad",
+          "started_on": "2024-08-12",
+          "ended_on": null,
+          "wikidata_id": "Q128904158"
+        },
+        {
+          "name": "Sílvia Paneque i Sureda",
+          "office": "consejero de Territorio, Habitaje y Transición Ecológica",
+          "started_on": "2024-08-12",
+          "ended_on": null,
+          "wikidata_id": "Q33108552"
+        },
+        {
+          "name": "Sònia Hernández Almodóvar",
+          "office": "Conseller de Cultura de la Generalitat de Cataluña",
+          "started_on": "2024-08-12",
+          "ended_on": null,
+          "wikidata_id": "Q128947641"
+        },
+        {
+          "name": "Raúl Moreno Montaña",
+          "office": "consejera de Derechos Sociales",
+          "started_on": "2026-07-20",
+          "ended_on": null,
+          "wikidata_id": "Q21402456"
+        },
+        {
+          "name": "Agustí Carol i Foix",
+          "office": "Consejero de la Generalidad de Cataluña",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q11904392"
+        },
+        {
+          "name": "Antonio Sesé Artaso",
+          "office": "Consejero de la Generalidad de Cataluña",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q8201721"
+        },
+        {
+          "name": "Artemi Aiguader i Miró",
+          "office": "Consejero de la Generalidad de Cataluña",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q11679976"
+        },
+        {
+          "name": "Carles Martí i Feced",
+          "office": "Consejero de la Generalidad de Cataluña",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q11912411"
+        },
+        {
+          "name": "Carlos Martí Feced",
+          "office": "Consejero de la Generalidad de Cataluña",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q5750870"
+        },
+        {
+          "name": "Casimiro Giralt Bullich",
+          "office": "Consejero de la Generalidad de Cataluña",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q11912944"
+        },
+        {
+          "name": "Estanislau Ruiz",
+          "office": "Consejero de la Generalidad de Cataluña",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q8845577"
+        },
+        {
+          "name": "Felipe Díaz Sandino",
+          "office": "Consejero de la Generalidad de Cataluña",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q4891567"
+        },
+        {
+          "name": "Francesc Homs",
+          "office": "Consejero de la Generalidad de Cataluña",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q8962187"
+        },
+        {
+          "name": "Francesc Isgleas i Piarnau",
+          "office": "Consejero de la Generalidad de Cataluña",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q19290874"
+        },
+        {
+          "name": "Francesc Xavier Casals",
+          "office": "Consejero de la Generalidad de Cataluña",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q11922875"
+        },
+        {
+          "name": "Francesc Xavier Marimon i Sabaté",
+          "office": "Consejero de la Generalidad de Cataluña",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q11922886"
+        },
+        {
+          "name": "Fèlix Escalas Chamení",
+          "office": "Consejero de la Generalidad de Cataluña",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q12389109"
+        },
+        {
+          "name": "Joan Lluhí",
+          "office": "Consejero de la Generalidad de Cataluña",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q9011963"
+        },
+        {
+          "name": "Josep Maria Pelegrí",
+          "office": "Consejero de la Generalidad de Cataluña",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q9013231"
+        },
+        {
+          "name": "Josep Maria Triginer",
+          "office": "Consejero de la Generalidad de Cataluña",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q11685569"
+        },
+        {
+          "name": "Josep Quero i Molares",
+          "office": "Consejero de la Generalidad de Cataluña",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q11928881"
+        },
+        {
+          "name": "José Calvet Mora",
+          "office": "Consejero de la Generalidad de Cataluña",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q586122"
+        },
+        {
+          "name": "Juan Comorera y Solé",
+          "office": "consejero de Justicia y Derecho",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q2500336"
+        },
+        {
+          "name": "Manuel Ortínez i Mur",
+          "office": "Consejero de la Generalidad de Cataluña",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q11934980"
+        },
+        {
+          "name": "Maria Eugènia Cuenca",
+          "office": "Consejero de la Generalidad de Cataluña",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q16190233"
+        },
+        {
+          "name": "Marta Cid",
+          "office": "Consejero de la Generalidad de Cataluña",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q4893335"
+        },
+        {
+          "name": "Martí Esteve i Guau",
+          "office": "Consejero de la Generalidad de Cataluña",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q3295974"
+        },
+        {
+          "name": "Miquel Valdés",
+          "office": "Consejero de la Generalidad de Cataluña",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q11936979"
+        },
+        {
+          "name": "Pere Comas",
+          "office": "Consejero de la Generalidad de Cataluña",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q11698858"
+        },
+        {
+          "name": "Pere Esteve",
+          "office": "Consejero de la Generalidad de Cataluña",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q3813658"
+        },
+        {
+          "name": "Pere Mias i Codina",
+          "office": "Consejero de la Generalidad de Cataluña",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q19301536"
+        },
+        {
+          "name": "Rafael Campalans",
+          "office": "Consejero de la Generalidad de Cataluña",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q9065747"
+        },
+        {
+          "name": "Rafael Vidiella i Franch",
+          "office": "Consejero de la Generalidad de Cataluña",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q9065935"
+        },
+        {
+          "name": "Salvador Milà i Solsona",
+          "office": "Consejero de la Generalidad de Cataluña",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q7406430"
+        },
+        {
+          "name": "Salvador Vidal Rosell",
+          "office": "Consejero de la Generalidad de Cataluña",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q17300753"
+        },
+        {
+          "name": "Ventura Gassol",
+          "office": "Consejero de la Generalidad de Cataluña",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q9092946"
+        },
+        {
+          "name": "Xavier Sabaté",
+          "office": "Consejero de la Generalidad de Cataluña",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q9096574"
+        }
+      ]
+    },
+    {
+      "slug": "valencia",
+      "name": "Comunitat Valenciana",
+      "president_source": "wikipedia",
+      "presidents": [
+        {
+          "name": "Eduardo Zaplana",
+          "party": "PP",
+          "started_on": "1999-07-21",
+          "ended_on": "2002-07-09",
+          "wikidata_id": ""
+        },
+        {
+          "name": "José Luis Olivas",
+          "party": "PP",
+          "started_on": "2002-07-10",
+          "ended_on": "2003-06-19",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Francisco Camps",
+          "party": "PP",
+          "started_on": "2003-06-20",
+          "ended_on": "2011-07-27",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Alberto Fabra",
+          "party": "PP",
+          "started_on": "2011-07-28",
+          "ended_on": "2015-06-26",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Ximo Puig",
+          "party": "PSOE",
+          "started_on": "2015-06-28",
+          "ended_on": "2023-07-16",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Carlos Mazón",
+          "party": "PP+Vox",
+          "started_on": "2023-07-17",
+          "ended_on": "2025-12-01",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Juanfran Pérez Llorca",
+          "party": "PP",
+          "started_on": "2025-12-02",
+          "ended_on": null,
+          "wikidata_id": ""
+        }
+      ],
+      "members": [
+        {
+          "name": "Diego Such Pérez",
+          "office": "Consejero de Industria y Comercio",
+          "started_on": "1995-07-06",
+          "ended_on": "1999-07-23",
+          "wikidata_id": "Q11917156"
+        },
+        {
+          "name": "Joaquín Farnós Gauchía",
+          "office": "Conseller de Sanidad",
+          "started_on": "1995-07-06",
+          "ended_on": "1999-07-23",
+          "wikidata_id": "Q11928150"
+        },
+        {
+          "name": "José Luis Olivas",
+          "office": "consejero de Economía y Hacienda de la Generalidad Valenciana",
+          "started_on": "1995-07-06",
+          "ended_on": "1999-07-23",
+          "wikidata_id": "Q3186378"
+        },
+        {
+          "name": "Francisco Javier Sanahuja Sanchis",
+          "office": "vicepresidente segundo de las Cortes Valencianas",
+          "started_on": "1995-12-30",
+          "ended_on": "1999-04-20",
+          "wikidata_id": "Q21001462"
+        },
+        {
+          "name": "Francisco Camps",
+          "office": "consejero de Cultura y Educación de la Generalidad Valenciana",
+          "started_on": "1997-02-24",
+          "ended_on": "1999-01-23",
+          "wikidata_id": "Q978036"
+        },
+        {
+          "name": "Marcela Miró",
+          "office": "consejero/a de Bienestar Social",
+          "started_on": "1997-02-24",
+          "ended_on": "1999-07-23",
+          "wikidata_id": "Q17621537"
+        },
+        {
+          "name": "Antonio Moreno Carrasco",
+          "office": "vicepresidente segundo de las Cortes Valencianas",
+          "started_on": "1999-07-09",
+          "ended_on": "2003-04-01",
+          "wikidata_id": "Q20106295"
+        },
+        {
+          "name": "Fernando Castelló",
+          "office": "Consejero de Industria y Comercio",
+          "started_on": "1999-07-23",
+          "ended_on": "2003-06-21",
+          "wikidata_id": "Q11681819"
+        },
+        {
+          "name": "José Emilio Cervera Cardona",
+          "office": "Conseller de Sanidad",
+          "started_on": "1999-07-23",
+          "ended_on": "2000-05-22",
+          "wikidata_id": "Q17329529"
+        },
+        {
+          "name": "José Joaquín Ripoll",
+          "office": "Vicepresidente Segundo del Consejo i Consejero de Vivienda i Arquitectura Bioclimatica",
+          "started_on": "1999-07-23",
+          "ended_on": "2002-07-24",
+          "wikidata_id": "Q3186340"
+        },
+        {
+          "name": "María Carmen Mas Rubio",
+          "office": "consejero/a de Bienestar Social",
+          "started_on": "1999-07-23",
+          "ended_on": "2000-05-17",
+          "wikidata_id": "Q11935754"
+        },
+        {
+          "name": "Serafín Castellano Gómez",
+          "office": "Consejero de Justicia y Administraciones Públicas",
+          "started_on": "1999-07-23",
+          "ended_on": "2000-05-22",
+          "wikidata_id": "Q17029013"
+        },
+        {
+          "name": "Vicente Rambla",
+          "office": "consejero de Economía y Hacienda de la Generalidad Valenciana",
+          "started_on": "1999-07-23",
+          "ended_on": "2003-06-21",
+          "wikidata_id": "Q9093346"
+        },
+        {
+          "name": "Carlos González Cepeda",
+          "office": "Consejero de Justicia y Administraciones Públicas",
+          "started_on": "2000-05-22",
+          "ended_on": "2003-06-21",
+          "wikidata_id": "Q19998136"
+        },
+        {
+          "name": "Rafael Blasco",
+          "office": "consejero/a de Bienestar Social",
+          "started_on": "2000-05-22",
+          "ended_on": "2003-06-21",
+          "wikidata_id": "Q9065739"
+        },
+        {
+          "name": "Serafín Castellano Gómez",
+          "office": "Conseller de Sanidad",
+          "started_on": "2000-05-22",
+          "ended_on": "2003-06-21",
+          "wikidata_id": "Q17029013"
+        },
+        {
+          "name": "José Joaquín Ripoll",
+          "office": "Vicepresidente de la Generalidad Valenciana",
+          "started_on": "2002-07-24",
+          "ended_on": "2003-06-27",
+          "wikidata_id": "Q3186340"
+        },
+        {
+          "name": "Ximo Puig",
+          "office": "vicepresidente segundo de las Cortes Valencianas",
+          "started_on": "2003-06-12",
+          "ended_on": "2007-04-03",
+          "wikidata_id": "Q9096682"
+        },
+        {
+          "name": "Alicia de Miguel García",
+          "office": "consejero/a de Bienestar Social",
+          "started_on": "2003-06-21",
+          "ended_on": "2007-06-29",
+          "wikidata_id": "Q11905042"
+        },
+        {
+          "name": "José Víctor Campos Guinot",
+          "office": "Consejero de Justicia y Administraciones Públicas",
+          "started_on": "2003-06-21",
+          "ended_on": "2004-08-27",
+          "wikidata_id": "Q5547775"
+        },
+        {
+          "name": "Vicente Rambla",
+          "office": "Conseller de Sanidad",
+          "started_on": "2003-06-21",
+          "ended_on": "2006-05-30",
+          "wikidata_id": "Q9093346"
+        },
+        {
+          "name": "José Víctor Campos Guinot",
+          "office": "Vicepresidente de la Generalidad Valenciana",
+          "started_on": "2004-08-27",
+          "ended_on": "2007-06-29",
+          "wikidata_id": "Q5547775"
+        },
+        {
+          "name": "María Milagrosa Martínez Navarro",
+          "office": "consejero de turismo de la Generalidad Valenciana",
+          "started_on": "2004-08-27",
+          "ended_on": "2007-06-14",
+          "wikidata_id": "Q14022240"
+        },
+        {
+          "name": "Miquel Ignaci Peralta Viñes",
+          "office": "Consejero de Justicia y Administraciones Públicas",
+          "started_on": "2004-08-27",
+          "ended_on": "2007-06-29",
+          "wikidata_id": "Q11936741"
+        },
+        {
+          "name": "Rafael Blasco",
+          "office": "Conseller de Sanidad",
+          "started_on": "2006-05-30",
+          "ended_on": "2007-06-29",
+          "wikidata_id": "Q9065739"
+        },
+        {
+          "name": "Angélica Such Ronda",
+          "office": "consejero de turismo de la Generalidad Valenciana",
+          "started_on": "2007-06-29",
+          "ended_on": "2009-08-28",
+          "wikidata_id": "Q11905617"
+        },
+        {
+          "name": "Fernando de Rosa Torner",
+          "office": "Consejero de Justicia y Administraciones Públicas",
+          "started_on": "2007-06-29",
+          "ended_on": "2008-09-18",
+          "wikidata_id": "Q66124783"
+        },
+        {
+          "name": "Gerardo Camps",
+          "office": "Vicepresidente Segundo del Consejo i Consejero de Vivienda i Arquitectura Bioclimatica",
+          "started_on": "2007-06-29",
+          "ended_on": "2011-06-22",
+          "wikidata_id": "Q4892699"
+        },
+        {
+          "name": "Juan Cotino",
+          "office": "consejero/a de Bienestar Social",
+          "started_on": "2007-06-29",
+          "ended_on": "2009-08-28",
+          "wikidata_id": "Q9015433"
+        },
+        {
+          "name": "Manuel Cervera Taulet",
+          "office": "Conseller de Sanidad",
+          "started_on": "2007-06-29",
+          "ended_on": "2011-06-22",
+          "wikidata_id": "Q11934941"
+        },
+        {
+          "name": "Paula Sánchez de León",
+          "office": "Consejero de Justicia y Administraciones Públicas",
+          "started_on": "2008-09-18",
+          "ended_on": "2011-06-22",
+          "wikidata_id": "Q3372570"
+        },
+        {
+          "name": "Angélica Such Ronda",
+          "office": "consejero/a de Bienestar Social",
+          "started_on": "2009-08-28",
+          "ended_on": "2011-07-22",
+          "wikidata_id": "Q11905617"
+        },
+        {
+          "name": "María Belén Juste Picón",
+          "office": "consejero de turismo de la Generalidad Valenciana",
+          "started_on": "2009-08-28",
+          "ended_on": "2011-06-22",
+          "wikidata_id": "Q11935755"
+        },
+        {
+          "name": "Ángel Luna González",
+          "office": "vicepresidente segundo de las Cortes Valencianas",
+          "started_on": "2011-06-09",
+          "ended_on": "2014-07-29",
+          "wikidata_id": "Q11705526"
+        },
+        {
+          "name": "Enrique José Verdeguer Puig",
+          "office": "Consejero de Economía, Industria y Comercio",
+          "started_on": "2011-06-22",
+          "ended_on": "2012-01-23",
+          "wikidata_id": "Q19999245"
+        },
+        {
+          "name": "Isabel Bonig Trigueros",
+          "office": "Consejero de Infraestructuras, Territorio y Medio Ambiente de la Generalitat Valenciana",
+          "started_on": "2011-06-22",
+          "ended_on": "2015-06-30",
+          "wikidata_id": "Q11683713"
+        },
+        {
+          "name": "José Manuel Vela Bargues",
+          "office": "Consejero de Hacienda y Administración Pública",
+          "started_on": "2011-06-22",
+          "ended_on": "2012-11-30",
+          "wikidata_id": "Q20004398"
+        },
+        {
+          "name": "Luis Rosado Bretón",
+          "office": "Conseller de Sanidad",
+          "started_on": "2011-06-22",
+          "ended_on": "2012-12-07",
+          "wikidata_id": "Q17278942"
+        },
+        {
+          "name": "Paula Sánchez de León",
+          "office": "Vicepresidente de la Generalidad Valenciana",
+          "started_on": "2011-06-22",
+          "ended_on": "2011-12-30",
+          "wikidata_id": "Q3372570"
+        },
+        {
+          "name": "José Císcar",
+          "office": "Vicepresidente de la Generalidad Valenciana",
+          "started_on": "2012-01-02",
+          "ended_on": "2015-06-30",
+          "wikidata_id": "Q633105"
+        },
+        {
+          "name": "Asunción Sánchez Zaplana",
+          "office": "consejero/a de Bienestar Social",
+          "started_on": "2012-12-07",
+          "ended_on": "2015-06-29",
+          "wikidata_id": "Q11907064"
+        },
+        {
+          "name": "Juan Carlos Moragues Ferrer",
+          "office": "Consejero de Hacienda y Administración Pública",
+          "started_on": "2012-12-07",
+          "ended_on": "2015-06-30",
+          "wikidata_id": "Q11929273"
+        },
+        {
+          "name": "Manuel Llombart Fuertes",
+          "office": "Conseller de Sanidad",
+          "started_on": "2012-12-07",
+          "ended_on": "2015-06-30",
+          "wikidata_id": "Q11934963"
+        },
+        {
+          "name": "Alejandro Font de Mora Turón",
+          "office": "vicepresidente segundo de las Cortes Valencianas",
+          "started_on": "2015-06-11",
+          "ended_on": "2019-05-16",
+          "wikidata_id": "Q8194057"
+        },
+        {
+          "name": "Carmen Montón",
+          "office": "consejero de Sanidad Universal y Salud Pública",
+          "started_on": "2015-06-29",
+          "ended_on": "2018-06-06",
+          "wikidata_id": "Q4890432"
+        },
+        {
+          "name": "Empar Martínez Bonafé",
+          "office": "consejero de Economía Sostenible, Sectores Productivos, Comercio y Trabajo de la Generalidad Valenciana",
+          "started_on": "2015-06-29",
+          "ended_on": "2019-06-16",
+          "wikidata_id": "Q112109703"
+        },
+        {
+          "name": "Rafael Climent González",
+          "office": "consejero de Economía Sostenible, Sectores Productivos, Comercio y Trabajo de la Generalidad Valenciana",
+          "started_on": "2015-06-29",
+          "ended_on": "2023-07-18",
+          "wikidata_id": "Q11944405"
+        },
+        {
+          "name": "Vicent Soler i Marco",
+          "office": "Consejero de Hacienda y Modelo Económico",
+          "started_on": "2015-06-29",
+          "ended_on": "2022-05-15",
+          "wikidata_id": "Q3556910"
+        },
+        {
+          "name": "María Gabriela Bravo Sanestanislao",
+          "office": "consejero de Justicia, Administración Pública, Reformas Democráticas y Libertades Públicas de la Generalidad Valenciana",
+          "started_on": "2015-06-30",
+          "ended_on": "2023-07-07",
+          "wikidata_id": "Q20746655"
+        },
+        {
+          "name": "Mónica Oltra",
+          "office": "Vicepresidente de la Generalidad Valenciana",
+          "started_on": "2015-06-30",
+          "ended_on": "2022-06-29",
+          "wikidata_id": "Q3067773"
+        },
+        {
+          "name": "Mónica Oltra",
+          "office": "Consejero de Igualdad y Políticas Inclusivas de la Generalidad Valenciana",
+          "started_on": "2015-06-30",
+          "ended_on": "2022-06-29",
+          "wikidata_id": "Q3067773"
+        },
+        {
+          "name": "Ana Barceló Chico",
+          "office": "consejero de Sanidad Universal y Salud Pública",
+          "started_on": "2018-06-07",
+          "ended_on": "2022-05-14",
+          "wikidata_id": "Q5491455"
+        },
+        {
+          "name": "Jorge Bellver Casaña",
+          "office": "vicepresidente segundo de las Cortes Valencianas",
+          "started_on": "2019-05-16",
+          "ended_on": "2023-06-26",
+          "wikidata_id": "Q16176453"
+        },
+        {
+          "name": "Rubén Martínez Dalmau",
+          "office": "Vicepresidente Segundo del Consejo i Consejero de Vivienda i Arquitectura Bioclimatica",
+          "started_on": "2019-06-16",
+          "ended_on": "2021-09-10",
+          "wikidata_id": "Q22964693"
+        },
+        {
+          "name": "Arcadi España García",
+          "office": "Consejero de Política Territorial, Obras Públicas y Movilidad",
+          "started_on": "2019-06-17",
+          "ended_on": "2022-05-14",
+          "wikidata_id": "Q98382675"
+        },
+        {
+          "name": "Héctor Illueca",
+          "office": "Vicepresidente Segundo del Consejo i Consejero de Vivienda i Arquitectura Bioclimatica",
+          "started_on": "2021-09-10",
+          "ended_on": "2023-07-18",
+          "wikidata_id": "Q64166732"
+        },
+        {
+          "name": "Arcadi España García",
+          "office": "Consejero de Hacienda y Modelo Económico",
+          "started_on": "2022-05-14",
+          "ended_on": "2023-07-18",
+          "wikidata_id": "Q98382675"
+        },
+        {
+          "name": "Miguel Mínguez Pérez",
+          "office": "consejero de Sanidad Universal y Salud Pública",
+          "started_on": "2022-05-14",
+          "ended_on": "2023-07-18",
+          "wikidata_id": "Q112002604"
+        },
+        {
+          "name": "Rebeca Torró",
+          "office": "Consejero de Política Territorial, Obras Públicas y Movilidad",
+          "started_on": "2022-05-16",
+          "ended_on": "2023-07-18",
+          "wikidata_id": "Q112035442"
+        },
+        {
+          "name": "Aitana Mas",
+          "office": "Vicepresidente de la Generalidad Valenciana",
+          "started_on": "2022-06-30",
+          "ended_on": "2023-07-18",
+          "wikidata_id": "Q11904529"
+        },
+        {
+          "name": "Aitana Mas",
+          "office": "Consejero de Igualdad y Políticas Inclusivas de la Generalidad Valenciana",
+          "started_on": "2022-06-30",
+          "ended_on": "2023-07-18",
+          "wikidata_id": "Q11904529"
+        },
+        {
+          "name": "María Gabriela Bravo Sanestanislao",
+          "office": "vicepresidente segundo de las Cortes Valencianas",
+          "started_on": "2023-06-26",
+          "ended_on": "2025-01-21",
+          "wikidata_id": "Q20746655"
+        },
+        {
+          "name": "Marciano Gómez Gómez",
+          "office": "Conseller de Sanidad",
+          "started_on": "2023-07-19",
+          "ended_on": null,
+          "wikidata_id": "Q121742471"
+        },
+        {
+          "name": "Susana Camarero",
+          "office": "Vicepresidente Segundo del Consejo i Consejero de Vivienda i Arquitectura Bioclimatica",
+          "started_on": "2023-07-19",
+          "ended_on": "2024-07-12",
+          "wikidata_id": "Q6742894"
+        },
+        {
+          "name": "Nuria Montes de Diego",
+          "office": "consejero de Innovación, Industria, Comercio y Turismo",
+          "started_on": "2023-07-20",
+          "ended_on": "2024-11-22",
+          "wikidata_id": "Q121886722"
+        },
+        {
+          "name": "Francisco José Gan Pampols",
+          "office": "Vicepresidente Segundo del Consejo i Consejero de Vivienda i Arquitectura Bioclimatica",
+          "started_on": "2024-11-22",
+          "ended_on": "2025-11-04",
+          "wikidata_id": "Q56401905"
+        },
+        {
+          "name": "Marián Cano García",
+          "office": "consejero de Innovación, Industria, Comercio y Turismo",
+          "started_on": "2024-11-22",
+          "ended_on": null,
+          "wikidata_id": "Q131283215"
+        },
+        {
+          "name": "Nuria Martínez Sanchis",
+          "office": "Consejero de Justicia y Administraciones Públicas",
+          "started_on": "2024-11-22",
+          "ended_on": "2025-12-03",
+          "wikidata_id": "Q131316177"
+        },
+        {
+          "name": "Andreu López Blasco",
+          "office": "consejero de la Generalidad Valenciana",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q11905513"
+        },
+        {
+          "name": "Fernando Villalonga Campos",
+          "office": "consejero de la Generalidad Valenciana",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q20000037"
+        },
+        {
+          "name": "Joan Romero",
+          "office": "consejero de la Generalidad Valenciana",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q4890471"
+        }
+      ]
+    },
+    {
+      "slug": "extremadura",
+      "name": "Extremadura",
+      "president_source": "wikidata",
+      "presidents": [
+        {
+          "name": "Juan Carlos Rodríguez Ibarra",
+          "party": "PSOE",
+          "started_on": "1982-12-20",
+          "ended_on": "2007-06-28",
+          "wikidata_id": "Q2512061"
+        },
+        {
+          "name": "Guillermo Fernández Vara",
+          "party": "PSOE",
+          "started_on": "2007-06-29",
+          "ended_on": "2011-07-06",
+          "wikidata_id": "Q3055366"
+        },
+        {
+          "name": "José Antonio Monago",
+          "party": "PP",
+          "started_on": "2011-07-07",
+          "ended_on": "2015-07-03",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Guillermo Fernández Vara",
+          "party": "PSOE",
+          "started_on": "2015-07-04",
+          "ended_on": "2023-07-16",
+          "wikidata_id": "Q3055366"
+        },
+        {
+          "name": "María Guardiola",
+          "party": "PP",
+          "started_on": "2023-07-17",
+          "ended_on": null,
+          "wikidata_id": "Q115151208"
+        }
+      ],
+      "members": []
+    },
+    {
+      "slug": "galicia",
+      "name": "Galicia",
+      "president_source": "wikipedia",
+      "presidents": [
+        {
+          "name": "Manuel Fraga Iribarne",
+          "party": "PP",
+          "started_on": "1990-02-02",
+          "ended_on": "2005-07-31",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Emilio Pérez Touriño",
+          "party": "PSOE",
+          "started_on": "2005-08-01",
+          "ended_on": "2009-04-17",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Alberto Núñez Feijóo",
+          "party": "PP",
+          "started_on": "2009-04-18",
+          "ended_on": "2022-05-11",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Alfonso Rueda Valenzuela",
+          "party": "PP",
+          "started_on": "2022-05-12",
+          "ended_on": null,
+          "wikidata_id": ""
+        }
+      ],
+      "members": [
+        {
+          "name": "Xosé Cuíña",
+          "office": "consejero de la Junta de Galicia",
+          "started_on": "1990-01-01",
+          "ended_on": "2003-01-01",
+          "wikidata_id": "Q9096725"
+        },
+        {
+          "name": "Jesús Pérez Varela",
+          "office": "consejero de la Junta de Galicia",
+          "started_on": "1997-01-01",
+          "ended_on": "2005-01-01",
+          "wikidata_id": "Q20534521"
+        },
+        {
+          "name": "Juan Miguel Diz Guedes",
+          "office": "consejero de la Junta de Galicia",
+          "started_on": "2000-01-01",
+          "ended_on": "2001-01-01",
+          "wikidata_id": "Q12391261"
+        },
+        {
+          "name": "Corina Porro",
+          "office": "consejero de la Junta de Galicia",
+          "started_on": "2001-01-01",
+          "ended_on": "2003-01-01",
+          "wikidata_id": "Q588698"
+        },
+        {
+          "name": "Juan Miguel Diz Guedes",
+          "office": "consejero de la Junta de Galicia",
+          "started_on": "2001-01-01",
+          "ended_on": "2004-01-01",
+          "wikidata_id": "Q12391261"
+        },
+        {
+          "name": "Belén Prado",
+          "office": "consejero de Asuntos Sociales de la Junta de Galicia",
+          "started_on": "2004-01-01",
+          "ended_on": "2005-01-01",
+          "wikidata_id": "Q12384337"
+        },
+        {
+          "name": "Anxo Quintana",
+          "office": "vicepresidente de la Junta de Galicia",
+          "started_on": "2005-08-02",
+          "ended_on": "2009-04-20",
+          "wikidata_id": "Q3305593"
+        },
+        {
+          "name": "Agustín Hernández Fernández de Rojas",
+          "office": "consejero de la Junta de Galicia",
+          "started_on": "2009-01-01",
+          "ended_on": "2014-01-01",
+          "wikidata_id": "Q8191992"
+        },
+        {
+          "name": "Xesús Vázquez Abad",
+          "office": "consejero de la Junta de Galicia",
+          "started_on": "2009-01-01",
+          "ended_on": "2015-01-01",
+          "wikidata_id": "Q11684808"
+        },
+        {
+          "name": "Emilio de Llera",
+          "office": "consejero de la Junta de Galicia",
+          "started_on": "2012-01-01",
+          "ended_on": "2017-01-01",
+          "wikidata_id": "Q5831387"
+        },
+        {
+          "name": "Alfonso Rueda",
+          "office": "vicepresidente de la Junta de Galicia",
+          "started_on": "2012-12-02",
+          "ended_on": "2022-05-12",
+          "wikidata_id": "Q588412"
+        },
+        {
+          "name": "Jesús Vázquez Almuíña",
+          "office": "consejero de Sanidad de la Junta de Galicia",
+          "started_on": "2015-01-01",
+          "ended_on": "2020-01-01",
+          "wikidata_id": "Q12390882"
+        },
+        {
+          "name": "José Manuel Rey Varela",
+          "office": "consejero de la Junta de Galicia",
+          "started_on": "2015-01-01",
+          "ended_on": "2018-01-01",
+          "wikidata_id": "Q3329568"
+        },
+        {
+          "name": "Román Rodríguez González",
+          "office": "consejero de la Junta de Galicia",
+          "started_on": "2015-01-01",
+          "ended_on": null,
+          "wikidata_id": "Q12399239"
+        },
+        {
+          "name": "José González Vázquez",
+          "office": "consejero de la Junta de Galicia",
+          "started_on": "2018-01-01",
+          "ended_on": null,
+          "wikidata_id": "Q98150201"
+        },
+        {
+          "name": "Alfonso Villares",
+          "office": "consejero de la Junta de Galicia",
+          "started_on": "2023-01-01",
+          "ended_on": "2025-06-04",
+          "wikidata_id": "Q12382778"
+        },
+        {
+          "name": "José Carlos López Campos",
+          "office": "consejero de la Junta de Galicia",
+          "started_on": "2024-01-01",
+          "ended_on": null,
+          "wikidata_id": "Q12390995"
+        },
+        {
+          "name": "María José Gómez Rodríguez",
+          "office": "consejero de la Junta de Galicia",
+          "started_on": "2024-01-01",
+          "ended_on": null,
+          "wikidata_id": "Q109924478"
+        },
+        {
+          "name": "Marta Villaverde",
+          "office": "consejero de la Junta de Galicia",
+          "started_on": "2025-06-05",
+          "ended_on": null,
+          "wikidata_id": "Q134707002"
+        },
+        {
+          "name": "Alfredo Conde",
+          "office": "consejero de la Junta de Galicia",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q2338557"
+        },
+        {
+          "name": "Fernando Salgado García",
+          "office": "consejero de la Junta de Galicia",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q12388416"
+        },
+        {
+          "name": "José María Hernández Cochón",
+          "office": "consejero de Sanidad de la Junta de Galicia",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q12391113"
+        },
+        {
+          "name": "Juan Manuel de la Fuente Esperante",
+          "office": "consejero de la Junta de Galicia",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q98968170"
+        },
+        {
+          "name": "Manuel Montero",
+          "office": "consejero de Sanidad de la Junta de Galicia",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q12392784"
+        }
+      ]
+    },
+    {
+      "slug": "madrid",
+      "name": "Comunidad de Madrid",
+      "president_source": "wikipedia",
+      "presidents": [
+        {
+          "name": "Alberto Ruiz-Gallardón",
+          "party": "PP",
+          "started_on": "1999-07-08",
+          "ended_on": "2003-11-20",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Esperanza Aguirre",
+          "party": "PP",
+          "started_on": "2003-11-21",
+          "ended_on": "2012-09-26",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Ignacio González",
+          "party": "PP",
+          "started_on": "2012-09-27",
+          "ended_on": "2015-06-24",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Cristina Cifuentes",
+          "party": "PP",
+          "started_on": "2015-06-25",
+          "ended_on": "2018-04-24",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Ángel Garrido",
+          "party": "PP",
+          "started_on": "2018-04-25",
+          "ended_on": "2019-04-10",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Pedro Rollán",
+          "party": "PP",
+          "started_on": "2019-04-11",
+          "ended_on": "2019-08-18",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Isabel Díaz Ayuso",
+          "party": "PP",
+          "started_on": "2019-08-19",
+          "ended_on": null,
+          "wikidata_id": ""
+        }
+      ],
+      "members": [
+        {
+          "name": "Carlos Mayor Oreja",
+          "office": "consejero de Medio Ambiente y Desarrollo Regional de la Comunidad de Madrid",
+          "started_on": "1995-07-01",
+          "ended_on": "1999-07-09",
+          "wikidata_id": "Q50569001"
+        },
+        {
+          "name": "Gustavo Villapalos",
+          "office": "consejero de Educación y Cultura de la Comunidad de Madrid",
+          "started_on": "1995-07-01",
+          "ended_on": "2001-09-01",
+          "wikidata_id": "Q5889935"
+        },
+        {
+          "name": "Jesús Pedroche",
+          "office": "consejero de Presidencia de la Comunidad de Madrid",
+          "started_on": "1995-07-01",
+          "ended_on": null,
+          "wikidata_id": "Q5930525"
+        },
+        {
+          "name": "Rosa Posada",
+          "office": "consejero de Sanidad y Servicios Sociales de la Comunidad de Madrid",
+          "started_on": "1995-07-01",
+          "ended_on": "1999-07-10",
+          "wikidata_id": "Q6112228"
+        },
+        {
+          "name": "Gustavo Villapalos",
+          "office": "consejero de Educación de la Comunidad de Madrid",
+          "started_on": "1999-01-01",
+          "ended_on": "2001-01-01",
+          "wikidata_id": "Q5889935"
+        },
+        {
+          "name": "Francisco Cabaco",
+          "office": "vicepresidente segundo de la Asamblea de Madrid",
+          "started_on": "1999-06-30",
+          "ended_on": "2003-04-01",
+          "wikidata_id": "Q55499835"
+        },
+        {
+          "name": "Carlos Mayor Oreja",
+          "office": "consejero de Medio Ambiente de la Comunidad de Madrid",
+          "started_on": "1999-07-09",
+          "ended_on": "2000-05-01",
+          "wikidata_id": "Q50569001"
+        },
+        {
+          "name": "Pilar Martínez",
+          "office": "consejero de Servicios Sociales de la Comunidad de Madrid",
+          "started_on": "1999-07-14",
+          "ended_on": "2003-06-14",
+          "wikidata_id": "Q52270126"
+        },
+        {
+          "name": "Carlos Mayor Oreja",
+          "office": "consejero de Justicia, Función Pública y Administración Local de la Comunidad de Madrid",
+          "started_on": "2000-05-01",
+          "ended_on": "2001-09-21",
+          "wikidata_id": "Q50569001"
+        },
+        {
+          "name": "Luis Peral",
+          "office": "consejero de Trabajo de la Comunidad de Madrid",
+          "started_on": "2001-09-01",
+          "ended_on": "2003-01-01",
+          "wikidata_id": "Q47464148"
+        },
+        {
+          "name": "Carlos Mayor Oreja",
+          "office": "consejero de Educación de la Comunidad de Madrid",
+          "started_on": "2001-09-21",
+          "ended_on": "2003-11-22",
+          "wikidata_id": "Q50569001"
+        },
+        {
+          "name": "Miguel Garrido de la Cierva",
+          "office": "consejero de Medio Ambiente de la Comunidad de Madrid",
+          "started_on": "2003-06-01",
+          "ended_on": "2013-11-01",
+          "wikidata_id": "Q50807985"
+        },
+        {
+          "name": "Carlos Mayor Oreja",
+          "office": "vicepresidente primero y consejero de Presidencia y Educación en funciones de la Comunidad de Madrid",
+          "started_on": "2003-07-01",
+          "ended_on": "2003-11-01",
+          "wikidata_id": "Q50569001"
+        },
+        {
+          "name": "Juan José Güemes",
+          "office": "consejero de Empleo y Mujer de la Comunidad de Madrid",
+          "started_on": "2003-11-21",
+          "ended_on": "2007-06-20",
+          "wikidata_id": "Q3815062"
+        },
+        {
+          "name": "Santiago Fisas",
+          "office": "consejero de Cultura y Deportes de la Comunidad de Madrid",
+          "started_on": "2003-11-21",
+          "ended_on": "2009-06-30",
+          "wikidata_id": "Q3817070"
+        },
+        {
+          "name": "Engracia Hidalgo",
+          "office": "consejero de Hacienda de la Comunidad de Madrid",
+          "started_on": "2003-11-22",
+          "ended_on": "2008-06-26",
+          "wikidata_id": "Q5832804"
+        },
+        {
+          "name": "Francisco Granados",
+          "office": "consejero de Transportes e Infraestructuras de la Comunidad de Madrid",
+          "started_on": "2003-11-22",
+          "ended_on": "2004-12-20",
+          "wikidata_id": "Q3081856"
+        },
+        {
+          "name": "Luis Peral",
+          "office": "consejero de Educación de la Comunidad de Madrid",
+          "started_on": "2003-11-22",
+          "ended_on": "2007-06-20",
+          "wikidata_id": "Q47464148"
+        },
+        {
+          "name": "María Dolores de Cospedal",
+          "office": "consejero de Transportes e Infraestructuras de la Comunidad de Madrid",
+          "started_on": "2004-12-21",
+          "ended_on": "2006-06-13",
+          "wikidata_id": "Q271658"
+        },
+        {
+          "name": "Elvira Rodríguez",
+          "office": "consejero de Transportes e Infraestructuras de la Comunidad de Madrid",
+          "started_on": "2006-06-13",
+          "ended_on": "2007-06-11",
+          "wikidata_id": "Q3051830"
+        },
+        {
+          "name": "Lucía Figar",
+          "office": "consejero de Educación de la Comunidad de Madrid",
+          "started_on": "2007-01-01",
+          "ended_on": null,
+          "wikidata_id": "Q5689942"
+        },
+        {
+          "name": "Francisco Cabaco",
+          "office": "vicepresidente segundo de la Asamblea de Madrid",
+          "started_on": "2007-06-12",
+          "ended_on": "2011-03-29",
+          "wikidata_id": "Q55499835"
+        },
+        {
+          "name": "Juan José Güemes",
+          "office": "consejero de Sanidad de la Comunidad de Madrid",
+          "started_on": "2007-06-20",
+          "ended_on": "2010-03-18",
+          "wikidata_id": "Q3815062"
+        },
+        {
+          "name": "Paloma Adrados",
+          "office": "consejero de Empleo y Mujer de la Comunidad de Madrid",
+          "started_on": "2007-06-20",
+          "ended_on": "2010-03-18",
+          "wikidata_id": "Q6059130"
+        },
+        {
+          "name": "Gádor Ongil",
+          "office": "consejero de Familia y Asuntos Sociales de la Comunidad de Madrid",
+          "started_on": "2007-06-21",
+          "ended_on": "2008-06-26",
+          "wikidata_id": "Q47483669"
+        },
+        {
+          "name": "Javier Fernández-Lasquetty",
+          "office": "consejero de Inmigración y Cooperación de la Comunidad de Madrid",
+          "started_on": "2007-06-21",
+          "ended_on": "2010-03-18",
+          "wikidata_id": "Q9011222"
+        },
+        {
+          "name": "Ana Isabel Mariño",
+          "office": "consejero de Medio Ambiente y Ordenación del Territorio de la Comunidad de Madrid",
+          "started_on": "2008-01-01",
+          "ended_on": "2012-01-01",
+          "wikidata_id": "Q5673801"
+        },
+        {
+          "name": "José Ignacio Echeverría",
+          "office": "consejero de Transportes de la Comunidad de Madrid",
+          "started_on": "2008-06-26",
+          "ended_on": "2011-06-07",
+          "wikidata_id": "Q5940492"
+        },
+        {
+          "name": "Ignacio González González",
+          "office": "vicepresidente, consejero de Cultura y Deporte y portavoz del Gobierno de la Comunidad de Madrid",
+          "started_on": "2009-11-22",
+          "ended_on": "2012-09-27",
+          "wikidata_id": "Q3081437"
+        },
+        {
+          "name": "Javier Fernández-Lasquetty",
+          "office": "consejero de Sanidad de la Comunidad de Madrid",
+          "started_on": "2010-03-18",
+          "ended_on": "2014-01-28",
+          "wikidata_id": "Q9011222"
+        },
+        {
+          "name": "Paloma Adrados",
+          "office": "consejero de Empleo, Mujer e Inmigración de la Comunidad de Madrid",
+          "started_on": "2010-03-18",
+          "ended_on": "2011-06-07",
+          "wikidata_id": "Q6059130"
+        },
+        {
+          "name": "Regina Plañiol",
+          "office": "consejero de Presidencia y Justicia de la Comunidad de Madrid",
+          "started_on": "2011-06-17",
+          "ended_on": "2012-09-28",
+          "wikidata_id": "Q6103881"
+        },
+        {
+          "name": "Ana Isabel Mariño",
+          "office": "consejero de Empleo, Turismo y Cultura de la Comunidad de Madrid",
+          "started_on": "2012-01-01",
+          "ended_on": "2015-01-01",
+          "wikidata_id": "Q5673801"
+        },
+        {
+          "name": "Enrique Ossorio",
+          "office": "consejero de Economía y Hacienda de la Comunidad de Madrid",
+          "started_on": "2012-01-01",
+          "ended_on": "2015-01-01",
+          "wikidata_id": "Q5833669"
+        },
+        {
+          "name": "Pablo Cavero",
+          "office": "consejero de Transportes e Infraestructuras de la Comunidad de Madrid",
+          "started_on": "2012-01-25",
+          "ended_on": "2012-09-28",
+          "wikidata_id": "Q6055883"
+        },
+        {
+          "name": "Pablo Cavero",
+          "office": "consejero de Transportes, Infraestructuras y Vivienda de la Comunidad de Madrid",
+          "started_on": "2012-09-28",
+          "ended_on": "2015-06-15",
+          "wikidata_id": "Q6055883"
+        },
+        {
+          "name": "Francisco Javier Rodríguez Rodríguez",
+          "office": "consejero de Sanidad de la Comunidad de Madrid",
+          "started_on": "2014-01-27",
+          "ended_on": "2014-12-04",
+          "wikidata_id": "Q16569048"
+        },
+        {
+          "name": "Javier Maldonado González",
+          "office": "consejero de Sanidad de la Comunidad de Madrid",
+          "started_on": "2014-12-05",
+          "ended_on": "2015-06-27",
+          "wikidata_id": "Q58008355"
+        },
+        {
+          "name": "Modesto Nolla",
+          "office": "vicepresidente segundo de la Asamblea de Madrid",
+          "started_on": "2015-01-01",
+          "ended_on": null,
+          "wikidata_id": "Q50761751"
+        },
+        {
+          "name": "Carlos Izquierdo Torres",
+          "office": "consejero de Políticas Sociales y Familia de la Comunidad de Madrid",
+          "started_on": "2015-06-26",
+          "ended_on": "2018-05-22",
+          "wikidata_id": "Q20337774"
+        },
+        {
+          "name": "Jesús Sánchez Martos",
+          "office": "consejero de Sanidad de la Comunidad de Madrid",
+          "started_on": "2015-06-27",
+          "ended_on": "2017-09-26",
+          "wikidata_id": "Q58007028"
+        },
+        {
+          "name": "Rafael van Grieken",
+          "office": "consejero de Educación, Juventud y Deporte de la Comunidad de Madrid",
+          "started_on": "2015-06-27",
+          "ended_on": "2017-09-26",
+          "wikidata_id": "Q39930324"
+        },
+        {
+          "name": "Ángel Garrido",
+          "office": "consejero de Presidencia, Justicia y Portavocía del Gobierno de la Comunidad de Madrid",
+          "started_on": "2015-06-27",
+          "ended_on": null,
+          "wikidata_id": "Q22987603"
+        },
+        {
+          "name": "Enrique Ruiz Escudero",
+          "office": "consejero de Sanidad de la Comunidad de Madrid",
+          "started_on": "2017-09-26",
+          "ended_on": null,
+          "wikidata_id": "Q48033764"
+        },
+        {
+          "name": "Jaime de los Santos",
+          "office": "consejero de Cultura, Turismo y Deportes de la Comunitat de Madrid",
+          "started_on": "2017-09-26",
+          "ended_on": null,
+          "wikidata_id": "Q58036863"
+        },
+        {
+          "name": "Rafael van Grieken",
+          "office": "consejero de Educación e Investigación de la Comunidad de Madrid",
+          "started_on": "2017-09-26",
+          "ended_on": "2019-08-01",
+          "wikidata_id": "Q39930324"
+        },
+        {
+          "name": "Lola Moreno",
+          "office": "consejero de Políticas Sociales y Familia de la Comunidad de Madrid",
+          "started_on": "2018-05-22",
+          "ended_on": null,
+          "wikidata_id": "Q58037522"
+        },
+        {
+          "name": "Enrique López López",
+          "office": "consejero de Justicia, Interior y Víctimas de la Comunidad de Madrid",
+          "started_on": "2019-01-01",
+          "ended_on": null,
+          "wikidata_id": "Q15980180"
+        },
+        {
+          "name": "Marta Rivera de la Cruz",
+          "office": "consejero de Cultura y Turismo de la Comunidad de Madrid",
+          "started_on": "2019-08-20",
+          "ended_on": null,
+          "wikidata_id": "Q3394433"
+        },
+        {
+          "name": "Paloma Martín Martín",
+          "office": "consejero de Medio Ambiente, Ordenación del Territorio y Sostenibilidad de la Comunidad de Madrid",
+          "started_on": "2019-08-20",
+          "ended_on": null,
+          "wikidata_id": "Q77329353"
+        },
+        {
+          "name": "Agapito Ramos",
+          "office": "consejero de Presidencia de la Comunidad de Madrid",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q5659640"
+        },
+        {
+          "name": "Antonio Beteta",
+          "office": "consejero de Economía y Hacienda de la Comunidad de Madrid",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q5697872"
+        },
+        {
+          "name": "Luis Alejandro Cendrero",
+          "office": "consejero de Economía y Hacienda de la Comunidad de Madrid",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q16594117"
+        },
+        {
+          "name": "Manuel Cobo Vega",
+          "office": "consejero de Presidencia de la Comunidad de Madrid",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q5992655"
+        },
+        {
+          "name": "Manuel Lamela",
+          "office": "consejero de Transportes e Infraestructuras de la Comunidad de Madrid",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q5993424"
+        },
+        {
+          "name": "Mariano Zabía Lasala",
+          "office": "consejero de Medio Ambiente y Ordenación del Territorio de la Comunidad de Madrid",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q5998022"
+        },
+        {
+          "name": "Percival Manglano",
+          "office": "consejero de Economía y Hacienda de la Comunidad de Madrid",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q6072133"
+        },
+        {
+          "name": "Salvador Victoria Bolívar",
+          "office": "consejero de Presidencia, Justicia y Portavocía del Gobierno de la Comunidad de Madrid",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q6117817"
+        }
+      ]
+    },
+    {
+      "slug": "murcia",
+      "name": "Región de Murcia",
+      "president_source": "wikidata",
+      "presidents": [
+        {
+          "name": "Ramón Luis Valcárcel",
+          "party": "PP",
+          "started_on": "1995-06-26",
+          "ended_on": "2014-04-09",
+          "wikidata_id": "Q1021708"
+        },
+        {
+          "name": "Alberto Garre",
+          "party": "PP",
+          "started_on": "2014-04-10",
+          "ended_on": "2015-07-02",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Pedro Antonio Sánchez",
+          "party": "PP",
+          "started_on": "2015-07-03",
+          "ended_on": "2017-04-04",
+          "wikidata_id": "Q20635201"
+        },
+        {
+          "name": "Fernando López Miras",
+          "party": "PP",
+          "started_on": "2017-05-03",
+          "ended_on": null,
+          "wikidata_id": "Q29168668"
+        }
+      ],
+      "members": []
+    },
+    {
+      "slug": "navarra",
+      "name": "Navarra",
+      "president_source": "wikidata",
+      "presidents": [
+        {
+          "name": "Miguel Sanz",
+          "party": "UPN",
+          "started_on": "1996-09-18",
+          "ended_on": "2011-06-30",
+          "wikidata_id": "Q3045524"
+        },
+        {
+          "name": "Yolanda Barcina",
+          "party": "UPN",
+          "started_on": "2011-07-01",
+          "ended_on": "2015-07-19",
+          "wikidata_id": "Q3133336"
+        },
+        {
+          "name": "Uxue Barkos",
+          "party": "Geroa Bai",
+          "started_on": "2015-07-20",
+          "ended_on": "2019-08-05",
+          "wikidata_id": "Q961601"
+        },
+        {
+          "name": "María Chivite Navascués",
+          "party": "PSOE",
+          "started_on": "2019-08-06",
+          "ended_on": null,
+          "wikidata_id": "Q12263205"
+        }
+      ],
+      "members": []
+    },
+    {
+      "slug": "pais-vasco",
+      "name": "País Vasco",
+      "president_source": "wikipedia",
+      "presidents": [
+        {
+          "name": "Juan José Ibarretxe",
+          "party": "EAJ+PNV",
+          "started_on": "1999-01-02",
+          "ended_on": "2009-05-06",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Patxi López",
+          "party": "PSOE",
+          "started_on": "2009-05-07",
+          "ended_on": "2012-12-14",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Iñigo Urkullu",
+          "party": "EAJ+PNV",
+          "started_on": "2012-12-15",
+          "ended_on": "2024-06-21",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Imanol Pradales",
+          "party": "EAJ+PNV",
+          "started_on": "2024-06-22",
+          "ended_on": null,
+          "wikidata_id": ""
+        }
+      ],
+      "members": [
+        {
+          "name": "Iñaki Azkuna",
+          "office": "Consejero de Salud del Gobierno Vasco",
+          "started_on": "1991-02-07",
+          "ended_on": "1999-01-02",
+          "wikidata_id": "Q853647"
+        },
+        {
+          "name": "Mari Karmen Garmendia",
+          "office": "Consejero de Cultura y Política Lingüística",
+          "started_on": "1995-01-01",
+          "ended_on": "2001-01-01",
+          "wikidata_id": "Q12263040"
+        },
+        {
+          "name": "Belen Greaves",
+          "office": "Consejero de Turismo, Comercio y Consumo",
+          "started_on": "1998-07-03",
+          "ended_on": "1999-01-07",
+          "wikidata_id": "Q12254960"
+        },
+        {
+          "name": "José Manuel Martiarena",
+          "office": "Consejero de Seguridad del Gobierno Vasco",
+          "started_on": "1998-11-26",
+          "ended_on": "1999-01-02",
+          "wikidata_id": "Q23907895"
+        },
+        {
+          "name": "Gabriel M.ª Inclán Iribar",
+          "office": "Consejero de Salud del Gobierno Vasco",
+          "started_on": "1999-01-02",
+          "ended_on": "2009-05-08",
+          "wikidata_id": "Q12258079"
+        },
+        {
+          "name": "Javier Balza",
+          "office": "Consejero de Seguridad del Gobierno Vasco",
+          "started_on": "1999-01-02",
+          "ended_on": "2009-05-08",
+          "wikidata_id": "Q9011182"
+        },
+        {
+          "name": "Anjeles Iztueta",
+          "office": "Consejero de Educación, Universidades e Investigación del Gobierno Vasco",
+          "started_on": "2001-01-01",
+          "ended_on": "2005-01-01",
+          "wikidata_id": "Q12253585"
+        },
+        {
+          "name": "Rafael Bengoa",
+          "office": "Consejero de Salud del Gobierno Vasco",
+          "started_on": "2009-03-08",
+          "ended_on": "2012-12-17",
+          "wikidata_id": "Q5558433"
+        },
+        {
+          "name": "Rodolfo Ares",
+          "office": "Consejero de Seguridad del Gobierno Vasco",
+          "started_on": "2009-05-08",
+          "ended_on": "2012-08-29",
+          "wikidata_id": "Q3330416"
+        },
+        {
+          "name": "Idoia Mendia Cueva",
+          "office": "Consejero de Justicia y Administración Pública del Gobierno Vasco",
+          "started_on": "2009-05-09",
+          "ended_on": "2012-09-02",
+          "wikidata_id": "Q5479644"
+        },
+        {
+          "name": "Isabel Celaá",
+          "office": "Consejero de Educación, Universidades e Investigación del Gobierno Vasco",
+          "started_on": "2009-05-09",
+          "ended_on": "2012-12-14",
+          "wikidata_id": "Q9009373"
+        },
+        {
+          "name": "Estefanía Beltrán de Heredia Arroniz",
+          "office": "Consejero de Seguridad del Gobierno Vasco",
+          "started_on": "2012-12-17",
+          "ended_on": "2020-09-05",
+          "wikidata_id": "Q5849224"
+        },
+        {
+          "name": "Jon Darpón Sierra",
+          "office": "Consejero de Salud del Gobierno Vasco",
+          "started_on": "2012-12-17",
+          "ended_on": "2019-03-14",
+          "wikidata_id": "Q5933905"
+        },
+        {
+          "name": "Josu Erkoreka Gervasio",
+          "office": "Consejero de Justicia y Administración Pública del Gobierno Vasco",
+          "started_on": "2012-12-17",
+          "ended_on": "2016-11-28",
+          "wikidata_id": "Q3321681"
+        },
+        {
+          "name": "Ricardo Gatzagaetxebarria Bastida",
+          "office": "Consejero de Hacienda y Finanzas",
+          "started_on": "2012-12-17",
+          "ended_on": "2016-11-28",
+          "wikidata_id": "Q2755968"
+        },
+        {
+          "name": "María Jesús San José",
+          "office": "Consejero del Gobierno Vasco",
+          "started_on": "2016-01-01",
+          "ended_on": "2020-01-01",
+          "wikidata_id": "Q131395654"
+        },
+        {
+          "name": "Alfredo Retortillo",
+          "office": "Consejero de Turismo, Comercio y Consumo",
+          "started_on": "2016-11-28",
+          "ended_on": "2019-03-01",
+          "wikidata_id": "Q27918419"
+        },
+        {
+          "name": "Bingen Zupiria",
+          "office": "Consejero de Cultura y Política Lingüística",
+          "started_on": "2016-11-28",
+          "ended_on": "2024-06-25",
+          "wikidata_id": "Q12255259"
+        },
+        {
+          "name": "Josu Erkoreka Gervasio",
+          "office": "Consejero de Gobernanza Pública y Autogobierno del Gobierno Vasco",
+          "started_on": "2016-11-28",
+          "ended_on": "2020-09-08",
+          "wikidata_id": "Q3321681"
+        },
+        {
+          "name": "Sonia Pérez Ezquerra",
+          "office": "Consejero de Turismo, Comercio y Consumo",
+          "started_on": "2019-03-01",
+          "ended_on": "2020-09-08",
+          "wikidata_id": "Q62070578"
+        },
+        {
+          "name": "Nekane Murga",
+          "office": "Consejero de Salud del Gobierno Vasco",
+          "started_on": "2019-03-14",
+          "ended_on": "2020-09-05",
+          "wikidata_id": "Q62070535"
+        },
+        {
+          "name": "Beatriz Artolazabal",
+          "office": "Consejero de Igualdad, Justicia y Políticas Sociales del Gobierno Vasco",
+          "started_on": "2020-09-08",
+          "ended_on": "2023-02-14",
+          "wikidata_id": "Q27918391"
+        },
+        {
+          "name": "Gotzone Sagardui Goikoetxea",
+          "office": "Consejero de Salud del Gobierno Vasco",
+          "started_on": "2020-09-08",
+          "ended_on": "2024-06-25",
+          "wikidata_id": "Q98923186"
+        },
+        {
+          "name": "Iñaki Arriola López",
+          "office": "Consejero de Planificación Territorial, Vivienda y Transportes del Gobierno Vasco",
+          "started_on": "2020-09-08",
+          "ended_on": "2024-06-25",
+          "wikidata_id": "Q11684197"
+        },
+        {
+          "name": "Javier Hurtado",
+          "office": "Consejero de Turismo, Comercio y Consumo",
+          "started_on": "2020-09-08",
+          "ended_on": null,
+          "wikidata_id": "Q98929913"
+        },
+        {
+          "name": "Josu Erkoreka Gervasio",
+          "office": "Consejero de Seguridad del Gobierno Vasco",
+          "started_on": "2020-09-08",
+          "ended_on": "2024-06-25",
+          "wikidata_id": "Q3321681"
+        },
+        {
+          "name": "Olatz Garamendi",
+          "office": "Consejero de Gobernanza Pública y Autogobierno del Gobierno Vasco",
+          "started_on": "2020-09-08",
+          "ended_on": "2024-06-26",
+          "wikidata_id": "Q98929451"
+        },
+        {
+          "name": "Nerea Melgosa Vega",
+          "office": "Consejero de Igualdad, Justicia y Políticas Sociales del Gobierno Vasco",
+          "started_on": "2023-02-14",
+          "ended_on": null,
+          "wikidata_id": "Q116773072"
+        },
+        {
+          "name": "María Jesús San José",
+          "office": "Consejero del Gobierno Vasco",
+          "started_on": "2024-01-01",
+          "ended_on": null,
+          "wikidata_id": "Q131395654"
+        },
+        {
+          "name": "Q140930774",
+          "office": "Consejero del Gobierno Vasco",
+          "started_on": "2024-01-01",
+          "ended_on": null,
+          "wikidata_id": "Q140930774"
+        },
+        {
+          "name": "Bingen Zupiria",
+          "office": "Consejero de Seguridad del Gobierno Vasco",
+          "started_on": "2024-06-25",
+          "ended_on": null,
+          "wikidata_id": "Q12255259"
+        },
+        {
+          "name": "Denis Itxaso",
+          "office": "Consejero del Gobierno Vasco",
+          "started_on": "2024-06-25",
+          "ended_on": null,
+          "wikidata_id": "Q5802668"
+        },
+        {
+          "name": "Ibone Bengoetxea",
+          "office": "Consejero de Cultura y Política Lingüística",
+          "started_on": "2024-06-25",
+          "ended_on": null,
+          "wikidata_id": "Q126872293"
+        },
+        {
+          "name": "Maria Ubarretxena",
+          "office": "Consejero de Gobernanza, Administración Digital y Autogobierno",
+          "started_on": "2024-06-25",
+          "ended_on": null,
+          "wikidata_id": "Q87412620"
+        },
+        {
+          "name": "Mikel Torres",
+          "office": "Consejero de Economía, Trabajo y Empleo del Gobierno Vasco",
+          "started_on": "2024-06-25",
+          "ended_on": null,
+          "wikidata_id": "Q14133432"
+        },
+        {
+          "name": "Noël d'Anjou",
+          "office": "Consejero de Hacienda y Finanzas",
+          "started_on": "2024-06-25",
+          "ended_on": null,
+          "wikidata_id": "Q126897460"
+        },
+        {
+          "name": "Ignacio Oliveri Albisu",
+          "office": "Consejero del Gobierno Vasco",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q12259575"
+        },
+        {
+          "name": "Javier Caño",
+          "office": "Consejero del Gobierno Vasco",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q12260237"
+        },
+        {
+          "name": "Luis María Bandrés Unanue",
+          "office": "Consejero de Cultura y Política Lingüística",
+          "started_on": null,
+          "ended_on": null,
+          "wikidata_id": "Q3755944"
+        }
+      ]
+    },
+    {
+      "slug": "la-rioja",
+      "name": "La Rioja",
+      "president_source": "wikipedia",
+      "presidents": [
+        {
+          "name": "Pedro Sanz",
+          "party": "PP",
+          "started_on": "1995-07-08",
+          "ended_on": "2015-07-07",
+          "wikidata_id": ""
+        },
+        {
+          "name": "José Ignacio Ceniceros",
+          "party": "PP",
+          "started_on": "2015-07-08",
+          "ended_on": "2019-08-28",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Concha Andreu",
+          "party": "PSOE",
+          "started_on": "2019-08-29",
+          "ended_on": "2023-06-28",
+          "wikidata_id": ""
+        },
+        {
+          "name": "Gonzalo Capellán",
+          "party": "PP",
+          "started_on": "2023-06-29",
+          "ended_on": null,
+          "wikidata_id": ""
+        }
+      ],
+      "members": []
+    },
+    {
+      "slug": "ceuta",
+      "name": "Ceuta",
+      "president_source": "wikidata",
+      "presidents": [
+        {
+          "name": "Juan Jesús Vivas",
+          "party": "PP",
+          "started_on": "2001-02-08",
+          "ended_on": null,
+          "wikidata_id": "Q3028184"
+        }
+      ],
+      "members": []
+    },
+    {
+      "slug": "melilla",
+      "name": "Melilla",
+      "president_source": "wikidata",
+      "presidents": [
+        {
+          "name": "Mustafa Aberchán",
+          "party": "CpM",
+          "started_on": "1999-07-05",
+          "ended_on": "2000-07-18",
+          "wikidata_id": "Q3820551"
+        },
+        {
+          "name": "Juan José Imbroda",
+          "party": "PP",
+          "started_on": "2000-07-19",
+          "ended_on": "2019-06-14",
+          "wikidata_id": "Q1969815"
+        },
+        {
+          "name": "Eduardo de Castro González",
+          "party": "Cs",
+          "started_on": "2019-06-15",
+          "ended_on": "2023-07-06",
+          "wikidata_id": "Q64627309"
+        },
+        {
+          "name": "Juan José Imbroda",
+          "party": "PP",
+          "started_on": "2023-07-07",
+          "ended_on": null,
+          "wikidata_id": ""
+        }
+      ],
+      "members": []
+    }
+  ]
+}

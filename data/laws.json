@@ -1,0 +1,86 @@
+[
+  {
+    "id": "pais-vasco-ley-14-2016",
+    "region": "pais-vasco",
+    "voted_on": "2016-12-22",
+    "year": 2016,
+    "title": "Ley 14/2016, de 22 de diciembre, de modificación de la Ley por la que se aprueban los Presupuestos Generales de la Comunidad Autónoma de Euskadi para el ejercicio 2016",
+    "sentence": "En consecuencia, la presente Ley, que modifica el artículo 10 de la Ley 9/2015, de 23 de diciembre, por la que se aprueban los Presupuestos Generales de la Comunidad Autónoma de Euskadi para el ejercicio 2016, tiene por objeto aumentar el límite máximo de endeudamiento previsto para el ejercicio 2016 en dicha norma, en el marco de la revisión de los objetivos de estabilidad presupuestaria y deuda pública acordados entre la Administración del Estado y la Administración de la Comunidad Autónoma de Euskadi, al amparo de lo dispuesto en el Concierto Económico.",
+    "url": "https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2016/12/1605482a.shtml",
+    "kind": "presupuestos",
+    "votes": [
+      {"group": "EA-NV", "side": "for", "count": 28},
+      {"group": "EH Bildu", "side": "abstain", "count": 18},
+      {"group": "EP", "side": "against", "count": 11},
+      {"group": "SV-ES", "side": "for", "count": 9},
+      {"group": "PV-ETP", "side": "for", "count": 9}
+    ]
+  },
+  {
+    "id": "pais-vasco-ley-1-2017",
+    "region": "pais-vasco",
+    "voted_on": "2017-02-16",
+    "year": 2017,
+    "title": "Ley 1/2017, de 16 de febrero, de modificación de la Ley 4/2014, de 27 de noviembre, de creación del Instituto de la Memoria, la Convivencia y los Derechos Humanos",
+    "sentence": "Se modifica el apartado 1.b del artículo 8 de la Ley 4/2014, de 27 de noviembre, de creación del Instituto de la Memoria, la Convivencia y los Derechos Humanos, que queda redactado como sigue:",
+    "url": "https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2017/02/1700925a.shtml",
+    "kind": "ley",
+    "votes": [
+      {"group": "EA-NV", "side": "for", "count": 28},
+      {"group": "EH Bildu", "side": "for", "count": 16},
+      {"group": "EP", "side": "for", "count": 11},
+      {"group": "SV-ES", "side": "for", "count": 9},
+      {"group": "PV-ETP", "side": "for", "count": 9}
+    ]
+  },
+  {
+    "id": "pais-vasco-ley-3-2017",
+    "region": "pais-vasco",
+    "voted_on": "2017-11-02",
+    "year": 2017,
+    "title": "Ley 3/2017, de 2 de noviembre, de modificación de Ley por la que se aprueban los Presupuestos Generales de la Comunidad Autónoma de Euskadi para el ejercicio 2017",
+    "sentence": "En consecuencia, la presente Ley, que modifica la redacción de la Disposición Adicional Duodécima de la Ley 2/2017, de 11 de abril, por la que se aprueban los Presupuestos Generales de la Comunidad Autónoma de Euskadi para el ejercicio 2017, tiene por objeto posibilitar durante el presente ejercicio el abono al personal al servicio de las entidades que integran el sector público de la Comunidad Autónoma de Euskadi de todas las cantidades aún no recuperadas de los importes efectivamente dejados de percibir como consecuencia de la supresión de la paga extraordinaria correspondiente al mes de diciembre de 2012, que tuvo lugar por aplicación del Real Decreto-Ley 20/2012, de 13 de julio, de medidas para garantizar la estabilidad presupuestaria y de fomento de la competitividad.",
+    "url": "https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2017/11/1705313a.shtml",
+    "kind": "presupuestos",
+    "votes": [
+      {"group": "EA-NV", "side": "for", "count": 27},
+      {"group": "EP", "side": "for", "count": 10},
+      {"group": "SV-ES", "side": "for", "count": 9},
+      {"group": "PV-ETP", "side": "abstain", "count": 8}
+    ]
+  },
+  {
+    "id": "pais-vasco-ley-9-2019",
+    "region": "pais-vasco",
+    "voted_on": "2019-06-27",
+    "year": 2019,
+    "title": "Ley 9/2019, de 27 de junio, de modificación de la Ley 14/2012, de 28 de junio, de no discriminación por motivos de identidad de género y de reconocimiento de los derechos de las personas transexuales",
+    "sentence": "Se modifica el artículo 3 de la Ley 14/2012, de 28 de junio, de no discriminación por motivos de identidad de género y de reconocimiento de los derechos de las personas transexuales, que queda redactado en los siguientes términos:",
+    "url": "https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2019/07/1903347a.shtml",
+    "kind": "ley",
+    "votes": [
+      {"group": "EA-NV", "side": "for", "count": 27},
+      {"group": "EH Bildu", "side": "for", "count": 17},
+      {"group": "EP", "side": "for", "count": 11},
+      {"group": "SV-ES", "side": "for", "count": 9},
+      {"group": "PV-ETP", "side": "abstain", "count": 8}
+    ]
+  },
+  {
+    "id": "pais-vasco-ley-10-2019",
+    "region": "pais-vasco",
+    "voted_on": "2019-06-27",
+    "year": 2019,
+    "title": "Ley 10/2019, de 27 de junio, de Ordenación Territorial de Grandes Establecimientos Comerciales",
+    "sentence": "El objeto de la presente ley es la determinación del marco jurídico general de la implantación y, en su caso, la ampliación de los grandes establecimientos comerciales en la Comunidad Autónoma del País Vasco, de conformidad con lo dispuesto por la Directiva 2006/123/CE del Parlamento Europeo y del Consejo de 12 de diciembre de 2006 y la Ley 17/2009, de 23 de noviembre, sobre el libre acceso a las actividades de servicios y su ejercicio.",
+    "url": "https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2019/07/1903348a.shtml",
+    "kind": "ley",
+    "votes": [
+      {"group": "EA-NV", "side": "for", "count": 27},
+      {"group": "EH Bildu", "side": "for", "count": 16},
+      {"group": "EP", "side": "for", "count": 11},
+      {"group": "SV-ES", "side": "for", "count": 9},
+      {"group": "PV-ETP", "side": "for", "count": 8}
+    ]
+  }
+]

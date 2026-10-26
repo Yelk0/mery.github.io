@@ -1,0 +1,365 @@
+/* Phone layout. Loaded only when the viewport is 720px or narrower. */
+
+body { overflow-x: clip; }
+
+.site {
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 14px;
+  padding: 14px 16px 0;
+}
+.site-tools { width: 100%; justify-content: space-between; }
+.lang button { min-height: 44px; min-width: 44px; }
+nav { flex-wrap: wrap; gap: 12px; }
+
+main { padding: 16px 16px 56px; }
+h1 { font-size: 1.7rem; }
+h2 { font-size: 1.2rem; margin-top: 28px; }
+.deck { font-size: 1.02rem; }
+
+.coverage { grid-template-columns: 1fr; }
+.break-story {
+  grid-template-columns: 1fr;
+  gap: 14px;
+  padding: 16px;
+}
+.break-pair b { font-size: 2.2rem; }
+.compare li { flex-direction: column; gap: 4px; align-items: flex-start; }
+.pile-years li { min-height: 32px; display: inline-flex; align-items: center; }
+.learn summary { min-height: 44px; display: flex; align-items: center; }
+.asks li { grid-template-columns: 1.6rem minmax(0, 1fr); gap: 8px; }
+
+.filters { margin: 16px 0; }
+.filters input {
+  flex: 1 1 100%;
+  width: 100%;
+  min-width: 0;
+  min-height: 44px;
+  font-size: 16px;
+}
+.chip { min-height: 44px; }
+
+.table-scroll { overflow: visible; }
+table.home {
+  display: block;
+  min-width: 0;
+  background: transparent;
+}
+table.home th:nth-child(1),
+table.home td:nth-child(1),
+table.home th:nth-child(2),
+table.home td:nth-child(2) {
+  position: static;
+  left: auto;
+  min-width: 0;
+  box-shadow: none;
+}
+table.home thead {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+table.home tbody { display: block; }
+table.home tr {
+  display: grid;
+  grid-template-columns: 2rem minmax(0, 1fr) auto;
+  grid-template-areas:
+    "rank name score"
+    ". region score"
+    "office office office"
+    "years years years"
+    "real real real"
+    "debt debt debt"
+    "economy economy economy"
+    "person person person"
+    "people people people"
+    "public public public"
+    "private private private"
+    "health health health"
+    "schools schools schools"
+    "care care care"
+    "worst worst worst";
+  column-gap: 8px;
+  row-gap: 1px;
+  align-items: baseline;
+  background: var(--card);
+  border: 1px solid var(--line);
+  padding: 12px 14px 10px;
+  margin: 0 0 10px;
+}
+table.home td {
+  display: block;
+  min-width: 0;
+  border: 0;
+  padding: 0;
+}
+table.home td:nth-child(1) { grid-area: rank; font-size: 1rem; }
+table.home td:nth-child(2) { grid-area: name; }
+table.home td:nth-child(2) a { border-bottom: 0; font-weight: 600; }
+table.home .party { display: block; margin-left: 0; }
+table.home td:nth-child(3) { grid-area: region; }
+table.home td:nth-child(4) { grid-area: office; margin-top: 4px; }
+table.home td:nth-child(4) .spell {
+  display: inline;
+  white-space: normal;
+  margin-right: 10px;
+}
+table.home td:nth-child(5) { grid-area: years; }
+table.home td:nth-child(6) {
+  grid-area: score;
+  align-self: center;
+  font-size: 1.25rem;
+  text-align: right;
+}
+html[lang="es"] table.home td:nth-child(6)::after { content: "nota"; }
+html[lang="en"] table.home td:nth-child(6)::after { content: "score"; }
+table.home td:nth-child(6)::after {
+  display: block;
+  font-family: "Avenir Next", "Segoe UI", sans-serif;
+  font-size: 0.65rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-weight: 600;
+}
+table.home td:nth-child(7) { grid-area: real; }
+table.home td:nth-child(8) { grid-area: debt; }
+table.home td:nth-child(9) { grid-area: economy; }
+table.home td:nth-child(10) { grid-area: person; }
+table.home td:nth-child(11) { grid-area: people; }
+table.home td:nth-child(12) { grid-area: public; }
+table.home td:nth-child(13) { grid-area: private; }
+table.home td:nth-child(14) { grid-area: health; }
+table.home td:nth-child(15) { grid-area: schools; }
+table.home td:nth-child(16) { grid-area: care; }
+table.home td:nth-child(17) { grid-area: worst; }
+table.home td:nth-child(5),
+table.home td:nth-child(7),
+table.home td:nth-child(8),
+table.home td:nth-child(9),
+table.home td:nth-child(10),
+table.home td:nth-child(11),
+table.home td:nth-child(12),
+table.home td:nth-child(13),
+table.home td:nth-child(14),
+table.home td:nth-child(15),
+table.home td:nth-child(16),
+table.home td:nth-child(17) {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding-top: 3px;
+}
+table.home td:nth-child(5)::before,
+table.home td:nth-child(7)::before,
+table.home td:nth-child(8)::before,
+table.home td:nth-child(9)::before,
+table.home td:nth-child(10)::before,
+table.home td:nth-child(11)::before,
+table.home td:nth-child(12)::before,
+table.home td:nth-child(13)::before,
+table.home td:nth-child(14)::before,
+table.home td:nth-child(15)::before,
+table.home td:nth-child(16)::before,
+table.home td:nth-child(17)::before {
+  content: attr(data-label);
+  font-family: "Avenir Next", "Segoe UI", sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+table.rank.years,
+table.rank.members {
+  display: block;
+  width: auto;
+  background: transparent;
+}
+table.rank.years thead,
+table.rank.members thead {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+table.rank.years tbody,
+table.rank.members tbody { display: block; }
+table.rank.years tr,
+table.rank.members tr {
+  display: grid;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-bottom: 0;
+  padding: 8px 10px;
+}
+table.rank.years tr:last-child,
+table.rank.members tr:last-child { border-bottom: 1px solid var(--line); }
+table.rank.years td,
+table.rank.members td {
+  display: block;
+  min-width: 0;
+  border: 0;
+  padding: 0;
+  white-space: normal;
+}
+
+table.rank.years tr {
+  grid-template-columns: auto auto 1fr auto;
+  grid-template-areas:
+    "year days diff counted"
+    "region region spain spain";
+  column-gap: 10px;
+  row-gap: 2px;
+  align-items: baseline;
+}
+table.rank.years td:nth-child(1) { grid-area: year; font-weight: 600; }
+table.rank.years td:nth-child(2) { grid-area: days; color: var(--muted); }
+html[lang="es"] table.rank.years td:nth-child(2)::after { content: " días"; }
+html[lang="en"] table.rank.years td:nth-child(2)::after { content: " days"; }
+table.rank.years td:nth-child(2)::after {
+  font-size: 0.75rem;
+}
+table.rank.years td:nth-child(3) { grid-area: region; }
+table.rank.years td:nth-child(4) { grid-area: spain; }
+table.rank.years td:nth-child(5) {
+  grid-area: diff;
+  text-align: right;
+  font-weight: 600;
+}
+table.rank.years td:nth-child(6) { grid-area: counted; text-align: right; }
+table.rank.years td:nth-child(3)::before,
+table.rank.years td:nth-child(4)::before,
+table.rank.years td:nth-child(6)::before {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+html[lang="es"] table.rank.years td:nth-child(3)::before { content: "Comunidad "; }
+html[lang="en"] table.rank.years td:nth-child(3)::before { content: "Region "; }
+html[lang="es"] table.rank.years td:nth-child(4)::before { content: "España "; }
+html[lang="en"] table.rank.years td:nth-child(4)::before { content: "Spain "; }
+html[lang="es"] table.rank.years td:nth-child(6)::before { content: "Contado "; }
+html[lang="en"] table.rank.years td:nth-child(6)::before { content: "Counted "; }
+
+table.rank.members tr {
+  grid-template-columns: 1fr;
+  row-gap: 2px;
+  margin: 0 0 8px;
+  border-bottom: 1px solid var(--line);
+}
+table.rank.members td:nth-child(1) { font-weight: 600; }
+table.rank.members td:nth-child(3),
+table.rank.members td:nth-child(4) {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+table.rank.members td:nth-child(3)::before,
+table.rank.members td:nth-child(4)::before {
+  font-family: "Avenir Next", "Segoe UI", sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+html[lang="es"] table.rank.members td:nth-child(3)::before { content: "Desde "; }
+html[lang="en"] table.rank.members td:nth-child(3)::before { content: "From "; }
+html[lang="es"] table.rank.members td:nth-child(4)::before { content: "Hasta "; }
+html[lang="en"] table.rank.members td:nth-child(4)::before { content: "Until "; }
+
+.timeline li,
+.short-list li {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+.result { text-align: left; }
+.short-list span { display: block; }
+.when { overflow-wrap: anywhere; }
+
+.chart {
+  padding: 4px;
+  overflow: hidden;
+}
+.axis { font-size: 18px; }
+.series { stroke-width: 3; }
+
+.lab {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 12px;
+}
+.lab-board { display: contents; }
+.lab-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  align-self: stretch;
+  width: 100%;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 10px 12px 8px;
+  box-shadow: 0 10px 18px -14px rgba(28, 25, 21, 0.55);
+}
+.lab-sum { overflow-wrap: anywhere; }
+.lab-total { font-size: 2.8rem; }
+.lab-sum { font-size: 0.82rem; }
+.lab-key { margin-top: 8px; }
+.lab-parts {
+  align-self: stretch;
+  width: 100%;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 10px 8px 4px;
+}
+.lab-part, .meter { width: 100%; min-width: 0; }
+.lab-part { grid-template-columns: 5.6rem 6.2rem minmax(0, 1fr); gap: 6px; font-size: 0.78rem; }
+.dial-top { flex-wrap: wrap; }
+.dial-top output { font-size: 1rem; max-width: none; }
+.dial-hint { font-size: 0.92rem; }
+.dial .chip { min-height: 44px; }
+.lab-alert { font-size: 0.95rem; }
+
+.pair, .vote-sides { grid-template-columns: 1fr; }
+.budget li { grid-template-columns: 10.5rem 3.4rem minmax(0, 1fr); font-size: 0.92rem; }
+.budget-gdp li { grid-template-columns: 9.2rem 5.4rem minmax(0, 1fr); }
+.budget-gdp .of-gdp { font-size: 0.68rem; }
+.budget .parts li { grid-template-columns: 8.2rem 5.4rem minmax(0, 1fr); }
+.budget .parts span { font-size: 0.78rem; }
+.votes li { grid-template-columns: minmax(0, 1fr); }
+.votes li i { grid-column: 1; }
+.votes li b { justify-self: start; }
+.law-list button { align-items: flex-start; }
+table.blocks thead { display: none; }
+table.blocks, table.blocks tbody { display: block; }
+table.blocks tr {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px 12px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--line);
+}
+table.blocks td { display: block; border: 0; padding: 0; }
+table.blocks td.num { white-space: normal; }
+table.blocks td:first-child { grid-column: 1 / -1; font-weight: 600; }
+table.blocks td:not(:first-child)::before {
+  content: attr(data-label);
+  display: block;
+  color: var(--muted);
+  font-family: "Avenir Next", "Segoe UI", sans-serif;
+  font-size: 0.68rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
