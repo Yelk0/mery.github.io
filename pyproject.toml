@@ -1,0 +1,21 @@
+[project]
+name = "mery"
+version = "0.1.0"
+description = "Download the figures behind Plan Mery, one publication at a time."
+requires-python = ">=3.11"
+
+[project.scripts]
+mery = "mery.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["mery*"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+packages = ["mery"]
+follow_imports = "skip"

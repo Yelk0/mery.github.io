@@ -1,0 +1,555 @@
+{
+  "slug": "valencia",
+  "name": "Comunitat Valenciana",
+  "president_source": "wikipedia",
+  "presidents": [
+    {
+      "name": "Eduardo Zaplana",
+      "party": "PP",
+      "started_on": "1999-07-21",
+      "ended_on": "2002-07-09",
+      "wikidata_id": ""
+    },
+    {
+      "name": "José Luis Olivas",
+      "party": "PP",
+      "started_on": "2002-07-10",
+      "ended_on": "2003-06-19",
+      "wikidata_id": ""
+    },
+    {
+      "name": "Francisco Camps",
+      "party": "PP",
+      "started_on": "2003-06-20",
+      "ended_on": "2011-07-27",
+      "wikidata_id": ""
+    },
+    {
+      "name": "Alberto Fabra",
+      "party": "PP",
+      "started_on": "2011-07-28",
+      "ended_on": "2015-06-26",
+      "wikidata_id": ""
+    },
+    {
+      "name": "Ximo Puig",
+      "party": "PSOE",
+      "started_on": "2015-06-28",
+      "ended_on": "2023-07-16",
+      "wikidata_id": ""
+    },
+    {
+      "name": "Carlos Mazón",
+      "party": "PP+Vox",
+      "started_on": "2023-07-17",
+      "ended_on": "2025-12-01",
+      "wikidata_id": ""
+    },
+    {
+      "name": "Juanfran Pérez Llorca",
+      "party": "PP",
+      "started_on": "2025-12-02",
+      "ended_on": null,
+      "wikidata_id": ""
+    }
+  ],
+  "members": [
+    {
+      "name": "Diego Such Pérez",
+      "office": "Consejero de Industria y Comercio",
+      "started_on": "1995-07-06",
+      "ended_on": "1999-07-23",
+      "wikidata_id": "Q11917156"
+    },
+    {
+      "name": "Joaquín Farnós Gauchía",
+      "office": "Conseller de Sanidad",
+      "started_on": "1995-07-06",
+      "ended_on": "1999-07-23",
+      "wikidata_id": "Q11928150"
+    },
+    {
+      "name": "José Luis Olivas",
+      "office": "consejero de Economía y Hacienda de la Generalidad Valenciana",
+      "started_on": "1995-07-06",
+      "ended_on": "1999-07-23",
+      "wikidata_id": "Q3186378"
+    },
+    {
+      "name": "Francisco Javier Sanahuja Sanchis",
+      "office": "vicepresidente segundo de las Cortes Valencianas",
+      "started_on": "1995-12-30",
+      "ended_on": "1999-04-20",
+      "wikidata_id": "Q21001462"
+    },
+    {
+      "name": "Francisco Camps",
+      "office": "consejero de Cultura y Educación de la Generalidad Valenciana",
+      "started_on": "1997-02-24",
+      "ended_on": "1999-01-23",
+      "wikidata_id": "Q978036"
+    },
+    {
+      "name": "Marcela Miró",
+      "office": "consejero/a de Bienestar Social",
+      "started_on": "1997-02-24",
+      "ended_on": "1999-07-23",
+      "wikidata_id": "Q17621537"
+    },
+    {
+      "name": "Antonio Moreno Carrasco",
+      "office": "vicepresidente segundo de las Cortes Valencianas",
+      "started_on": "1999-07-09",
+      "ended_on": "2003-04-01",
+      "wikidata_id": "Q20106295"
+    },
+    {
+      "name": "Fernando Castelló",
+      "office": "Consejero de Industria y Comercio",
+      "started_on": "1999-07-23",
+      "ended_on": "2003-06-21",
+      "wikidata_id": "Q11681819"
+    },
+    {
+      "name": "José Emilio Cervera Cardona",
+      "office": "Conseller de Sanidad",
+      "started_on": "1999-07-23",
+      "ended_on": "2000-05-22",
+      "wikidata_id": "Q17329529"
+    },
+    {
+      "name": "José Joaquín Ripoll",
+      "office": "Vicepresidente Segundo del Consejo i Consejero de Vivienda i Arquitectura Bioclimatica",
+      "started_on": "1999-07-23",
+      "ended_on": "2002-07-24",
+      "wikidata_id": "Q3186340"
+    },
+    {
+      "name": "María Carmen Mas Rubio",
+      "office": "consejero/a de Bienestar Social",
+      "started_on": "1999-07-23",
+      "ended_on": "2000-05-17",
+      "wikidata_id": "Q11935754"
+    },
+    {
+      "name": "Serafín Castellano Gómez",
+      "office": "Consejero de Justicia y Administraciones Públicas",
+      "started_on": "1999-07-23",
+      "ended_on": "2000-05-22",
+      "wikidata_id": "Q17029013"
+    },
+    {
+      "name": "Vicente Rambla",
+      "office": "consejero de Economía y Hacienda de la Generalidad Valenciana",
+      "started_on": "1999-07-23",
+      "ended_on": "2003-06-21",
+      "wikidata_id": "Q9093346"
+    },
+    {
+      "name": "Carlos González Cepeda",
+      "office": "Consejero de Justicia y Administraciones Públicas",
+      "started_on": "2000-05-22",
+      "ended_on": "2003-06-21",
+      "wikidata_id": "Q19998136"
+    },
+    {
+      "name": "Rafael Blasco",
+      "office": "consejero/a de Bienestar Social",
+      "started_on": "2000-05-22",
+      "ended_on": "2003-06-21",
+      "wikidata_id": "Q9065739"
+    },
+    {
+      "name": "Serafín Castellano Gómez",
+      "office": "Conseller de Sanidad",
+      "started_on": "2000-05-22",
+      "ended_on": "2003-06-21",
+      "wikidata_id": "Q17029013"
+    },
+    {
+      "name": "José Joaquín Ripoll",
+      "office": "Vicepresidente de la Generalidad Valenciana",
+      "started_on": "2002-07-24",
+      "ended_on": "2003-06-27",
+      "wikidata_id": "Q3186340"
+    },
+    {
+      "name": "Ximo Puig",
+      "office": "vicepresidente segundo de las Cortes Valencianas",
+      "started_on": "2003-06-12",
+      "ended_on": "2007-04-03",
+      "wikidata_id": "Q9096682"
+    },
+    {
+      "name": "Alicia de Miguel García",
+      "office": "consejero/a de Bienestar Social",
+      "started_on": "2003-06-21",
+      "ended_on": "2007-06-29",
+      "wikidata_id": "Q11905042"
+    },
+    {
+      "name": "José Víctor Campos Guinot",
+      "office": "Consejero de Justicia y Administraciones Públicas",
+      "started_on": "2003-06-21",
+      "ended_on": "2004-08-27",
+      "wikidata_id": "Q5547775"
+    },
+    {
+      "name": "Vicente Rambla",
+      "office": "Conseller de Sanidad",
+      "started_on": "2003-06-21",
+      "ended_on": "2006-05-30",
+      "wikidata_id": "Q9093346"
+    },
+    {
+      "name": "José Víctor Campos Guinot",
+      "office": "Vicepresidente de la Generalidad Valenciana",
+      "started_on": "2004-08-27",
+      "ended_on": "2007-06-29",
+      "wikidata_id": "Q5547775"
+    },
+    {
+      "name": "María Milagrosa Martínez Navarro",
+      "office": "consejero de turismo de la Generalidad Valenciana",
+      "started_on": "2004-08-27",
+      "ended_on": "2007-06-14",
+      "wikidata_id": "Q14022240"
+    },
+    {
+      "name": "Miquel Ignaci Peralta Viñes",
+      "office": "Consejero de Justicia y Administraciones Públicas",
+      "started_on": "2004-08-27",
+      "ended_on": "2007-06-29",
+      "wikidata_id": "Q11936741"
+    },
+    {
+      "name": "Rafael Blasco",
+      "office": "Conseller de Sanidad",
+      "started_on": "2006-05-30",
+      "ended_on": "2007-06-29",
+      "wikidata_id": "Q9065739"
+    },
+    {
+      "name": "Angélica Such Ronda",
+      "office": "consejero de turismo de la Generalidad Valenciana",
+      "started_on": "2007-06-29",
+      "ended_on": "2009-08-28",
+      "wikidata_id": "Q11905617"
+    },
+    {
+      "name": "Fernando de Rosa Torner",
+      "office": "Consejero de Justicia y Administraciones Públicas",
+      "started_on": "2007-06-29",
+      "ended_on": "2008-09-18",
+      "wikidata_id": "Q66124783"
+    },
+    {
+      "name": "Gerardo Camps",
+      "office": "Vicepresidente Segundo del Consejo i Consejero de Vivienda i Arquitectura Bioclimatica",
+      "started_on": "2007-06-29",
+      "ended_on": "2011-06-22",
+      "wikidata_id": "Q4892699"
+    },
+    {
+      "name": "Juan Cotino",
+      "office": "consejero/a de Bienestar Social",
+      "started_on": "2007-06-29",
+      "ended_on": "2009-08-28",
+      "wikidata_id": "Q9015433"
+    },
+    {
+      "name": "Manuel Cervera Taulet",
+      "office": "Conseller de Sanidad",
+      "started_on": "2007-06-29",
+      "ended_on": "2011-06-22",
+      "wikidata_id": "Q11934941"
+    },
+    {
+      "name": "Paula Sánchez de León",
+      "office": "Consejero de Justicia y Administraciones Públicas",
+      "started_on": "2008-09-18",
+      "ended_on": "2011-06-22",
+      "wikidata_id": "Q3372570"
+    },
+    {
+      "name": "Angélica Such Ronda",
+      "office": "consejero/a de Bienestar Social",
+      "started_on": "2009-08-28",
+      "ended_on": "2011-07-22",
+      "wikidata_id": "Q11905617"
+    },
+    {
+      "name": "María Belén Juste Picón",
+      "office": "consejero de turismo de la Generalidad Valenciana",
+      "started_on": "2009-08-28",
+      "ended_on": "2011-06-22",
+      "wikidata_id": "Q11935755"
+    },
+    {
+      "name": "Ángel Luna González",
+      "office": "vicepresidente segundo de las Cortes Valencianas",
+      "started_on": "2011-06-09",
+      "ended_on": "2014-07-29",
+      "wikidata_id": "Q11705526"
+    },
+    {
+      "name": "Enrique José Verdeguer Puig",
+      "office": "Consejero de Economía, Industria y Comercio",
+      "started_on": "2011-06-22",
+      "ended_on": "2012-01-23",
+      "wikidata_id": "Q19999245"
+    },
+    {
+      "name": "Isabel Bonig Trigueros",
+      "office": "Consejero de Infraestructuras, Territorio y Medio Ambiente de la Generalitat Valenciana",
+      "started_on": "2011-06-22",
+      "ended_on": "2015-06-30",
+      "wikidata_id": "Q11683713"
+    },
+    {
+      "name": "José Manuel Vela Bargues",
+      "office": "Consejero de Hacienda y Administración Pública",
+      "started_on": "2011-06-22",
+      "ended_on": "2012-11-30",
+      "wikidata_id": "Q20004398"
+    },
+    {
+      "name": "Luis Rosado Bretón",
+      "office": "Conseller de Sanidad",
+      "started_on": "2011-06-22",
+      "ended_on": "2012-12-07",
+      "wikidata_id": "Q17278942"
+    },
+    {
+      "name": "Paula Sánchez de León",
+      "office": "Vicepresidente de la Generalidad Valenciana",
+      "started_on": "2011-06-22",
+      "ended_on": "2011-12-30",
+      "wikidata_id": "Q3372570"
+    },
+    {
+      "name": "José Císcar",
+      "office": "Vicepresidente de la Generalidad Valenciana",
+      "started_on": "2012-01-02",
+      "ended_on": "2015-06-30",
+      "wikidata_id": "Q633105"
+    },
+    {
+      "name": "Asunción Sánchez Zaplana",
+      "office": "consejero/a de Bienestar Social",
+      "started_on": "2012-12-07",
+      "ended_on": "2015-06-29",
+      "wikidata_id": "Q11907064"
+    },
+    {
+      "name": "Juan Carlos Moragues Ferrer",
+      "office": "Consejero de Hacienda y Administración Pública",
+      "started_on": "2012-12-07",
+      "ended_on": "2015-06-30",
+      "wikidata_id": "Q11929273"
+    },
+    {
+      "name": "Manuel Llombart Fuertes",
+      "office": "Conseller de Sanidad",
+      "started_on": "2012-12-07",
+      "ended_on": "2015-06-30",
+      "wikidata_id": "Q11934963"
+    },
+    {
+      "name": "Alejandro Font de Mora Turón",
+      "office": "vicepresidente segundo de las Cortes Valencianas",
+      "started_on": "2015-06-11",
+      "ended_on": "2019-05-16",
+      "wikidata_id": "Q8194057"
+    },
+    {
+      "name": "Carmen Montón",
+      "office": "consejero de Sanidad Universal y Salud Pública",
+      "started_on": "2015-06-29",
+      "ended_on": "2018-06-06",
+      "wikidata_id": "Q4890432"
+    },
+    {
+      "name": "Empar Martínez Bonafé",
+      "office": "consejero de Economía Sostenible, Sectores Productivos, Comercio y Trabajo de la Generalidad Valenciana",
+      "started_on": "2015-06-29",
+      "ended_on": "2019-06-16",
+      "wikidata_id": "Q112109703"
+    },
+    {
+      "name": "Rafael Climent González",
+      "office": "consejero de Economía Sostenible, Sectores Productivos, Comercio y Trabajo de la Generalidad Valenciana",
+      "started_on": "2015-06-29",
+      "ended_on": "2023-07-18",
+      "wikidata_id": "Q11944405"
+    },
+    {
+      "name": "Vicent Soler i Marco",
+      "office": "Consejero de Hacienda y Modelo Económico",
+      "started_on": "2015-06-29",
+      "ended_on": "2022-05-15",
+      "wikidata_id": "Q3556910"
+    },
+    {
+      "name": "María Gabriela Bravo Sanestanislao",
+      "office": "consejero de Justicia, Administración Pública, Reformas Democráticas y Libertades Públicas de la Generalidad Valenciana",
+      "started_on": "2015-06-30",
+      "ended_on": "2023-07-07",
+      "wikidata_id": "Q20746655"
+    },
+    {
+      "name": "Mónica Oltra",
+      "office": "Vicepresidente de la Generalidad Valenciana",
+      "started_on": "2015-06-30",
+      "ended_on": "2022-06-29",
+      "wikidata_id": "Q3067773"
+    },
+    {
+      "name": "Mónica Oltra",
+      "office": "Consejero de Igualdad y Políticas Inclusivas de la Generalidad Valenciana",
+      "started_on": "2015-06-30",
+      "ended_on": "2022-06-29",
+      "wikidata_id": "Q3067773"
+    },
+    {
+      "name": "Ana Barceló Chico",
+      "office": "consejero de Sanidad Universal y Salud Pública",
+      "started_on": "2018-06-07",
+      "ended_on": "2022-05-14",
+      "wikidata_id": "Q5491455"
+    },
+    {
+      "name": "Jorge Bellver Casaña",
+      "office": "vicepresidente segundo de las Cortes Valencianas",
+      "started_on": "2019-05-16",
+      "ended_on": "2023-06-26",
+      "wikidata_id": "Q16176453"
+    },
+    {
+      "name": "Rubén Martínez Dalmau",
+      "office": "Vicepresidente Segundo del Consejo i Consejero de Vivienda i Arquitectura Bioclimatica",
+      "started_on": "2019-06-16",
+      "ended_on": "2021-09-10",
+      "wikidata_id": "Q22964693"
+    },
+    {
+      "name": "Arcadi España García",
+      "office": "Consejero de Política Territorial, Obras Públicas y Movilidad",
+      "started_on": "2019-06-17",
+      "ended_on": "2022-05-14",
+      "wikidata_id": "Q98382675"
+    },
+    {
+      "name": "Héctor Illueca",
+      "office": "Vicepresidente Segundo del Consejo i Consejero de Vivienda i Arquitectura Bioclimatica",
+      "started_on": "2021-09-10",
+      "ended_on": "2023-07-18",
+      "wikidata_id": "Q64166732"
+    },
+    {
+      "name": "Arcadi España García",
+      "office": "Consejero de Hacienda y Modelo Económico",
+      "started_on": "2022-05-14",
+      "ended_on": "2023-07-18",
+      "wikidata_id": "Q98382675"
+    },
+    {
+      "name": "Miguel Mínguez Pérez",
+      "office": "consejero de Sanidad Universal y Salud Pública",
+      "started_on": "2022-05-14",
+      "ended_on": "2023-07-18",
+      "wikidata_id": "Q112002604"
+    },
+    {
+      "name": "Rebeca Torró",
+      "office": "Consejero de Política Territorial, Obras Públicas y Movilidad",
+      "started_on": "2022-05-16",
+      "ended_on": "2023-07-18",
+      "wikidata_id": "Q112035442"
+    },
+    {
+      "name": "Aitana Mas",
+      "office": "Vicepresidente de la Generalidad Valenciana",
+      "started_on": "2022-06-30",
+      "ended_on": "2023-07-18",
+      "wikidata_id": "Q11904529"
+    },
+    {
+      "name": "Aitana Mas",
+      "office": "Consejero de Igualdad y Políticas Inclusivas de la Generalidad Valenciana",
+      "started_on": "2022-06-30",
+      "ended_on": "2023-07-18",
+      "wikidata_id": "Q11904529"
+    },
+    {
+      "name": "María Gabriela Bravo Sanestanislao",
+      "office": "vicepresidente segundo de las Cortes Valencianas",
+      "started_on": "2023-06-26",
+      "ended_on": "2025-01-21",
+      "wikidata_id": "Q20746655"
+    },
+    {
+      "name": "Marciano Gómez Gómez",
+      "office": "Conseller de Sanidad",
+      "started_on": "2023-07-19",
+      "ended_on": null,
+      "wikidata_id": "Q121742471"
+    },
+    {
+      "name": "Susana Camarero",
+      "office": "Vicepresidente Segundo del Consejo i Consejero de Vivienda i Arquitectura Bioclimatica",
+      "started_on": "2023-07-19",
+      "ended_on": "2024-07-12",
+      "wikidata_id": "Q6742894"
+    },
+    {
+      "name": "Nuria Montes de Diego",
+      "office": "consejero de Innovación, Industria, Comercio y Turismo",
+      "started_on": "2023-07-20",
+      "ended_on": "2024-11-22",
+      "wikidata_id": "Q121886722"
+    },
+    {
+      "name": "Francisco José Gan Pampols",
+      "office": "Vicepresidente Segundo del Consejo i Consejero de Vivienda i Arquitectura Bioclimatica",
+      "started_on": "2024-11-22",
+      "ended_on": "2025-11-04",
+      "wikidata_id": "Q56401905"
+    },
+    {
+      "name": "Marián Cano García",
+      "office": "consejero de Innovación, Industria, Comercio y Turismo",
+      "started_on": "2024-11-22",
+      "ended_on": null,
+      "wikidata_id": "Q131283215"
+    },
+    {
+      "name": "Nuria Martínez Sanchis",
+      "office": "Consejero de Justicia y Administraciones Públicas",
+      "started_on": "2024-11-22",
+      "ended_on": "2025-12-03",
+      "wikidata_id": "Q131316177"
+    },
+    {
+      "name": "Andreu López Blasco",
+      "office": "consejero de la Generalidad Valenciana",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q11905513"
+    },
+    {
+      "name": "Fernando Villalonga Campos",
+      "office": "consejero de la Generalidad Valenciana",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q20000037"
+    },
+    {
+      "name": "Joan Romero",
+      "office": "consejero de la Generalidad Valenciana",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q4890471"
+    }
+  ]
+}

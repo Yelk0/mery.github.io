@@ -1,0 +1,43 @@
+{
+  "slug": "extremadura",
+  "name": "Extremadura",
+  "president_source": "wikidata",
+  "presidents": [
+    {
+      "name": "Juan Carlos Rodríguez Ibarra",
+      "party": "PSOE",
+      "started_on": "1982-12-20",
+      "ended_on": "2007-06-28",
+      "wikidata_id": "Q2512061"
+    },
+    {
+      "name": "Guillermo Fernández Vara",
+      "party": "PSOE",
+      "started_on": "2007-06-29",
+      "ended_on": "2011-07-06",
+      "wikidata_id": "Q3055366"
+    },
+    {
+      "name": "José Antonio Monago",
+      "party": "PP",
+      "started_on": "2011-07-07",
+      "ended_on": "2015-07-03",
+      "wikidata_id": ""
+    },
+    {
+      "name": "Guillermo Fernández Vara",
+      "party": "PSOE",
+      "started_on": "2015-07-04",
+      "ended_on": "2023-07-16",
+      "wikidata_id": "Q3055366"
+    },
+    {
+      "name": "María Guardiola",
+      "party": "PP",
+      "started_on": "2023-07-17",
+      "ended_on": null,
+      "wikidata_id": "Q115151208"
+    }
+  ],
+  "members": []
+}

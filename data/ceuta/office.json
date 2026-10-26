@@ -1,0 +1,15 @@
+{
+  "slug": "ceuta",
+  "name": "Ceuta",
+  "president_source": "wikidata",
+  "presidents": [
+    {
+      "name": "Juan Jesús Vivas",
+      "party": "PP",
+      "started_on": "2001-02-08",
+      "ended_on": null,
+      "wikidata_id": "Q3028184"
+    }
+  ],
+  "members": []
+}

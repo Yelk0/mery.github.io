@@ -1,0 +1,72 @@
+{
+  "slug": "asturias",
+  "name": "Asturias",
+  "president_source": "wikipedia",
+  "presidents": [
+    {
+      "name": "Vicente Álvarez Areces",
+      "party": "FSA+PSOE",
+      "started_on": "1999-07-22",
+      "ended_on": "2011-07-15",
+      "wikidata_id": ""
+    },
+    {
+      "name": "Francisco Álvarez-Cascos",
+      "party": "FAC",
+      "started_on": "2011-07-16",
+      "ended_on": "2012-05-25",
+      "wikidata_id": ""
+    },
+    {
+      "name": "Javier Fernández",
+      "party": "FSA+PSOE",
+      "started_on": "2012-05-26",
+      "ended_on": "2019-07-19",
+      "wikidata_id": ""
+    },
+    {
+      "name": "Adrián Barbón",
+      "party": "FSA+PSOE",
+      "started_on": "2019-07-20",
+      "ended_on": null,
+      "wikidata_id": ""
+    }
+  ],
+  "members": [
+    {
+      "name": "María José Ramos Rubiera",
+      "office": "consejero del Principado de Asturias",
+      "started_on": "1999-01-01",
+      "ended_on": "2011-01-01",
+      "wikidata_id": "Q19722084"
+    },
+    {
+      "name": "Pablo Fernández Muñiz",
+      "office": "Consejero de Sanidad del Principado de Asturias",
+      "started_on": "2019-01-01",
+      "ended_on": null,
+      "wikidata_id": "Q87769196"
+    },
+    {
+      "name": "Berta Piñán",
+      "office": "Consejero de Cultura, Política Lingüística y Turismo del Principado de Asturias",
+      "started_on": "2019-07-25",
+      "ended_on": null,
+      "wikidata_id": "Q617455"
+    },
+    {
+      "name": "Ovidio Zapico González",
+      "office": "consejero del Principado de Asturias",
+      "started_on": "2023-08-01",
+      "ended_on": null,
+      "wikidata_id": "Q25578709"
+    },
+    {
+      "name": "Laura González Álvarez",
+      "office": "consejero del Principado de Asturias",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q11753241"
+    }
+  ]
+}

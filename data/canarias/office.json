@@ -1,0 +1,72 @@
+{
+  "slug": "canarias",
+  "name": "Canarias",
+  "president_source": "wikipedia",
+  "presidents": [
+    {
+      "name": "Román Rodríguez",
+      "party": "CC",
+      "started_on": "1999-07-17",
+      "ended_on": "2003-07-07",
+      "wikidata_id": ""
+    },
+    {
+      "name": "Adán Martín",
+      "party": "CC",
+      "started_on": "2003-07-08",
+      "ended_on": "2007-07-12",
+      "wikidata_id": ""
+    },
+    {
+      "name": "Paulino Rivero",
+      "party": "CC",
+      "started_on": "2007-07-13",
+      "ended_on": "2015-07-08",
+      "wikidata_id": ""
+    },
+    {
+      "name": "Fernando Clavijo",
+      "party": "CC",
+      "started_on": "2015-07-09",
+      "ended_on": "2019-07-15",
+      "wikidata_id": ""
+    },
+    {
+      "name": "Ángel Víctor Torres",
+      "party": "PSOE",
+      "started_on": "2019-07-16",
+      "ended_on": "2023-07-13",
+      "wikidata_id": ""
+    },
+    {
+      "name": "Fernando Clavijo",
+      "party": "CC",
+      "started_on": "2023-07-14",
+      "ended_on": null,
+      "wikidata_id": ""
+    }
+  ],
+  "members": [
+    {
+      "name": "Carolina Darias San Sebastián",
+      "office": "Consejero de Economía, Conocimiento y Empleo del Gobierno de Canarias",
+      "started_on": "2019-07-18",
+      "ended_on": null,
+      "wikidata_id": "Q5753193"
+    },
+    {
+      "name": "Cristina Valido García",
+      "office": "consejero del Gobierno de Canarias",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q81763033"
+    },
+    {
+      "name": "Pedro Ortega Rodríguez",
+      "office": "consejero del Gobierno de Canarias",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q81762953"
+    }
+  ]
+}

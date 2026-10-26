@@ -1,0 +1,107 @@
+{
+  "slug": "andalucia",
+  "name": "Andalucía",
+  "president_source": "wikipedia",
+  "presidents": [
+    {
+      "name": "Manuel María Chaves González",
+      "party": "PSOE",
+      "started_on": "1996-04-13",
+      "ended_on": "2009-04-06",
+      "wikidata_id": ""
+    },
+    {
+      "name": "Gaspar Carlos Zarrías Arévalo",
+      "party": "",
+      "started_on": "2009-04-07",
+      "ended_on": "2009-04-22",
+      "wikidata_id": ""
+    },
+    {
+      "name": "José Antonio Griñán Martínez",
+      "party": "PSOE",
+      "started_on": "2009-04-23",
+      "ended_on": "2013-09-05",
+      "wikidata_id": ""
+    },
+    {
+      "name": "Susana Díaz Pacheco",
+      "party": "PSOE+Cs",
+      "started_on": "2013-09-06",
+      "ended_on": "2019-01-17",
+      "wikidata_id": ""
+    },
+    {
+      "name": "Juan Manuel Moreno Bonilla",
+      "party": "PP+Cs+Vox",
+      "started_on": "2019-01-18",
+      "ended_on": null,
+      "wikidata_id": ""
+    }
+  ],
+  "members": [
+    {
+      "name": "Carmen Calvo Poyato",
+      "office": "consejero de Cultura de la Junta de Andalucía",
+      "started_on": "1996-04-17",
+      "ended_on": "2004-02-07",
+      "wikidata_id": "Q2614472"
+    },
+    {
+      "name": "María Jesús Montero",
+      "office": "consejero de Sanidad y Consumo de la Junta de Andalucía",
+      "started_on": "2004-04-25",
+      "ended_on": "2012-05-07",
+      "wikidata_id": "Q6003983"
+    },
+    {
+      "name": "Clara Aguilera",
+      "office": "Consejero de Gobernación de la Junta de Andalucía",
+      "started_on": "2008-04-18",
+      "ended_on": "2009-04-24",
+      "wikidata_id": "Q5771098"
+    },
+    {
+      "name": "Clara Aguilera",
+      "office": "Consejero de Agricultura y Pesca de la Junta de Andalucía",
+      "started_on": "2009-04-24",
+      "ended_on": "2012-05-07",
+      "wikidata_id": "Q5771098"
+    },
+    {
+      "name": "Luis Planas",
+      "office": "Consejero de Agricultura, Pesca y Medio Ambiente de la Junta de Andalucía",
+      "started_on": "2012-05-05",
+      "ended_on": "2013-09-10",
+      "wikidata_id": "Q11689876"
+    },
+    {
+      "name": "Susana Díaz",
+      "office": "consejero de Presidencia e Igualdad de la Junta de Andalucía",
+      "started_on": "2012-05-07",
+      "ended_on": "2013-09-07",
+      "wikidata_id": "Q6136317"
+    },
+    {
+      "name": "Alberto García Valera",
+      "office": "consejero de la Junta de Andalucía",
+      "started_on": "2019-01-22",
+      "ended_on": "2019-02-11",
+      "wikidata_id": "Q60782446"
+    },
+    {
+      "name": "Marifrán Carazo",
+      "office": "consejero de Fomento de la Junta de Andalucía",
+      "started_on": "2019-01-22",
+      "ended_on": "2023-04-03",
+      "wikidata_id": "Q60830321"
+    },
+    {
+      "name": "Rocío Díaz Jiménez",
+      "office": "consejero de Fomento de la Junta de Andalucía",
+      "started_on": "2023-04-03",
+      "ended_on": null,
+      "wikidata_id": "Q128194325"
+    }
+  ]
+}

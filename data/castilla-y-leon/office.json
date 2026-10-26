@@ -1,0 +1,226 @@
+{
+  "slug": "castilla-y-leon",
+  "name": "Castilla y León",
+  "president_source": "wikipedia",
+  "presidents": [
+    {
+      "name": "Juan José Lucas",
+      "party": "PP",
+      "started_on": "1999-07-13",
+      "ended_on": "2001-03-14",
+      "wikidata_id": ""
+    },
+    {
+      "name": "Juan Vicente Herrera",
+      "party": "PP",
+      "started_on": "2001-03-15",
+      "ended_on": "2019-07-08",
+      "wikidata_id": ""
+    },
+    {
+      "name": "Alfonso Fernández Mañueco",
+      "party": "PP",
+      "started_on": "2019-07-09",
+      "ended_on": null,
+      "wikidata_id": ""
+    }
+  ],
+  "members": [
+    {
+      "name": "Francisco Jambrina",
+      "office": "consejero de la Junta de Castilla y León",
+      "started_on": "1991-01-01",
+      "ended_on": null,
+      "wikidata_id": "Q5866074"
+    },
+    {
+      "name": "Jesús Merino Delgado",
+      "office": "consejero de Fomento de la Junta de Castilla y León",
+      "started_on": "1991-07-01",
+      "ended_on": "1999-07-01",
+      "wikidata_id": "Q44522864"
+    },
+    {
+      "name": "José Valín",
+      "office": "consejero de Agricultura y Ganadería de la Junta de Castilla y León",
+      "started_on": "1996-05-01",
+      "ended_on": "2007-07-01",
+      "wikidata_id": "Q50348049"
+    },
+    {
+      "name": "José Luis González Vallvé",
+      "office": "consejero de Fomento de la Junta de Castilla y León",
+      "started_on": "1999-01-01",
+      "ended_on": "2001-01-01",
+      "wikidata_id": "Q55154466"
+    },
+    {
+      "name": "María José Salgueiro Cortiñas",
+      "office": "consejero de Presidencia y Administración Territorial de la Junta de Castilla y León",
+      "started_on": "2000-01-01",
+      "ended_on": "2003-01-01",
+      "wikidata_id": "Q29438421"
+    },
+    {
+      "name": "José Manuel Fernández Santiago",
+      "office": "consejero de Fomento de la Junta de Castilla y León",
+      "started_on": "2001-01-01",
+      "ended_on": "2003-01-01",
+      "wikidata_id": "Q5942084"
+    },
+    {
+      "name": "Silvia Clemente Municio",
+      "office": "consejero de Medio Ambiente de la Junta de Castilla y León",
+      "started_on": "2001-03-01",
+      "ended_on": "2003-07-01",
+      "wikidata_id": "Q22999252"
+    },
+    {
+      "name": "Francisco Javier Álvarez Guisasola",
+      "office": "consejero de Educación de la Junta de Castilla y León",
+      "started_on": "2003-07-01",
+      "ended_on": "2007-07-01",
+      "wikidata_id": "Q50334638"
+    },
+    {
+      "name": "Silvia Clemente Municio",
+      "office": "consejero de Cultura y Turismo de la Junta de Castilla y León",
+      "started_on": "2003-07-01",
+      "ended_on": "2007-07-01",
+      "wikidata_id": "Q22999252"
+    },
+    {
+      "name": "Pilar del Olmo",
+      "office": "consejero de Economía y Hacienda de la Junta de Castilla y León",
+      "started_on": "2003-07-04",
+      "ended_on": null,
+      "wikidata_id": "Q20891407"
+    },
+    {
+      "name": "María José Salgueiro Cortiñas",
+      "office": "consejero de Cultura y Turismo de la Junta de Castilla y León",
+      "started_on": "2007-01-01",
+      "ended_on": "2011-01-01",
+      "wikidata_id": "Q29438421"
+    },
+    {
+      "name": "Francisco Javier Álvarez Guisasola",
+      "office": "consejero de Sanidad de la Junta de Castilla y León",
+      "started_on": "2007-07-01",
+      "ended_on": "2011-06-01",
+      "wikidata_id": "Q50334638"
+    },
+    {
+      "name": "Juan José Mateos Otero",
+      "office": "consejero de Educación de la Junta de Castilla y León",
+      "started_on": "2007-07-01",
+      "ended_on": null,
+      "wikidata_id": "Q50332219"
+    },
+    {
+      "name": "Silvia Clemente Municio",
+      "office": "consejero de Agricultura y Ganadería de la Junta de Castilla y León",
+      "started_on": "2007-07-01",
+      "ended_on": "2015-06-01",
+      "wikidata_id": "Q22999252"
+    },
+    {
+      "name": "Alicia García Rodríguez",
+      "office": "consejero de Cultura y Turismo de la Junta de Castilla y León",
+      "started_on": "2011-01-01",
+      "ended_on": "2015-01-01",
+      "wikidata_id": "Q22999280"
+    },
+    {
+      "name": "Antonio María Sáez",
+      "office": "consejero de Sanidad de la Junta de Castilla y León",
+      "started_on": "2011-06-01",
+      "ended_on": null,
+      "wikidata_id": "Q21531598"
+    },
+    {
+      "name": "Josefa García Cirac",
+      "office": "consejero de Cultura y Turismo de la Junta de Castilla y León",
+      "started_on": "2015-07-01",
+      "ended_on": "2019-07-17",
+      "wikidata_id": "Q21094896"
+    },
+    {
+      "name": "Francisco Igea Arisqueta",
+      "office": "vicepresidente de la Junta de Castilla y León",
+      "started_on": "2019-07-17",
+      "ended_on": "2021-12-20",
+      "wikidata_id": "Q22083531"
+    },
+    {
+      "name": "Jesús Julio Carnero",
+      "office": "consejero de Agricultura y Ganadería de la Junta de Castilla y León",
+      "started_on": "2019-07-17",
+      "ended_on": "2022-04-20",
+      "wikidata_id": "Q6452315"
+    },
+    {
+      "name": "Jesús Julio Carnero",
+      "office": "consejero de la Presidencia de la Junta de Castilla y León",
+      "started_on": "2022-04-20",
+      "ended_on": "2023-05-12",
+      "wikidata_id": "Q6452315"
+    },
+    {
+      "name": "Juan García-Gallardo",
+      "office": "vicepresidente de la Junta de Castilla y León",
+      "started_on": "2022-04-20",
+      "ended_on": null,
+      "wikidata_id": "Q110820746"
+    },
+    {
+      "name": "Carlos Fernández Carriedo",
+      "office": "consejero de Medio Ambiente de la Junta de Castilla y León",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q28501707"
+    },
+    {
+      "name": "Fernando Rey Martínez",
+      "office": "consejero de Educación de la Junta de Castilla y León",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q20741665"
+    },
+    {
+      "name": "Jesús Mañueco Alonso",
+      "office": "consejero de Presidencia y Administración Territorial de la Junta de Castilla y León",
+      "started_on": null,
+      "ended_on": "2000-01-01",
+      "wikidata_id": "Q41073601"
+    },
+    {
+      "name": "José Antonio de Santiago-Juárez",
+      "office": "consejero de la Presidencia de la Junta de Castilla y León",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q19930138"
+    },
+    {
+      "name": "José Manuel Fernández Santiago",
+      "office": "consejero de Medio Ambiente de la Junta de Castilla y León",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q5942084"
+    },
+    {
+      "name": "Miguel Pérez Villar",
+      "office": "vicepresidente de la Junta de Castilla y León",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q41064534"
+    },
+    {
+      "name": "Milagros Marcos Ortega",
+      "office": "consejero de Agricultura y Ganadería de la Junta de Castilla y León",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q22999390"
+    }
+  ]
+}

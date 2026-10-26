@@ -1,0 +1,36 @@
+{
+  "slug": "la-rioja",
+  "name": "La Rioja",
+  "president_source": "wikipedia",
+  "presidents": [
+    {
+      "name": "Pedro Sanz",
+      "party": "PP",
+      "started_on": "1995-07-08",
+      "ended_on": "2015-07-07",
+      "wikidata_id": ""
+    },
+    {
+      "name": "José Ignacio Ceniceros",
+      "party": "PP",
+      "started_on": "2015-07-08",
+      "ended_on": "2019-08-28",
+      "wikidata_id": ""
+    },
+    {
+      "name": "Concha Andreu",
+      "party": "PSOE",
+      "started_on": "2019-08-29",
+      "ended_on": "2023-06-28",
+      "wikidata_id": ""
+    },
+    {
+      "name": "Gonzalo Capellán",
+      "party": "PP",
+      "started_on": "2023-06-29",
+      "ended_on": null,
+      "wikidata_id": ""
+    }
+  ],
+  "members": []
+}

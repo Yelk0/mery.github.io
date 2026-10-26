@@ -1,0 +1,177 @@
+{
+  "slug": "castilla-la-mancha",
+  "name": "Castilla-La Mancha",
+  "president_source": "wikidata",
+  "presidents": [
+    {
+      "name": "José Bono",
+      "party": "PSOE",
+      "started_on": "1983-06-06",
+      "ended_on": "2004-04-17",
+      "wikidata_id": "Q1311580"
+    },
+    {
+      "name": "José María Barreda",
+      "party": "PSOE",
+      "started_on": "2004-04-29",
+      "ended_on": "2011-06-21",
+      "wikidata_id": "Q3179016"
+    },
+    {
+      "name": "María Dolores de Cospedal",
+      "party": "PP",
+      "started_on": "2011-06-22",
+      "ended_on": "2015-07-03",
+      "wikidata_id": "Q271658"
+    },
+    {
+      "name": "Emiliano García-Page",
+      "party": "PSOE",
+      "started_on": "2015-07-04",
+      "ended_on": null,
+      "wikidata_id": "Q3052296"
+    }
+  ],
+  "members": [
+    {
+      "name": "Matilde Valentín",
+      "office": "consejero de Sanidad del Gobierno de Castilla-La Mancha",
+      "started_on": "1995-07-01",
+      "ended_on": "2000-01-01",
+      "wikidata_id": "Q28872618"
+    },
+    {
+      "name": "Justo Zambrana Pineda",
+      "office": "consejero de Educación y Cultura del Gobierno de Castilla-La Mancha",
+      "started_on": "1995-07-07",
+      "ended_on": "1999-07-22",
+      "wikidata_id": "Q5957013"
+    },
+    {
+      "name": "Araceli Muñoz de Pedro",
+      "office": "consejero de Obras Públicas del Gobierno de Castilla-La Mancha",
+      "started_on": "1998-01-01",
+      "ended_on": "1999-01-01",
+      "wikidata_id": "Q47175537"
+    },
+    {
+      "name": "Emiliano García-Page",
+      "office": "consejero portavoz del Gobierno de Castilla-La Mancha",
+      "started_on": "1998-03-24",
+      "ended_on": "1999-07-22",
+      "wikidata_id": "Q3052296"
+    },
+    {
+      "name": "Emiliano García-Page",
+      "office": "consejero portavoz del Gobierno de Castilla-La Mancha",
+      "started_on": "2001-02-21",
+      "ended_on": "2004-05-03",
+      "wikidata_id": "Q3052296"
+    },
+    {
+      "name": "Mercedes Gómez",
+      "office": "consejero de Agricultura del Gobierno de Castilla-La Mancha",
+      "started_on": "2003-07-01",
+      "ended_on": "2008-09-01",
+      "wikidata_id": "Q66789546"
+    },
+    {
+      "name": "Francisco Pardo Piqueras",
+      "office": "consejero de la Presidencia de la Junta de Comunidades de Castilla-La Mancha",
+      "started_on": "2003-07-07",
+      "ended_on": "2004-04-20",
+      "wikidata_id": "Q5867009"
+    },
+    {
+      "name": "María Luisa Soriano",
+      "office": "consejero de Agricultura del Gobierno de Castilla-La Mancha",
+      "started_on": "2011-05-27",
+      "ended_on": "2015-07-09",
+      "wikidata_id": "Q58414440"
+    },
+    {
+      "name": "Juan Alfonso Ruiz Molina",
+      "office": "consejero de Hacienda y Administraciones Públicas del Gobierno de Castilla-La Mancha",
+      "started_on": "2015-01-01",
+      "ended_on": null,
+      "wikidata_id": "Q58413717"
+    },
+    {
+      "name": "Elena de la Cruz",
+      "office": "consejero de Fomento del Gobierno de Castilla-La Mancha",
+      "started_on": "2015-07-09",
+      "ended_on": "2017-04-04",
+      "wikidata_id": "Q33001457"
+    },
+    {
+      "name": "Reyes Estévez Forneiro",
+      "office": "consejero de Educación, Cultura y Deportes del Gobierno de Castilla-La Mancha",
+      "started_on": "2015-07-09",
+      "ended_on": "2016-05-06",
+      "wikidata_id": "Q58414310"
+    },
+    {
+      "name": "Ángel Felpeto",
+      "office": "consejero de Educación, Cultura y Deportes del Gobierno de Castilla-La Mancha",
+      "started_on": "2016-05-06",
+      "ended_on": "2019-07-08",
+      "wikidata_id": "Q29533943"
+    },
+    {
+      "name": "María Agustina García Élez",
+      "office": "consejero de Fomento del Gobierno de Castilla-La Mancha",
+      "started_on": "2017-04-08",
+      "ended_on": "2019-06-13",
+      "wikidata_id": "Q47495950"
+    },
+    {
+      "name": "Inmaculada Herranz",
+      "office": "consejero para la coordinación del Plan de Garantías Ciudadanas del Gobierno de Castilla-La Mancha (español)",
+      "started_on": "2017-08-10",
+      "ended_on": null,
+      "wikidata_id": "Q58764715"
+    },
+    {
+      "name": "José García Molina",
+      "office": "vicepresidente segundo del Gobierno de Castilla-La Mancha",
+      "started_on": "2017-08-10",
+      "ended_on": "2019-07-08",
+      "wikidata_id": "Q19891029"
+    },
+    {
+      "name": "Blanca Fernández",
+      "office": "consejero de Igualdad y portavoz del Gobierno de Castilla-La Mancha",
+      "started_on": "2019-07-08",
+      "ended_on": null,
+      "wikidata_id": "Q58443831"
+    },
+    {
+      "name": "Francisco Martínez Arroyo",
+      "office": "consejero del Gobierno de Castilla-La Mancha",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q65188113"
+    },
+    {
+      "name": "Jesús Fernández Sanz",
+      "office": "consejero del Gobierno de Castilla-La Mancha",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q65541294"
+    },
+    {
+      "name": "Matilde Valentín",
+      "office": "consejero de Administraciones Públicas del Gobierno de Castilla-La Mancha",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q28872618"
+    },
+    {
+      "name": "Máximo Díaz-Cano del Rey",
+      "office": "consejero portavoz del Gobierno de Castilla-La Mancha",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q5638508"
+    }
+  ]
+}

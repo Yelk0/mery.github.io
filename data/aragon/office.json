@@ -1,0 +1,65 @@
+{
+  "slug": "aragon",
+  "name": "Aragón",
+  "president_source": "wikipedia",
+  "presidents": [
+    {
+      "name": "Marcelino Iglesias",
+      "party": "PSOE",
+      "started_on": "1999-08-02",
+      "ended_on": "2011-07-13",
+      "wikidata_id": ""
+    },
+    {
+      "name": "Luisa Fernanda Rudi",
+      "party": "PP",
+      "started_on": "2011-07-14",
+      "ended_on": "2015-07-04",
+      "wikidata_id": ""
+    },
+    {
+      "name": "Javier Lambán",
+      "party": "PSOE",
+      "started_on": "2015-07-05",
+      "ended_on": "2023-08-10",
+      "wikidata_id": ""
+    },
+    {
+      "name": "Jorge Azcón",
+      "party": "PP",
+      "started_on": "2023-08-11",
+      "ended_on": null,
+      "wikidata_id": ""
+    }
+  ],
+  "members": [
+    {
+      "name": "María Victoria Broto",
+      "office": "consejero de Ciencia, Tecnología y Universidad del Gobierno de Aragón",
+      "started_on": "2007-01-01",
+      "ended_on": "2008-01-01",
+      "wikidata_id": "Q20604165"
+    },
+    {
+      "name": "María Victoria Broto",
+      "office": "consejero de Educación, Cultura y Deporte del Gobierno de Aragón",
+      "started_on": "2008-01-01",
+      "ended_on": "2011-01-01",
+      "wikidata_id": "Q20604165"
+    },
+    {
+      "name": "María Victoria Broto",
+      "office": "consejero de Ciudadanía y Derechos Sociales del Gobierno de Aragón",
+      "started_on": "2015-01-01",
+      "ended_on": null,
+      "wikidata_id": "Q20604165"
+    },
+    {
+      "name": "Arturo Aliaga López",
+      "office": "consejero de Industria, Comercio y Turismo del Gobierno de Aragón",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q13048432"
+    }
+  ]
+}

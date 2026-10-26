@@ -1,0 +1,72 @@
+{
+  "slug": "cantabria",
+  "name": "Cantabria",
+  "president_source": "wikipedia",
+  "presidents": [
+    {
+      "name": "José Joaquín Martínez Sieso",
+      "party": "PP",
+      "started_on": "1999-07-27",
+      "ended_on": "2003-07-01",
+      "wikidata_id": ""
+    },
+    {
+      "name": "Miguel Ángel Revilla",
+      "party": "PRC",
+      "started_on": "2003-07-02",
+      "ended_on": "2011-06-26",
+      "wikidata_id": ""
+    },
+    {
+      "name": "Ignacio Diego",
+      "party": "PP",
+      "started_on": "2011-06-27",
+      "ended_on": "2015-07-06",
+      "wikidata_id": ""
+    },
+    {
+      "name": "Miguel Ángel Revilla",
+      "party": "PRC",
+      "started_on": "2015-07-07",
+      "ended_on": "2023-07-04",
+      "wikidata_id": ""
+    },
+    {
+      "name": "María José Sáenz de Buruaga",
+      "party": "PP",
+      "started_on": "2023-07-05",
+      "ended_on": null,
+      "wikidata_id": ""
+    }
+  ],
+  "members": [
+    {
+      "name": "José María Mazón Ramos",
+      "office": "Consejero de Obras Públicas, Ordenación del Territorio, Vivienda y Urbanismo del Gobierno de Cantabria",
+      "started_on": "2003-06-27",
+      "ended_on": "2011-06-28",
+      "wikidata_id": "Q49842104"
+    },
+    {
+      "name": "José María Mazón Ramos",
+      "office": "Consejero de Obras Públicas y Viviendadel Gobierno de Cantabria",
+      "started_on": "2015-07-10",
+      "ended_on": "2019-03-21",
+      "wikidata_id": "Q49842104"
+    },
+    {
+      "name": "Paula Fernández Viaña",
+      "office": "Consejera de Presidencia, Interior, Justicia y Acción Exterior de Cantabria",
+      "started_on": "2019-07-08",
+      "ended_on": null,
+      "wikidata_id": "Q115570137"
+    },
+    {
+      "name": "José Luis Gochicoa González",
+      "office": "consejero del Gobierno de Cantabria",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q80086278"
+    }
+  ]
+}

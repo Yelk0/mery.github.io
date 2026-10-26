@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Score each regional president against the rest of Spain.
 
-Reads the INE GDP files and data/people.json. Writes data/store.json, which
+Reads data/<place>/<dataset>.csv and data/people.json. Writes data/store.json, which
 the website reads. A year counts for the president who held office for most
 of it, and only if that was more than half the year. A person is ranked on
 how many percent the region's total GDP pulled ahead of Spain across every
@@ -19,52 +19,20 @@ import csv
 import json
 import math
 import unicodedata
+from collections.abc import Iterator, Sequence
 from datetime import date, timedelta
 from decimal import Decimal, ROUND_HALF_UP
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
-PER_CAPITA_PATH = ROOT / "data" / "80110.csv"
-GDP_PATH = ROOT / "data" / "80109.csv"
-VOLUME_PATH = ROOT / "data" / "cre-volume.csv"
-JOBS_PATH = ROOT / "data" / "65321.csv"
-DEBT_PATH = ROOT / "data" / "be1306.csv"
-BALANCE_PATH = ROOT / "data" / "balance.csv"
-BUDGET_PATH = ROOT / "data" / "budget.csv"
-SPAIN_BUDGET_PATH = ROOT / "data" / "spain-budget.csv"
-PARTS_PATH = ROOT / "data" / "budget-parts.csv"
-TRANSFERS_PATH = ROOT / "data" / "transfers.csv"
-SPAIN_PATH = ROOT / "data" / "spain.csv"
-SPAIN_EU_PATH = ROOT / "data" / "spain-eu.csv"
-SPAIN_DEBT_PATH = ROOT / "data" / "spain-debt.csv"
-EU_VOLUME_PATH = ROOT / "data" / "eu-volume.csv"
-HEALTH_PATH = ROOT / "data" / "health.csv"
-SCHOOLS_PATH = ROOT / "data" / "schools.csv"
-CARE_PATH = ROOT / "data" / "care.csv"
-PEOPLE_PATH = ROOT / "data" / "people.json"
-OUT = ROOT / "data" / "store.json"
+from mery.paths import DATA, place_paths
+from mery.places import DEBT_CODES, EPA_LABELS, INE_LABELS, REGIONS, volume_name
 
-INE_LABELS = {
-    "andalucia": "01 ANDALUCÍA",
-    "aragon": "02 ARAGÓN",
-    "asturias": "03 ASTURIAS, PRINCIPADO DE",
-    "baleares": "04 BALEARS, ILLES",
-    "canarias": "05 CANARIAS",
-    "cantabria": "06 CANTABRIA",
-    "castilla-y-leon": "07 CASTILLA Y LEÓN",
-    "castilla-la-mancha": "08 CASTILLA - LA MANCHA",
-    "cataluna": "09 CATALUÑA",
-    "valencia": "10 COMUNITAT VALENCIANA",
-    "extremadura": "11 EXTREMADURA",
-    "galicia": "12 GALICIA",
-    "madrid": "13 MADRID, COMUNIDAD DE",
-    "murcia": "14 MURCIA, REGIÓN DE",
-    "navarra": "15 NAVARRA, COMUNIDAD FORAL DE",
-    "pais-vasco": "16 PAÍS VASCO",
-    "la-rioja": "17 RIOJA, LA",
-    "ceuta": "18 CEUTA",
-    "melilla": "19 MELILLA",
-}
+# Community files are summed in this order. A different order changes the
+# rounded total, because adding the same euros in a different sequence does.
+_REGION_ORDER = {place.slug: index for index, place in enumerate(REGIONS)}
+
+PEOPLE_PATH = DATA / "people.json"
+OUT = DATA / "store.json"
 PER_CAPITA_MAGNITUDES = {
     "Valor": "valor",
     "Índice España = 100": "index",
@@ -105,54 +73,6 @@ SHARE_ORDER = (
     "statistics", "tax", "transfers", "eu_transfers", "communications",
     "community", "other_social", "resilient", "rest",
 )
-DEBT_INSTRUMENTS = {
-    "P00000": "total",
-    "F30000": "bonds",
-    "F31000": "bonds_short",
-    "F32000": "bonds_long",
-    "F40000": "loans",
-    "F42116": "fund",
-}
-DEBT_CODES = {
-    "andalucia": "AAN",
-    "aragon": "AAR",
-    "asturias": "AAS",
-    "baleares": "ABA",
-    "canarias": "ACA",
-    "cantabria": "ACB",
-    "castilla-la-mancha": "ACL",
-    "castilla-y-leon": "ACO",
-    "cataluna": "ACT",
-    "extremadura": "AEX",
-    "galicia": "AGA",
-    "la-rioja": "ALR",
-    "madrid": "AMA",
-    "murcia": "AMU",
-    "navarra": "ANA",
-    "pais-vasco": "APV",
-    "valencia": "AVA",
-}
-EPA_LABELS = {
-    "andalucia": "01 Andalucía",
-    "aragon": "02 Aragón",
-    "asturias": "03 Asturias, Principado de",
-    "baleares": "04 Balears, Illes",
-    "canarias": "05 Canarias",
-    "cantabria": "06 Cantabria",
-    "castilla-y-leon": "07 Castilla y León",
-    "castilla-la-mancha": "08 Castilla - La Mancha",
-    "cataluna": "09 Cataluña",
-    "valencia": "10 Comunitat Valenciana",
-    "extremadura": "11 Extremadura",
-    "galicia": "12 Galicia",
-    "madrid": "13 Madrid, Comunidad de",
-    "murcia": "14 Murcia, Región de",
-    "navarra": "15 Navarra, Comunidad Foral de",
-    "pais-vasco": "16 País Vasco",
-    "la-rioja": "17 Rioja, La",
-    "ceuta": "18 Ceuta",
-    "melilla": "19 Melilla",
-}
 # Investiture gaps shorter than this are normal. Longer ones are reported.
 GAP_NOTE_DAYS = 45
 
@@ -164,24 +84,28 @@ def parse_number(raw: str) -> float | None:
     return float(text.replace(".", "").replace(",", "."))
 
 
-def load_table(path: Path, magnitudes: dict[str, str]) -> dict[str, dict[int, dict[str, float | None]]]:
+def read_rows(paths: Sequence[Path]) -> Iterator[dict[str, str]]:
+    for path in paths:
+        with path.open(encoding="utf-8-sig", newline="") as handle:
+            yield from csv.DictReader(handle, delimiter=";")
+
+
+def load_table(paths: Sequence[Path], magnitudes: dict[str, str]) -> dict[str, dict[int, dict[str, float | None]]]:
     series: dict[str, dict[int, dict[str, float | None]]] = {}
-    with path.open(encoding="utf-8-sig", newline="") as handle:
-        for row in csv.DictReader(handle, delimiter=";"):
-            magnitude = magnitudes.get(row["Magnitud"])
-            if magnitude is None:
-                continue
-            label = row["Comunidades y Ciudades Autónomas y Provincias"]
-            year = int(row["Periodo"])
-            series.setdefault(label, {}).setdefault(year, {})[magnitude] = parse_number(row["Total"])
+    for row in read_rows(paths):
+        magnitude = magnitudes.get(row["Magnitud"])
+        if magnitude is None:
+            continue
+        label = row["Comunidades y Ciudades Autónomas y Provincias"]
+        year = int(row["Periodo"])
+        series.setdefault(label, {}).setdefault(year, {})[magnitude] = parse_number(row["Total"])
     return series
 
 
-def load_volume(path: Path) -> dict[str, dict[int, float]]:
+def load_volume(paths: Sequence[Path]) -> dict[str, dict[int, float]]:
     series: dict[str, dict[int, float]] = {}
-    with path.open(encoding="utf-8", newline="") as handle:
-        for row in csv.DictReader(handle, delimiter=";"):
-            series.setdefault(row["Comunidad Autónoma"], {})[int(row["Año"])] = float(row["Tasa"])
+    for row in read_rows(paths):
+        series.setdefault(row["Comunidad Autónoma"], {})[int(row["Año"])] = float(row["Tasa"])
     return series
 
 
@@ -198,91 +122,72 @@ def chain_index(rates: dict[int, float], year: int) -> float | None:
     return index
 
 
-def load_jobs(path: Path) -> dict[str, dict[int, dict[str, float]]]:
+def load_jobs(paths: Sequence[Path]) -> dict[str, dict[int, dict[str, float]]]:
     buckets: dict[tuple[str, str, int], list[float]] = {}
-    with path.open(encoding="utf-8-sig", newline="") as handle:
-        for row in csv.DictReader(handle, delimiter=";"):
-            if row["Sexo"] != "Ambos sexos":
-                continue
-            sector = {"Empleo público": "public", "Empleo privado": "private"}.get(row["Tipo de sector"])
-            if sector is None:
-                continue
-            period = row["Periodo"]
-            if len(period) < 6 or not period[:4].isdigit():
-                continue
-            value = parse_number(row["Total"])
-            if value is None:
-                continue
-            buckets.setdefault((row["Comunidades y Ciudades Autónomas"], sector, int(period[:4])), []).append(value)
+    for row in read_rows(paths):
+        if row["Sexo"] != "Ambos sexos":
+            continue
+        sector = {"Empleo público": "public", "Empleo privado": "private"}.get(row["Tipo de sector"])
+        if sector is None:
+            continue
+        period = row["Periodo"]
+        if len(period) < 6 or not period[:4].isdigit():
+            continue
+        value = parse_number(row["Total"])
+        if value is None:
+            continue
+        buckets.setdefault((row["Comunidades y Ciudades Autónomas"], sector, int(period[:4])), []).append(value)
     annual: dict[str, dict[int, dict[str, float]]] = {}
     for (label, sector, year), values in buckets.items():
         annual.setdefault(label, {}).setdefault(year, {})[sector] = sum(values) / len(values)
     return annual
 
 
-def load_debt(path: Path) -> dict[str, dict[int, float]]:
-    text = path.read_bytes().decode("latin-1")
-    rows = list(csv.reader(text.splitlines()))
-    columns = {}
-    for index, code in enumerate(rows[0]):
-        if "_P00000_PS_ACS_" in code:
-            columns[code.rsplit("_", 1)[-1]] = index
-    series: dict[str, dict[int, float]] = {code: {} for code in columns}
-    for row in rows[6:]:
-        label = row[0].strip().strip('"')
-        if not label.startswith("DIC "):
+_DEBT_COLUMNS = ("total", "bonds", "bonds_short", "bonds_long", "loans", "fund")
+
+
+def load_community_debt() -> tuple[
+    dict[str, dict[int, float | None]],
+    dict[str, dict[int, dict[str, float | None]]],
+]:
+    """December debt of each community, keyed by the Bank of Spain code."""
+    debt: dict[str, dict[int, float | None]] = {}
+    stock: dict[str, dict[int, dict[str, float | None]]] = {}
+    for slug, code in DEBT_CODES.items():
+        path = DATA / slug / "debt.csv"
+        if not path.exists():
             continue
-        year = int(label.split()[-1])
-        for code, index in columns.items():
-            series[code][year] = parse_number(row[index])
-    return series
+        totals: dict[int, float | None] = {}
+        years: dict[int, dict[str, float | None]] = {}
+        for row in read_rows([path]):
+            year = int(row["year"])
+            values: dict[str, float | None] = {}
+            for key in _DEBT_COLUMNS:
+                text = (row.get(key) or "").strip().strip('"')
+                values[key] = None if text in ("", "_") else parse_number(text)
+            years[year] = values
+            totals[year] = values["total"]
+        debt[code] = totals
+        stock[code] = years
+    return debt, stock
 
 
-def load_debt_stock(path: Path) -> dict[str, dict[int, dict[str, float | None]]]:
-    """December debt by instrument. Bonds are securities; loans include the state fund."""
-    text = path.read_bytes().decode("latin-1")
-    rows = list(csv.reader(text.splitlines()))
-    columns: dict[tuple[str, str], int] = {}
-    for index, code in enumerate(rows[0]):
-        for instrument, key in DEBT_INSTRUMENTS.items():
-            marker = f"_{instrument}_PS_ACS_"
-            if marker in code:
-                columns[(code.rsplit("_", 1)[-1], key)] = index
-    series: dict[str, dict[int, dict[str, float | None]]] = {}
-    for row in rows[6:]:
-        label = row[0].strip().strip('"')
-        if not label.startswith("DIC "):
-            continue
-        year = int(label.split()[-1])
-        for (region_code, key), index in columns.items():
-            raw = row[index].strip().strip('"')
-            value = None if raw in ("", "_") else parse_number(raw)
-            series.setdefault(region_code, {}).setdefault(year, {})[key] = value
-    return series
-
-
-def load_balance(path: Path) -> dict[str, dict[int, dict]]:
+def load_balance(paths: Sequence[Path]) -> dict[str, dict[int, dict]]:
     series: dict[str, dict[int, dict]] = {}
-    if not path.exists():
-        return series
-    with path.open(encoding="utf-8", newline="") as handle:
-        for row in csv.DictReader(handle, delimiter=";"):
-            series.setdefault(row["slug"], {})[int(row["year"])] = {
-                "percent": float(row["percent"]),
-                "million": float(row["million"]),
-            }
+    for row in read_rows(paths):
+        series.setdefault(row["slug"], {})[int(row["year"])] = {
+            "percent": float(row["percent"]),
+            "million": float(row["million"]),
+        }
     return series
 
 
-def load_budget(path: Path) -> dict[str, dict[int, dict[str, float]]]:
+def load_budget(paths: Sequence[Path]) -> dict[str, dict[int, dict[str, float]]]:
     series: dict[str, dict[int, dict[str, float]]] = {}
-    if not path.exists():
-        return series
-    with path.open(encoding="utf-8", newline="") as handle:
-        for row in csv.DictReader(handle, delimiter=";"):
-            values = {name: float(row[name]) for name in SHARE_ORDER if row.get(name) not in (None, "")}
-            values["spent"] = float(row["spent"])
-            series.setdefault(row["slug"], {})[int(row["year"])] = values
+    for row in read_rows(paths):
+        values = {name: float(row[name]) for name in SHARE_ORDER if row.get(name) not in (None, "")}
+        values["spent"] = float(row["spent"])
+        series.setdefault(row["slug"], {})[int(row["year"])] = values
     return series
 
 
@@ -342,14 +247,11 @@ def policy_gdp(
     return {name: round(100 * totals[name] / economy, 2) for name in policies}
 
 
-def load_parts(path: Path) -> dict[str, dict[int, dict[str, dict[str, float]]]]:
+def load_parts(paths: Sequence[Path]) -> dict[str, dict[int, dict[str, dict[str, float]]]]:
     series: dict[str, dict[int, dict[str, dict[str, float]]]] = {}
-    if not path.exists():
-        return series
-    with path.open(encoding="utf-8", newline="") as handle:
-        for row in csv.DictReader(handle, delimiter=";"):
-            year = series.setdefault(row["slug"], {}).setdefault(int(row["year"]), {})
-            year.setdefault(row["parent"], {})[row["part"]] = float(row["amount"])
+    for row in read_rows(paths):
+        year = series.setdefault(row["slug"], {}).setdefault(int(row["year"]), {})
+        year.setdefault(row["parent"], {})[row["part"]] = float(row["amount"])
     return series
 
 
@@ -486,37 +388,33 @@ def window_balance(
     return round(weighted / weight, 1)
 
 
-def load_transfers(path: Path) -> dict[str, dict[int, dict[str, float]]]:
+def load_transfers(paths: Sequence[Path]) -> dict[str, dict[int, dict[str, float]]]:
     series: dict[str, dict[int, dict[str, float]]] = {}
-    if not path.exists():
-        return series
-    with path.open(encoding="utf-8", newline="") as handle:
-        for row in csv.DictReader(handle, delimiter=";"):
-            series.setdefault(row["slug"], {})[int(row["year"])] = {
-                "received": float(row["received"]),
-                "paid": float(row["paid"]),
-            }
+    ordered = sorted(paths, key=lambda path: _REGION_ORDER.get(path.parent.name, len(_REGION_ORDER)))
+    for row in read_rows(ordered):
+        series.setdefault(row["slug"], {})[int(row["year"])] = {
+            "received": float(row["received"]),
+            "paid": float(row["paid"]),
+        }
     return series
 
 
-def load_spain(path: Path, balance: dict[str, dict[int, dict]]) -> tuple[dict[int, float], dict[int, float]]:
-    """All public administrations, then the central administration. Both in miles de euros."""
-    spent: dict[int, float] = {}
-    central: dict[int, float] = {}
+def load_million_series(path: Path) -> dict[int, float]:
+    series: dict[int, float] = {}
     if not path.exists():
-        return spent, central
-    with path.open(encoding="utf-8", newline="") as handle:
-        for row in csv.DictReader(handle, delimiter=";"):
-            year = int(row["year"])
-            balance.setdefault("espana", {})[year] = {
-                "percent": float(row["percent"]),
-                "million": float(row["million"]),
-            }
-            if row.get("spent"):
-                spent[year] = float(row["spent"]) * 1000
-            if row.get("central"):
-                central[year] = float(row["central"]) * 1000
-    return spent, central
+        return series
+    for row in read_rows([path]):
+        if row.get("million"):
+            series[int(row["year"])] = float(row["million"]) * 1000
+    return series
+
+
+def load_public_spending() -> tuple[dict[int, float], dict[int, float]]:
+    """All public administrations, then the central administration. Both in miles de euros."""
+    return (
+        load_million_series(DATA / "spain" / "spending.csv"),
+        load_million_series(DATA / "spain" / "central-spending.csv"),
+    )
 
 
 def load_spain_eu(path: Path) -> dict[int, dict[str, float]]:
@@ -871,12 +769,6 @@ def build_communities(
     return {"windows": windows, "regions": built}
 
 
-def volume_name(ine_label: str) -> str:
-    if ine_label == "Total Nacional":
-        return "TOTAL NACIONAL"
-    return ine_label.split(" ", 1)[1]
-
-
 def debt_ratio(debt_thousands: float | None, gdp_thousands: float | None) -> float | None:
     if debt_thousands is None or gdp_thousands in (None, 0):
         return None
@@ -990,11 +882,10 @@ def cabinet_for(term: dict, members: list[dict]) -> list[dict]:
     return chosen
 
 
-def load_levels(path: Path, value: str) -> dict[str, dict[int, float]]:
+def load_levels(paths: Sequence[Path], value: str) -> dict[str, dict[int, float]]:
     series: dict[str, dict[int, float]] = {}
-    with path.open(encoding="utf-8", newline="") as handle:
-        for row in csv.DictReader(handle, delimiter=";"):
-            series.setdefault(row["slug"], {})[int(row["year"])] = float(row[value])
+    for row in read_rows(paths):
+        series.setdefault(row["slug"], {})[int(row["year"])] = float(row[value])
     return series
 
 
@@ -1434,19 +1325,19 @@ def public_series(
 
 def main() -> None:
     if not PEOPLE_PATH.exists():
-        raise SystemExit("Missing data/people.json. Run ./download.sh first.")
-    required = (GDP_PATH, PER_CAPITA_PATH, VOLUME_PATH, JOBS_PATH, DEBT_PATH, HEALTH_PATH, SCHOOLS_PATH, CARE_PATH)
-    missing = [path.name for path in required if not path.exists()]
+        raise SystemExit("Missing data/people.json. Run python -m mery download spain first.")
+    required = ("gdp.csv", "per-capita.csv", "real-growth.csv", "jobs.csv", "debt.csv", "health.csv", "schools.csv", "care.csv")
+    missing = [name for name in required if not place_paths(name)]
     if missing:
-        raise SystemExit(f"Missing {', '.join(missing)}. Run ./download.sh first.")
-    per_capita = load_table(PER_CAPITA_PATH, PER_CAPITA_MAGNITUDES)
-    total = load_table(GDP_PATH, GDP_MAGNITUDES)
-    volume = load_volume(VOLUME_PATH)
-    jobs = load_jobs(JOBS_PATH)
-    debt = load_debt(DEBT_PATH)
-    health = load_levels(HEALTH_PATH, "days")
-    schools = load_levels(SCHOOLS_PATH, "rate")
-    care = load_levels(CARE_PATH, "rate")
+        raise SystemExit(f"Missing {', '.join(missing)}. Run python -m mery download spain first.")
+    per_capita = load_table(place_paths("per-capita.csv"), PER_CAPITA_MAGNITUDES)
+    total = load_table(place_paths("gdp.csv"), GDP_MAGNITUDES)
+    volume = load_volume(place_paths("real-growth.csv"))
+    jobs = load_jobs(place_paths("jobs.csv"))
+    debt, community_stock = load_community_debt()
+    health = load_levels(place_paths("health.csv"), "days")
+    schools = load_levels(place_paths("schools.csv"), "rate")
+    care = load_levels(place_paths("care.csv"), "rate")
     people = json.loads(PEOPLE_PATH.read_text(encoding="utf-8"))
     spain_per_capita = per_capita["Total Nacional"]
     spain_total = total["Total Nacional"]
@@ -1542,16 +1433,16 @@ def main() -> None:
     assign_peers(all_terms)
     leaders = build_leaders(all_terms)
     service_worsts = apply_service_scores(leaders)
-    balance = load_balance(BALANCE_PATH)
-    expenditure, central = load_spain(SPAIN_PATH, balance)
-    transfers = load_transfers(TRANSFERS_PATH)
-    transfers["espana"] = load_spain_eu(SPAIN_EU_PATH)
-    stock = load_debt_stock(DEBT_PATH)
-    stock["APU"] = load_spain_debt(SPAIN_DEBT_PATH)
-    eu_volume = load_eu_volume(EU_VOLUME_PATH)
+    balance = load_balance(place_paths("balance.csv"))
+    expenditure, central = load_public_spending()
+    transfers = load_transfers(place_paths("transfers.csv"))
+    transfers["espana"] = load_spain_eu(DATA / "spain" / "eu-transfers.csv")
+    stock = community_stock
+    stock["APU"] = load_spain_debt(DATA / "spain" / "pde-debt.csv")
+    eu_volume = load_eu_volume(DATA / "spain" / "eu-volume.csv")
     eu_index = eu_volume["EU27_2020"]
-    state_budget = load_budget(SPAIN_BUDGET_PATH)
-    state_budget_years = sorted(state_budget.get("espana", {}))
+    budgets = load_budget(place_paths("budget.csv"))
+    state_budget_years = sorted(budgets.get("espana", {}))
     communities = build_communities(
         people["regions"],
         volume,
@@ -1559,12 +1450,12 @@ def main() -> None:
         total,
         stock,
         balance,
-        load_budget(BUDGET_PATH) | state_budget,
+        budgets,
         transfers,
         expenditure,
         eu_index,
         central,
-        load_parts(PARTS_PATH),
+        load_parts(place_paths("budget-parts.csv")),
     )
     store = {
         "meta": {

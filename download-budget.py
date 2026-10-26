@@ -25,6 +25,8 @@ import unicodedata
 import urllib.request
 from pathlib import Path
 
+from mery.selection import limit
+
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "data" / "budget.csv"
 PAGE = "https://serviciostelematicosext.hacienda.gob.es/SGCIEF/PublicacionLiquidaciones/aspx/menuInicio.aspx"
@@ -279,7 +281,7 @@ def main() -> None:
     rows = []
     part_rows = {}
     for year in range(FIRST_YEAR, LAST_YEAR + 1):
-        for code, slug in COMMUNITIES.items():
+        for code, slug in limit(COMMUNITIES).items():
             payload = None
             for attempt in range(3):
                 try:

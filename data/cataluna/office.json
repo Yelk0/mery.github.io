@@ -1,0 +1,1388 @@
+{
+  "slug": "cataluna",
+  "name": "Cataluña",
+  "president_source": "wikipedia",
+  "presidents": [
+    {
+      "name": "Jordi Pujol",
+      "party": "CiU",
+      "started_on": "1999-12-22",
+      "ended_on": "2003-12-19",
+      "wikidata_id": ""
+    },
+    {
+      "name": "Pasqual Maragall",
+      "party": "PSC",
+      "started_on": "2003-12-20",
+      "ended_on": "2006-11-27",
+      "wikidata_id": ""
+    },
+    {
+      "name": "José Montilla",
+      "party": "PSC",
+      "started_on": "2006-11-28",
+      "ended_on": "2010-12-26",
+      "wikidata_id": ""
+    },
+    {
+      "name": "Artur Mas",
+      "party": "CiU",
+      "started_on": "2010-12-27",
+      "ended_on": "2016-01-11",
+      "wikidata_id": ""
+    },
+    {
+      "name": "Carles Puigdemont",
+      "party": "Junts",
+      "started_on": "2016-01-12",
+      "ended_on": "2017-10-27",
+      "wikidata_id": ""
+    },
+    {
+      "name": "Quim Torra",
+      "party": "Junts",
+      "started_on": "2018-05-17",
+      "ended_on": "2020-09-28",
+      "wikidata_id": ""
+    },
+    {
+      "name": "Pere Aragonès",
+      "party": "ERC",
+      "started_on": "2020-09-29",
+      "ended_on": "2024-08-09",
+      "wikidata_id": ""
+    },
+    {
+      "name": "Salvador Illa",
+      "party": "PSC",
+      "started_on": "2024-08-10",
+      "ended_on": null,
+      "wikidata_id": ""
+    }
+  ],
+  "members": [
+    {
+      "name": "Ignasi Farreres Bochaca",
+      "office": "consejero de Trabajo",
+      "started_on": "1988-07-04",
+      "ended_on": "1999-11-29",
+      "wikidata_id": "Q19291137"
+    },
+    {
+      "name": "Núria de Gispert",
+      "office": "consejero de Justicia de la Generalidad de Cataluña",
+      "started_on": "1995-02-01",
+      "ended_on": "2001-02-05",
+      "wikidata_id": "Q171194"
+    },
+    {
+      "name": "Eduard Rius i Pey",
+      "office": "Consejero de Salud y Seguridad Social",
+      "started_on": "1996-01-11",
+      "ended_on": "2002-11-04",
+      "wikidata_id": "Q11918077"
+    },
+    {
+      "name": "Xavier Trias",
+      "office": "Consejero de Presidencia de la Generalidad de Cataluña",
+      "started_on": "1996-01-11",
+      "ended_on": "2000-02-03",
+      "wikidata_id": "Q973064"
+    },
+    {
+      "name": "Antoni Subirà Claus",
+      "office": "consejero de Industria, Comercio y Turismo de Cataluña",
+      "started_on": "1996-06-07",
+      "ended_on": "2002-11-04",
+      "wikidata_id": "Q5697551"
+    },
+    {
+      "name": "Javier Hernández Moreno",
+      "office": "consejero de Enseñanza",
+      "started_on": "1996-06-07",
+      "ended_on": "1999-12-12",
+      "wikidata_id": "Q22964629"
+    },
+    {
+      "name": "Joan Maria Pujals i Vallvé",
+      "office": "Conseller de Cultura de la Generalitat de Cataluña",
+      "started_on": "1996-06-07",
+      "ended_on": "1999-11-29",
+      "wikidata_id": "Q17036108"
+    },
+    {
+      "name": "Artur Mas",
+      "office": "consejero de Economía y Finanzas de la Generalitat de Catalunya",
+      "started_on": "1997-07-30",
+      "ended_on": "2001-01-19",
+      "wikidata_id": "Q8015"
+    },
+    {
+      "name": "Joan Ignasi Puigdollers i Noblom",
+      "office": "Consejero de Medio Ambiente y Vivienda",
+      "started_on": "1997-07-30",
+      "ended_on": "1999-11-29",
+      "wikidata_id": "Q20876116"
+    },
+    {
+      "name": "Pere Macias",
+      "office": "consejero de Política Territorial y Obras Públicas",
+      "started_on": "1997-07-30",
+      "ended_on": "2001-11-20",
+      "wikidata_id": "Q11698889"
+    },
+    {
+      "name": "Carme Laura Gil i Miró",
+      "office": "consejero de Enseñanza",
+      "started_on": "1999-11-29",
+      "ended_on": "2003-12-20",
+      "wikidata_id": "Q5043235"
+    },
+    {
+      "name": "Jordi Vilajoana",
+      "office": "Conseller de Cultura de la Generalitat de Cataluña",
+      "started_on": "1999-11-29",
+      "ended_on": "2003-12-17",
+      "wikidata_id": "Q11685346"
+    },
+    {
+      "name": "Josep Antoni Duran i Lleida",
+      "office": "consejero de Gobernación y Relaciones Institucionales de la Generalidad de Cataluña",
+      "started_on": "1999-11-29",
+      "ended_on": "2001-02-05",
+      "wikidata_id": "Q276884"
+    },
+    {
+      "name": "Josep Grau i Seris",
+      "office": "Consejero de Agricultura, Ganadería y Pesca de la Generalitat de Catalunya",
+      "started_on": "1999-11-29",
+      "ended_on": "2003-12-20",
+      "wikidata_id": "Q17030992"
+    },
+    {
+      "name": "Lluís Franco i Sala",
+      "office": "consejero de Trabajo",
+      "started_on": "1999-11-29",
+      "ended_on": "2002-11-04",
+      "wikidata_id": "Q66666793"
+    },
+    {
+      "name": "Xavier Pomés i Abella",
+      "office": "Consejero de Interior de la Generalitat de Catalunya",
+      "started_on": "1999-11-29",
+      "ended_on": "2002-11-04",
+      "wikidata_id": "Q11955315"
+    },
+    {
+      "name": "Joaquim Triadú i Vila-Abadal",
+      "office": "Consejero de Presidencia de la Generalidad de Cataluña",
+      "started_on": "2000-02-01",
+      "ended_on": "2001-05-01",
+      "wikidata_id": "Q20876136"
+    },
+    {
+      "name": "Francesc Homs",
+      "office": "consejero de Economía e Hacienda de la Generalidad de Cataluña",
+      "started_on": "2001-01-17",
+      "ended_on": "2003-12-20",
+      "wikidata_id": "Q8962187"
+    },
+    {
+      "name": "Josep-Delfí Guàrdia",
+      "office": "consejero de Justicia de la Generalidad de Cataluña",
+      "started_on": "2001-02-05",
+      "ended_on": "2002-11-04",
+      "wikidata_id": "Q14917798"
+    },
+    {
+      "name": "Núria de Gispert",
+      "office": "consejero de Gobernación y Relaciones Institucionales de la Generalidad de Cataluña",
+      "started_on": "2001-02-05",
+      "ended_on": "2002-11-04",
+      "wikidata_id": "Q171194"
+    },
+    {
+      "name": "Felip Puig",
+      "office": "consejero de Política Territorial y Obras Públicas",
+      "started_on": "2001-11-20",
+      "ended_on": "2003-12-16",
+      "wikidata_id": "Q8961099"
+    },
+    {
+      "name": "Ramon Espadaler",
+      "office": "consejero de Medio Ambiente",
+      "started_on": "2001-11-20",
+      "ended_on": "2003-12-20",
+      "wikidata_id": "Q9066280"
+    },
+    {
+      "name": "Antoni Fernández Teixidó",
+      "office": "consejero de Trabajo, Industria, Comercio y Turismo de Cataluña",
+      "started_on": "2002-11-04",
+      "ended_on": "2003-12-17",
+      "wikidata_id": "Q968949"
+    },
+    {
+      "name": "Núria de Gispert",
+      "office": "consejero de Justicia e Interior de la Generalidad de Cataluña",
+      "started_on": "2002-11-04",
+      "ended_on": "2003-12-17",
+      "wikidata_id": "Q171194"
+    },
+    {
+      "name": "Xavier Pomés i Abella",
+      "office": "Consejero de Salud y Seguridad Social",
+      "started_on": "2002-11-04",
+      "ended_on": "2003-12-20",
+      "wikidata_id": "Q11955315"
+    },
+    {
+      "name": "Joan Saura i Laporta",
+      "office": "Consejero de Relaciones Institucionales y Participación",
+      "started_on": "2003-12-17",
+      "ended_on": "2006-11-29",
+      "wikidata_id": "Q12785"
+    },
+    {
+      "name": "Josep Bargalló",
+      "office": "consejero de Educación de la Generalidad de Cataluña",
+      "started_on": "2003-12-17",
+      "ended_on": "2004-02-20",
+      "wikidata_id": "Q3327197"
+    },
+    {
+      "name": "Josep Maria Rañé i Blasco",
+      "office": "consejero de Trabajo e Industria de Cataluña",
+      "started_on": "2003-12-17",
+      "ended_on": "2006-04-20",
+      "wikidata_id": "Q6280486"
+    },
+    {
+      "name": "Josep Maria Vallès i Casadevall",
+      "office": "consejero de Justicia de la Generalidad de Cataluña",
+      "started_on": "2003-12-17",
+      "ended_on": "2006-11-29",
+      "wikidata_id": "Q4893887"
+    },
+    {
+      "name": "Marina Geli",
+      "office": "Conseller de Sanidad",
+      "started_on": "2003-12-17",
+      "ended_on": "2010-12-27",
+      "wikidata_id": "Q339847"
+    },
+    {
+      "name": "Montserrat Tura",
+      "office": "Consejero de Interior de la Generalitat de Catalunya",
+      "started_on": "2003-12-17",
+      "ended_on": "2006-11-29",
+      "wikidata_id": "Q6745167"
+    },
+    {
+      "name": "Antoni Castells",
+      "office": "consejero de Economía y Finanzas de la Generalitat de Catalunya",
+      "started_on": "2003-12-20",
+      "ended_on": "2010-12-29",
+      "wikidata_id": "Q950599"
+    },
+    {
+      "name": "Caterina Mieras i Barceló",
+      "office": "Conseller de Cultura de la Generalitat de Cataluña",
+      "started_on": "2003-12-20",
+      "ended_on": "2006-04-20",
+      "wikidata_id": "Q5051920"
+    },
+    {
+      "name": "Joan Carretero",
+      "office": "consejero de Gobernación y Administraciones Públicas de la Generalitat de Catalunya",
+      "started_on": "2003-12-20",
+      "ended_on": "2006-04-20",
+      "wikidata_id": "Q4895294"
+    },
+    {
+      "name": "Antoni Siurana",
+      "office": "Consejero de Agricultura, Ganadería y Pesca de la Generalitat de Catalunya",
+      "started_on": "2003-12-22",
+      "ended_on": "2006-04-22",
+      "wikidata_id": "Q4776201"
+    },
+    {
+      "name": "Joaquim Nadal",
+      "office": "consejero de Política Territorial y Obras Públicas",
+      "started_on": "2003-12-22",
+      "ended_on": "2010-12-29",
+      "wikidata_id": "Q2876147"
+    },
+    {
+      "name": "Marta Cid",
+      "office": "consejero de Educación de la Generalidad de Cataluña",
+      "started_on": "2004-01-27",
+      "ended_on": "2006-05-11",
+      "wikidata_id": "Q4893335"
+    },
+    {
+      "name": "Josep Bargalló",
+      "office": "Consejero Primero del Gobierno de Cataluña",
+      "started_on": "2004-02-20",
+      "ended_on": "2006-05-11",
+      "wikidata_id": "Q3327197"
+    },
+    {
+      "name": "Joan Manuel Tresserras",
+      "office": "Conseller de Cultura de la Generalitat de Cataluña",
+      "started_on": "2006-01-01",
+      "ended_on": "2010-01-01",
+      "wikidata_id": "Q9011965"
+    },
+    {
+      "name": "Joaquim Llena i Cortina",
+      "office": "Consejero de la Generalidad de Cataluña",
+      "started_on": "2006-01-01",
+      "ended_on": "2010-01-01",
+      "wikidata_id": "Q17032460"
+    },
+    {
+      "name": "Ferran Mascarell",
+      "office": "Conseller de Cultura de la Generalitat de Cataluña",
+      "started_on": "2006-04-20",
+      "ended_on": "2006-11-29",
+      "wikidata_id": "Q8961453"
+    },
+    {
+      "name": "Francesc Baltasar i Albesa",
+      "office": "Consejero de Medio Ambiente y Vivienda",
+      "started_on": "2006-04-20",
+      "ended_on": "2010-12-29",
+      "wikidata_id": "Q11922699"
+    },
+    {
+      "name": "Jordi Valls",
+      "office": "consejero de Trabajo e Industria de Cataluña",
+      "started_on": "2006-04-20",
+      "ended_on": "2006-11-29",
+      "wikidata_id": "Q1703731"
+    },
+    {
+      "name": "Jordi William Carnes i Ayats",
+      "office": "Consejero de Agricultura, Ganadería y Pesca de la Generalitat de Catalunya",
+      "started_on": "2006-04-20",
+      "ended_on": "2006-11-26",
+      "wikidata_id": "Q11928384"
+    },
+    {
+      "name": "Xavier Vendrell",
+      "office": "consejero de Gobernación y Administraciones Públicas de la Generalitat de Catalunya",
+      "started_on": "2006-04-20",
+      "ended_on": "2006-05-13",
+      "wikidata_id": "Q4893910"
+    },
+    {
+      "name": "Carme Figueres i Siñol",
+      "office": "consejero de Bienestar y Familia",
+      "started_on": "2006-05-13",
+      "ended_on": "2006-11-28",
+      "wikidata_id": "Q5043234"
+    },
+    {
+      "name": "Joaquim Nadal",
+      "office": "Consejero de Presidencia de la Generalidad de Cataluña",
+      "started_on": "2006-05-13",
+      "ended_on": "2006-11-29",
+      "wikidata_id": "Q2876147"
+    },
+    {
+      "name": "Ernest Maragall",
+      "office": "consejero de Educación de la Generalidad de Cataluña",
+      "started_on": "2006-11-29",
+      "ended_on": "2010-12-29",
+      "wikidata_id": "Q1032587"
+    },
+    {
+      "name": "Joan Puigcercós",
+      "office": "consejero de Gobernación y Administraciones Públicas de la Generalitat de Catalunya",
+      "started_on": "2006-11-29",
+      "ended_on": "2008-03-10",
+      "wikidata_id": "Q3320335"
+    },
+    {
+      "name": "Joan Saura i Laporta",
+      "office": "Consejero de Interior, Relaciones Institucionales y Participación",
+      "started_on": "2006-11-29",
+      "ended_on": "2010-12-29",
+      "wikidata_id": "Q12785"
+    },
+    {
+      "name": "Mar Serna",
+      "office": "consejero de Trabajo",
+      "started_on": "2006-11-29",
+      "ended_on": "2010-12-29",
+      "wikidata_id": "Q19301068"
+    },
+    {
+      "name": "Montserrat Tura",
+      "office": "consejero de Justicia de la Generalidad de Cataluña",
+      "started_on": "2006-11-29",
+      "ended_on": "2010-12-29",
+      "wikidata_id": "Q6745167"
+    },
+    {
+      "name": "Jordi Ausàs",
+      "office": "consejero de Gobernación y Administraciones Públicas de la Generalitat de Catalunya",
+      "started_on": "2008-03-12",
+      "ended_on": "2010-12-29",
+      "wikidata_id": "Q4893047"
+    },
+    {
+      "name": "Josep-Lluís Carod-Rovira",
+      "office": "vicepresidente del Gobierno de Cataluña",
+      "started_on": "2008-12-03",
+      "ended_on": "2010-12-29",
+      "wikidata_id": "Q3055462"
+    },
+    {
+      "name": "Jaume Vernet i Llobet",
+      "office": "consejero secretario del Consejo de Garantías Estatutarias",
+      "started_on": "2009-01-01",
+      "ended_on": "2013-01-01",
+      "wikidata_id": "Q47068362"
+    },
+    {
+      "name": "Joan Egea i Fernández",
+      "office": "vicepresidente del Consejo de Garantías Estatutarias",
+      "started_on": "2009-01-01",
+      "ended_on": "2013-01-01",
+      "wikidata_id": "Q35028786"
+    },
+    {
+      "name": "Jaume Vernet i Llobet",
+      "office": "consejero del Consejo de Garantías Estatutarias",
+      "started_on": "2009-11-19",
+      "ended_on": null,
+      "wikidata_id": "Q47068362"
+    },
+    {
+      "name": "Marc Carrillo i López",
+      "office": "consejero del Consejo de Garantías Estatutarias",
+      "started_on": "2009-11-19",
+      "ended_on": "2019-07-23",
+      "wikidata_id": "Q47068294"
+    },
+    {
+      "name": "Pere Jover i Presa",
+      "office": "consejero del Consejo de Garantías Estatutarias",
+      "started_on": "2009-11-19",
+      "ended_on": null,
+      "wikidata_id": "Q11940995"
+    },
+    {
+      "name": "Àlex Bas i Vilafranca",
+      "office": "consejero del Consejo de Garantías Estatutarias",
+      "started_on": "2009-11-19",
+      "ended_on": null,
+      "wikidata_id": "Q47068411"
+    },
+    {
+      "name": "Antonia Agulló i Agüero",
+      "office": "consejero del Consejo de Garantías Estatutarias",
+      "started_on": "2009-11-23",
+      "ended_on": "2013-03-21",
+      "wikidata_id": "Q47069684"
+    },
+    {
+      "name": "Eliseo Aja",
+      "office": "consejero del Consejo de Garantías Estatutarias",
+      "started_on": "2009-11-23",
+      "ended_on": "2017-07-07",
+      "wikidata_id": "Q47069639"
+    },
+    {
+      "name": "Enric Fossas Espadaler",
+      "office": "consejero del Consejo de Garantías Estatutarias",
+      "started_on": "2009-11-23",
+      "ended_on": "2013-03-21",
+      "wikidata_id": "Q47069716"
+    },
+    {
+      "name": "Julio Añoveros Trias de Bes",
+      "office": "consejero del Consejo de Garantías Estatutarias",
+      "started_on": "2009-11-23",
+      "ended_on": "2012-08-05",
+      "wikidata_id": "Q11929423"
+    },
+    {
+      "name": "Andreu Mas-Colell",
+      "office": "consejero de Economía y Conocimiento de la Generalitat de Catalunya",
+      "started_on": "2010-12-29",
+      "ended_on": "2016-01-14",
+      "wikidata_id": "Q385512"
+    },
+    {
+      "name": "Boi Ruiz i Garcia",
+      "office": "Conseller de Sanidad",
+      "started_on": "2010-12-29",
+      "ended_on": "2016-01-14",
+      "wikidata_id": "Q11909563"
+    },
+    {
+      "name": "Felip Puig",
+      "office": "Consejero de Interior de la Generalitat de Catalunya",
+      "started_on": "2010-12-29",
+      "ended_on": "2012-12-27",
+      "wikidata_id": "Q8961099"
+    },
+    {
+      "name": "Ferran Mascarell",
+      "office": "Conseller de Cultura de la Generalitat de Cataluña",
+      "started_on": "2010-12-29",
+      "ended_on": "2016-01-14",
+      "wikidata_id": "Q8961453"
+    },
+    {
+      "name": "Irene Rigau Oliver",
+      "office": "consejero de Enseñanza",
+      "started_on": "2010-12-29",
+      "ended_on": "2016-01-14",
+      "wikidata_id": "Q15743807"
+    },
+    {
+      "name": "Joana Ortega",
+      "office": "vicepresidente del Gobierno de Cataluña",
+      "started_on": "2010-12-29",
+      "ended_on": "2015-06-22",
+      "wikidata_id": "Q4891067"
+    },
+    {
+      "name": "Joana Ortega",
+      "office": "consejero de Gobernación y Relaciones Institucionales de la Generalidad de Cataluña",
+      "started_on": "2010-12-29",
+      "ended_on": "2015-06-22",
+      "wikidata_id": "Q4891067"
+    },
+    {
+      "name": "Lluís Recoder",
+      "office": "consejero de Territorio y Sostenibilidad",
+      "started_on": "2010-12-29",
+      "ended_on": "2012-12-27",
+      "wikidata_id": "Q4891019"
+    },
+    {
+      "name": "Pilar Fernández i Bozal",
+      "office": "consejero de Justicia de la Generalidad de Cataluña",
+      "started_on": "2010-12-29",
+      "ended_on": "2012-12-27",
+      "wikidata_id": "Q19301595"
+    },
+    {
+      "name": "Francesc Homs Molist",
+      "office": "Consejero de Presidencia de la Generalidad de Cataluña",
+      "started_on": "2012-12-27",
+      "ended_on": "2015-11-16",
+      "wikidata_id": "Q11922769"
+    },
+    {
+      "name": "Germà Gordó Aubarell",
+      "office": "consejero de Justicia de la Generalidad de Cataluña",
+      "started_on": "2012-12-27",
+      "ended_on": "2016-01-14",
+      "wikidata_id": "Q11924122"
+    },
+    {
+      "name": "Ramon Espadaler",
+      "office": "Consejero de Interior de la Generalitat de Catalunya",
+      "started_on": "2012-12-27",
+      "ended_on": "2015-06-22",
+      "wikidata_id": "Q9066280"
+    },
+    {
+      "name": "Santi Vila Vicente",
+      "office": "consejero de Territorio y Sostenibilidad",
+      "started_on": "2012-12-27",
+      "ended_on": "2016-01-14",
+      "wikidata_id": "Q15731273"
+    },
+    {
+      "name": "Carles Jaume i Fernández",
+      "office": "consejero del Consejo de Garantías Estatutarias",
+      "started_on": "2013-03-20",
+      "ended_on": null,
+      "wikidata_id": "Q47068461"
+    },
+    {
+      "name": "Francesc de Paula Caminal i Badia",
+      "office": "consejero del Consejo de Garantías Estatutarias",
+      "started_on": "2013-03-20",
+      "ended_on": null,
+      "wikidata_id": "Q47068425"
+    },
+    {
+      "name": "Joan Ridao",
+      "office": "consejero del Consejo de Garantías Estatutarias",
+      "started_on": "2013-03-20",
+      "ended_on": "2016-12-30",
+      "wikidata_id": "Q4892821"
+    },
+    {
+      "name": "Pere Jover i Presa",
+      "office": "vicepresidente del Consejo de Garantías Estatutarias",
+      "started_on": "2013-04-18",
+      "ended_on": null,
+      "wikidata_id": "Q11940995"
+    },
+    {
+      "name": "Àlex Bas i Vilafranca",
+      "office": "consejero secretario del Consejo de Garantías Estatutarias",
+      "started_on": "2013-04-18",
+      "ended_on": null,
+      "wikidata_id": "Q47068411"
+    },
+    {
+      "name": "Jordi Jané",
+      "office": "Consejero de Interior de la Generalitat de Catalunya",
+      "started_on": "2015-06-22",
+      "ended_on": "2017-07-14",
+      "wikidata_id": "Q596435"
+    },
+    {
+      "name": "Meritxell Borràs",
+      "office": "consejero de Gobernación y Relaciones Institucionales de la Generalidad de Cataluña",
+      "started_on": "2015-06-22",
+      "ended_on": "2016-01-14",
+      "wikidata_id": "Q11936570"
+    },
+    {
+      "name": "Neus Munté",
+      "office": "vicepresidente del Gobierno de Cataluña",
+      "started_on": "2015-06-22",
+      "ended_on": "2016-01-14",
+      "wikidata_id": "Q11938637"
+    },
+    {
+      "name": "Antoni Comín",
+      "office": "Conseller de Sanidad",
+      "started_on": "2016-01-14",
+      "ended_on": "2017-10-27",
+      "wikidata_id": "Q16189675"
+    },
+    {
+      "name": "Carles Mundó Blanch",
+      "office": "consejero de Justicia de la Generalidad de Cataluña",
+      "started_on": "2016-01-14",
+      "ended_on": "2017-10-27",
+      "wikidata_id": "Q19290091"
+    },
+    {
+      "name": "Dolors Bassa",
+      "office": "conseller de Treball, Afers Socials i Famílies",
+      "started_on": "2016-01-14",
+      "ended_on": "2017-10-27",
+      "wikidata_id": "Q21126940"
+    },
+    {
+      "name": "Jordi Baiget i Cantons",
+      "office": "Conseller de Empresa y Conocimiento",
+      "started_on": "2016-01-14",
+      "ended_on": "2017-07-03",
+      "wikidata_id": "Q11928276"
+    },
+    {
+      "name": "Josep Rull i Andreu",
+      "office": "consejero de Territorio y Sostenibilidad",
+      "started_on": "2016-01-14",
+      "ended_on": "2017-10-27",
+      "wikidata_id": "Q17036721"
+    },
+    {
+      "name": "Meritxell Borràs",
+      "office": "Consejero de Gobernación, Administraciones Públicas y Vivienda",
+      "started_on": "2016-01-14",
+      "ended_on": "2017-10-27",
+      "wikidata_id": "Q11936570"
+    },
+    {
+      "name": "Meritxell Ruiz",
+      "office": "consejero de Enseñanza",
+      "started_on": "2016-01-14",
+      "ended_on": "2017-07-14",
+      "wikidata_id": "Q11936572"
+    },
+    {
+      "name": "Neus Munté",
+      "office": "Consejero de Presidencia de la Generalidad de Cataluña",
+      "started_on": "2016-01-14",
+      "ended_on": "2017-07-14",
+      "wikidata_id": "Q11938637"
+    },
+    {
+      "name": "Oriol Junqueras",
+      "office": "vicepresidente del Gobierno de Cataluña",
+      "started_on": "2016-01-14",
+      "ended_on": "2017-10-27",
+      "wikidata_id": "Q116812"
+    },
+    {
+      "name": "Oriol Junqueras",
+      "office": "consejero de Economía e Hacienda de la Generalidad de Cataluña",
+      "started_on": "2016-01-14",
+      "ended_on": "2017-10-27",
+      "wikidata_id": "Q116812"
+    },
+    {
+      "name": "Raül Romeva",
+      "office": "consejero de Asuntos Exteriores, Relaciones Institucionales y Transparencia",
+      "started_on": "2016-01-14",
+      "ended_on": "2017-10-27",
+      "wikidata_id": "Q2065232"
+    },
+    {
+      "name": "Santi Vila Vicente",
+      "office": "Conseller de Cultura de la Generalitat de Cataluña",
+      "started_on": "2016-01-14",
+      "ended_on": "2017-07-05",
+      "wikidata_id": "Q15731273"
+    },
+    {
+      "name": "Margarida Gil i Domènech",
+      "office": "consejero del Consejo de Garantías Estatutarias",
+      "started_on": "2017-06-13",
+      "ended_on": null,
+      "wikidata_id": "Q47068483"
+    },
+    {
+      "name": "Santi Vila Vicente",
+      "office": "Conseller de Empresa y Conocimiento",
+      "started_on": "2017-07-03",
+      "ended_on": "2017-10-26",
+      "wikidata_id": "Q15731273"
+    },
+    {
+      "name": "Lluís Puig",
+      "office": "Conseller de Cultura de la Generalitat de Cataluña",
+      "started_on": "2017-07-05",
+      "ended_on": "2017-10-27",
+      "wikidata_id": "Q31837305"
+    },
+    {
+      "name": "Clara Ponsatí",
+      "office": "consejero de Enseñanza",
+      "started_on": "2017-07-14",
+      "ended_on": "2017-10-27",
+      "wikidata_id": "Q33035647"
+    },
+    {
+      "name": "Joaquim Forn",
+      "office": "Consejero de Interior de la Generalitat de Catalunya",
+      "started_on": "2017-07-14",
+      "ended_on": "2017-10-27",
+      "wikidata_id": "Q28662924"
+    },
+    {
+      "name": "Jordi Turull",
+      "office": "Consejero de Presidencia de la Generalidad de Cataluña",
+      "started_on": "2017-07-14",
+      "ended_on": "2018-10-27",
+      "wikidata_id": "Q17037054"
+    },
+    {
+      "name": "Alba Vergés i Bosch",
+      "office": "Conseller de Sanidad",
+      "started_on": "2018-05-29",
+      "ended_on": "2021-05-25",
+      "wikidata_id": "Q19997671"
+    },
+    {
+      "name": "Chakir El Homrani Lesfar",
+      "office": "conseller de Treball, Afers Socials i Famílies",
+      "started_on": "2018-05-29",
+      "ended_on": "2021-05-26",
+      "wikidata_id": "Q20875705"
+    },
+    {
+      "name": "Damià Calvet",
+      "office": "consejero de Territorio y Sostenibilidad",
+      "started_on": "2018-05-29",
+      "ended_on": "2021-05-26",
+      "wikidata_id": "Q51845094"
+    },
+    {
+      "name": "Elsa Artadi",
+      "office": "Consejero de Presidencia de la Generalidad de Cataluña",
+      "started_on": "2018-05-29",
+      "ended_on": "2019-03-24",
+      "wikidata_id": "Q25847824"
+    },
+    {
+      "name": "Ernest Maragall",
+      "office": "Consejero de Acción Exterior, Relaciones Institucionales y Transparencia de la Generalidad de Cataluña",
+      "started_on": "2018-05-29",
+      "ended_on": "2018-11-22",
+      "wikidata_id": "Q1032587"
+    },
+    {
+      "name": "Ester Capella i Farré",
+      "office": "consejero de Justicia de la Generalidad de Cataluña",
+      "started_on": "2018-05-29",
+      "ended_on": "2021-05-25",
+      "wikidata_id": "Q19999367"
+    },
+    {
+      "name": "Jordi Puigneró i Ferrer",
+      "office": "Consejero de Políticas Digitales y Administración Pública",
+      "started_on": "2018-05-29",
+      "ended_on": "2021-05-26",
+      "wikidata_id": "Q19288997"
+    },
+    {
+      "name": "Josep Bargalló",
+      "office": "consejero de Educación de la Generalidad de Cataluña",
+      "started_on": "2018-05-29",
+      "ended_on": "2021-05-25",
+      "wikidata_id": "Q3327197"
+    },
+    {
+      "name": "Laura Borrás Castanyer",
+      "office": "Conseller de Cultura de la Generalitat de Cataluña",
+      "started_on": "2018-05-29",
+      "ended_on": "2019-03-24",
+      "wikidata_id": "Q16179626"
+    },
+    {
+      "name": "Miquel Buch",
+      "office": "Consejero de Interior de la Generalitat de Catalunya",
+      "started_on": "2018-05-29",
+      "ended_on": "2020-09-03",
+      "wikidata_id": "Q14041863"
+    },
+    {
+      "name": "Pere Aragonès",
+      "office": "vicepresidente del Gobierno de Cataluña",
+      "started_on": "2018-05-29",
+      "ended_on": "2021-05-25",
+      "wikidata_id": "Q16169026"
+    },
+    {
+      "name": "Pere Aragonès",
+      "office": "consejero de Economía e Hacienda de la Generalidad de Cataluña",
+      "started_on": "2018-05-29",
+      "ended_on": "2021-05-25",
+      "wikidata_id": "Q16169026"
+    },
+    {
+      "name": "Àngels Chacón",
+      "office": "Conseller de Empresa y Conocimiento",
+      "started_on": "2018-05-29",
+      "ended_on": "2020-09-03",
+      "wikidata_id": "Q54435048"
+    },
+    {
+      "name": "Alfred Bosch",
+      "office": "Consejero de Acción Exterior, Relaciones Institucionales y Transparencia de la Generalidad de Cataluña",
+      "started_on": "2018-11-22",
+      "ended_on": "2020-03-09",
+      "wikidata_id": "Q3325328"
+    },
+    {
+      "name": "Joan Ramon Casals i Mata",
+      "office": "Consejero de Presidencia de la Generalidad de Cataluña",
+      "started_on": "2019-01-29",
+      "ended_on": "2020-10-13",
+      "wikidata_id": "Q14040557"
+    },
+    {
+      "name": "Mariàngela Vilallonga",
+      "office": "Conseller de Cultura de la Generalitat de Cataluña",
+      "started_on": "2019-03-24",
+      "ended_on": "2020-09-03",
+      "wikidata_id": "Q11935596"
+    },
+    {
+      "name": "Meritxell Budó i Pla",
+      "office": "Consejero de Presidencia de la Generalidad de Cataluña",
+      "started_on": "2019-03-24",
+      "ended_on": "2021-05-25",
+      "wikidata_id": "Q14039842"
+    },
+    {
+      "name": "Joan Vintró i Castells",
+      "office": "consejero del Consejo de Garantías Estatutarias",
+      "started_on": "2019-07-23",
+      "ended_on": null,
+      "wikidata_id": "Q20876124"
+    },
+    {
+      "name": "Bernat Solé Barril",
+      "office": "Consejero de Acción Exterior, Relaciones Institucionales y Transparencia de la Generalidad de Cataluña",
+      "started_on": "2020-03-20",
+      "ended_on": "2021-05-25",
+      "wikidata_id": "Q14087414"
+    },
+    {
+      "name": "Miquel Sàmper y Rodríguez",
+      "office": "Consejero de Interior de la Generalitat de Catalunya",
+      "started_on": "2020-09-03",
+      "ended_on": "2021-05-25",
+      "wikidata_id": "Q98842742"
+    },
+    {
+      "name": "Ramon Tremosa",
+      "office": "Conseller de Empresa y Conocimiento",
+      "started_on": "2020-09-03",
+      "ended_on": "2021-05-25",
+      "wikidata_id": "Q2171878"
+    },
+    {
+      "name": "Àngels Ponsa i Roca",
+      "office": "Conseller de Cultura de la Generalitat de Cataluña",
+      "started_on": "2020-09-08",
+      "ended_on": "2021-05-25",
+      "wikidata_id": "Q20876874"
+    },
+    {
+      "name": "Gemma Geis i Carreras",
+      "office": "consejera de Investigación y Universides de la Generalitat de Catalunya",
+      "started_on": "2021-05-26",
+      "ended_on": "2022-10-10",
+      "wikidata_id": "Q44717119"
+    },
+    {
+      "name": "Jaume Giró",
+      "office": "consejero de Economía e Hacienda de la Generalidad de Cataluña",
+      "started_on": "2021-05-26",
+      "ended_on": "2022-10-10",
+      "wikidata_id": "Q26512007"
+    },
+    {
+      "name": "Joan Ignasi Elena i Garcia",
+      "office": "Consejero de Interior de la Generalitat de Catalunya",
+      "started_on": "2021-05-26",
+      "ended_on": "2024-08-12",
+      "wikidata_id": "Q17029245"
+    },
+    {
+      "name": "Jordi Puigneró i Ferrer",
+      "office": "vicepresidente del Gobierno de Cataluña",
+      "started_on": "2021-05-26",
+      "ended_on": "2022-09-28",
+      "wikidata_id": "Q19288997"
+    },
+    {
+      "name": "Josep González i Cambray",
+      "office": "consejero de Educación de la Generalidad de Cataluña",
+      "started_on": "2021-05-26",
+      "ended_on": "2023-06-12",
+      "wikidata_id": "Q100988087"
+    },
+    {
+      "name": "Josep Maria Argimon i Pallàs",
+      "office": "Conseller de Sanidad",
+      "started_on": "2021-05-26",
+      "ended_on": "2022-10-10",
+      "wikidata_id": "Q87735309"
+    },
+    {
+      "name": "Laura Vilagrà i Pons",
+      "office": "Consejero de Presidencia de la Generalidad de Cataluña",
+      "started_on": "2021-05-26",
+      "ended_on": "2024-08-12",
+      "wikidata_id": "Q11931226"
+    },
+    {
+      "name": "Lourdes Ciuró",
+      "office": "consejero de Justicia de la Generalidad de Cataluña",
+      "started_on": "2021-05-26",
+      "ended_on": "2022-10-10",
+      "wikidata_id": "Q20100417"
+    },
+    {
+      "name": "Natàlia Garriga i Ibáñez",
+      "office": "Conseller de Cultura de la Generalitat de Cataluña",
+      "started_on": "2021-05-26",
+      "ended_on": "2024-08-12",
+      "wikidata_id": "Q56650177"
+    },
+    {
+      "name": "Tània Verge i Mestre",
+      "office": "Consejera de Igualdad y Feminismo",
+      "started_on": "2021-05-26",
+      "ended_on": "2024-08-12",
+      "wikidata_id": "Q57495650"
+    },
+    {
+      "name": "Violant Cervera i Gòdia",
+      "office": "consejera de Derechos Sociales",
+      "started_on": "2021-05-26",
+      "ended_on": "2022-10-10",
+      "wikidata_id": "Q20963352"
+    },
+    {
+      "name": "Carles Campuzano",
+      "office": "consejera de Derechos Sociales",
+      "started_on": "2022-10-10",
+      "ended_on": "2024-08-12",
+      "wikidata_id": "Q6694437"
+    },
+    {
+      "name": "Gemma Ubasart",
+      "office": "consejero de Justicia, Derechos y Memoria de la Generalidad de Cataluña",
+      "started_on": "2022-10-10",
+      "ended_on": "2024-08-11",
+      "wikidata_id": "Q19291032"
+    },
+    {
+      "name": "Joaquim Nadal",
+      "office": "consejera de Investigación y Universides de la Generalitat de Catalunya",
+      "started_on": "2022-10-10",
+      "ended_on": "2024-08-12",
+      "wikidata_id": "Q2876147"
+    },
+    {
+      "name": "Manuel Balcells i Díaz",
+      "office": "Conseller de Sanidad",
+      "started_on": "2022-10-10",
+      "ended_on": "2024-08-12",
+      "wikidata_id": "Q6752432"
+    },
+    {
+      "name": "Natàlia Mas Guix",
+      "office": "consejero de Economía e Hacienda de la Generalidad de Cataluña",
+      "started_on": "2022-10-10",
+      "ended_on": "2024-08-12",
+      "wikidata_id": "Q106941907"
+    },
+    {
+      "name": "Anna Simó",
+      "office": "consejero de Educación de la Generalidad de Cataluña",
+      "started_on": "2023-06-13",
+      "ended_on": "2024-08-12",
+      "wikidata_id": "Q4767484"
+    },
+    {
+      "name": "F. Xavier Vila i Moreno",
+      "office": "consejero de Política Lingüística de la Generalidad de Cataluña",
+      "started_on": "2024-01-01",
+      "ended_on": null,
+      "wikidata_id": "Q106907752"
+    },
+    {
+      "name": "Laura Vilagrà i Pons",
+      "office": "vicepresidente del Gobierno de Cataluña",
+      "started_on": "2024-01-23",
+      "ended_on": null,
+      "wikidata_id": "Q11931226"
+    },
+    {
+      "name": "Albert Dalmau Miranda",
+      "office": "Consejero de Presidencia de la Generalidad de Cataluña",
+      "started_on": "2024-08-12",
+      "ended_on": null,
+      "wikidata_id": "Q128826567"
+    },
+    {
+      "name": "Alícia Romero",
+      "office": "consejero de Economía e Hacienda de la Generalidad de Cataluña",
+      "started_on": "2024-08-12",
+      "ended_on": null,
+      "wikidata_id": "Q21001447"
+    },
+    {
+      "name": "Berni Álvarez",
+      "office": "Consejero de Deportes",
+      "started_on": "2024-08-12",
+      "ended_on": null,
+      "wikidata_id": "Q4894270"
+    },
+    {
+      "name": "Esther Niubó Cidoncha",
+      "office": "consejero de Educación de la Generalidad de Cataluña",
+      "started_on": "2024-08-12",
+      "ended_on": null,
+      "wikidata_id": "Q20876464"
+    },
+    {
+      "name": "Eva María Menor Cantador",
+      "office": "Consejera de Igualdad y Feminismo",
+      "started_on": "2024-08-12",
+      "ended_on": null,
+      "wikidata_id": "Q14038189"
+    },
+    {
+      "name": "Mònica Martínez Bravo",
+      "office": "consejera de Derechos Sociales",
+      "started_on": "2024-08-12",
+      "ended_on": "2026-07-20",
+      "wikidata_id": "Q128904159"
+    },
+    {
+      "name": "Núria Montserrat",
+      "office": "consejera de Investigación y Universides de la Generalitat de Catalunya",
+      "started_on": "2024-08-12",
+      "ended_on": null,
+      "wikidata_id": "Q41679242"
+    },
+    {
+      "name": "Núria Parlon",
+      "office": "Consejero de Interior de la Generalitat de Catalunya",
+      "started_on": "2024-08-12",
+      "ended_on": null,
+      "wikidata_id": "Q9051334"
+    },
+    {
+      "name": "Olga Pané",
+      "office": "Conseller de Sanidad",
+      "started_on": "2024-08-12",
+      "ended_on": null,
+      "wikidata_id": "Q128904158"
+    },
+    {
+      "name": "Sílvia Paneque i Sureda",
+      "office": "consejero de Territorio, Habitaje y Transición Ecológica",
+      "started_on": "2024-08-12",
+      "ended_on": null,
+      "wikidata_id": "Q33108552"
+    },
+    {
+      "name": "Sònia Hernández Almodóvar",
+      "office": "Conseller de Cultura de la Generalitat de Cataluña",
+      "started_on": "2024-08-12",
+      "ended_on": null,
+      "wikidata_id": "Q128947641"
+    },
+    {
+      "name": "Raúl Moreno Montaña",
+      "office": "consejera de Derechos Sociales",
+      "started_on": "2026-07-20",
+      "ended_on": null,
+      "wikidata_id": "Q21402456"
+    },
+    {
+      "name": "Agustí Carol i Foix",
+      "office": "Consejero de la Generalidad de Cataluña",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q11904392"
+    },
+    {
+      "name": "Antonio Sesé Artaso",
+      "office": "Consejero de la Generalidad de Cataluña",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q8201721"
+    },
+    {
+      "name": "Artemi Aiguader i Miró",
+      "office": "Consejero de la Generalidad de Cataluña",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q11679976"
+    },
+    {
+      "name": "Carles Martí i Feced",
+      "office": "Consejero de la Generalidad de Cataluña",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q11912411"
+    },
+    {
+      "name": "Carlos Martí Feced",
+      "office": "Consejero de la Generalidad de Cataluña",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q5750870"
+    },
+    {
+      "name": "Casimiro Giralt Bullich",
+      "office": "Consejero de la Generalidad de Cataluña",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q11912944"
+    },
+    {
+      "name": "Estanislau Ruiz",
+      "office": "Consejero de la Generalidad de Cataluña",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q8845577"
+    },
+    {
+      "name": "Felipe Díaz Sandino",
+      "office": "Consejero de la Generalidad de Cataluña",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q4891567"
+    },
+    {
+      "name": "Francesc Homs",
+      "office": "Consejero de la Generalidad de Cataluña",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q8962187"
+    },
+    {
+      "name": "Francesc Isgleas i Piarnau",
+      "office": "Consejero de la Generalidad de Cataluña",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q19290874"
+    },
+    {
+      "name": "Francesc Xavier Casals",
+      "office": "Consejero de la Generalidad de Cataluña",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q11922875"
+    },
+    {
+      "name": "Francesc Xavier Marimon i Sabaté",
+      "office": "Consejero de la Generalidad de Cataluña",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q11922886"
+    },
+    {
+      "name": "Fèlix Escalas Chamení",
+      "office": "Consejero de la Generalidad de Cataluña",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q12389109"
+    },
+    {
+      "name": "Joan Lluhí",
+      "office": "Consejero de la Generalidad de Cataluña",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q9011963"
+    },
+    {
+      "name": "Josep Maria Pelegrí",
+      "office": "Consejero de la Generalidad de Cataluña",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q9013231"
+    },
+    {
+      "name": "Josep Maria Triginer",
+      "office": "Consejero de la Generalidad de Cataluña",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q11685569"
+    },
+    {
+      "name": "Josep Quero i Molares",
+      "office": "Consejero de la Generalidad de Cataluña",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q11928881"
+    },
+    {
+      "name": "José Calvet Mora",
+      "office": "Consejero de la Generalidad de Cataluña",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q586122"
+    },
+    {
+      "name": "Juan Comorera y Solé",
+      "office": "consejero de Justicia y Derecho",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q2500336"
+    },
+    {
+      "name": "Manuel Ortínez i Mur",
+      "office": "Consejero de la Generalidad de Cataluña",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q11934980"
+    },
+    {
+      "name": "Maria Eugènia Cuenca",
+      "office": "Consejero de la Generalidad de Cataluña",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q16190233"
+    },
+    {
+      "name": "Marta Cid",
+      "office": "Consejero de la Generalidad de Cataluña",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q4893335"
+    },
+    {
+      "name": "Martí Esteve i Guau",
+      "office": "Consejero de la Generalidad de Cataluña",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q3295974"
+    },
+    {
+      "name": "Miquel Valdés",
+      "office": "Consejero de la Generalidad de Cataluña",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q11936979"
+    },
+    {
+      "name": "Pere Comas",
+      "office": "Consejero de la Generalidad de Cataluña",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q11698858"
+    },
+    {
+      "name": "Pere Esteve",
+      "office": "Consejero de la Generalidad de Cataluña",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q3813658"
+    },
+    {
+      "name": "Pere Mias i Codina",
+      "office": "Consejero de la Generalidad de Cataluña",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q19301536"
+    },
+    {
+      "name": "Rafael Campalans",
+      "office": "Consejero de la Generalidad de Cataluña",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q9065747"
+    },
+    {
+      "name": "Rafael Vidiella i Franch",
+      "office": "Consejero de la Generalidad de Cataluña",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q9065935"
+    },
+    {
+      "name": "Salvador Milà i Solsona",
+      "office": "Consejero de la Generalidad de Cataluña",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q7406430"
+    },
+    {
+      "name": "Salvador Vidal Rosell",
+      "office": "Consejero de la Generalidad de Cataluña",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q17300753"
+    },
+    {
+      "name": "Ventura Gassol",
+      "office": "Consejero de la Generalidad de Cataluña",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q9092946"
+    },
+    {
+      "name": "Xavier Sabaté",
+      "office": "Consejero de la Generalidad de Cataluña",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q9096574"
+    }
+  ]
+}

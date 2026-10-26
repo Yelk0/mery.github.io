@@ -1,0 +1,464 @@
+{
+  "slug": "madrid",
+  "name": "Comunidad de Madrid",
+  "president_source": "wikipedia",
+  "presidents": [
+    {
+      "name": "Alberto Ruiz-Gallardón",
+      "party": "PP",
+      "started_on": "1999-07-08",
+      "ended_on": "2003-11-20",
+      "wikidata_id": ""
+    },
+    {
+      "name": "Esperanza Aguirre",
+      "party": "PP",
+      "started_on": "2003-11-21",
+      "ended_on": "2012-09-26",
+      "wikidata_id": ""
+    },
+    {
+      "name": "Ignacio González",
+      "party": "PP",
+      "started_on": "2012-09-27",
+      "ended_on": "2015-06-24",
+      "wikidata_id": ""
+    },
+    {
+      "name": "Cristina Cifuentes",
+      "party": "PP",
+      "started_on": "2015-06-25",
+      "ended_on": "2018-04-24",
+      "wikidata_id": ""
+    },
+    {
+      "name": "Ángel Garrido",
+      "party": "PP",
+      "started_on": "2018-04-25",
+      "ended_on": "2019-04-10",
+      "wikidata_id": ""
+    },
+    {
+      "name": "Pedro Rollán",
+      "party": "PP",
+      "started_on": "2019-04-11",
+      "ended_on": "2019-08-18",
+      "wikidata_id": ""
+    },
+    {
+      "name": "Isabel Díaz Ayuso",
+      "party": "PP",
+      "started_on": "2019-08-19",
+      "ended_on": null,
+      "wikidata_id": ""
+    }
+  ],
+  "members": [
+    {
+      "name": "Carlos Mayor Oreja",
+      "office": "consejero de Medio Ambiente y Desarrollo Regional de la Comunidad de Madrid",
+      "started_on": "1995-07-01",
+      "ended_on": "1999-07-09",
+      "wikidata_id": "Q50569001"
+    },
+    {
+      "name": "Gustavo Villapalos",
+      "office": "consejero de Educación y Cultura de la Comunidad de Madrid",
+      "started_on": "1995-07-01",
+      "ended_on": "2001-09-01",
+      "wikidata_id": "Q5889935"
+    },
+    {
+      "name": "Jesús Pedroche",
+      "office": "consejero de Presidencia de la Comunidad de Madrid",
+      "started_on": "1995-07-01",
+      "ended_on": null,
+      "wikidata_id": "Q5930525"
+    },
+    {
+      "name": "Rosa Posada",
+      "office": "consejero de Sanidad y Servicios Sociales de la Comunidad de Madrid",
+      "started_on": "1995-07-01",
+      "ended_on": "1999-07-10",
+      "wikidata_id": "Q6112228"
+    },
+    {
+      "name": "Gustavo Villapalos",
+      "office": "consejero de Educación de la Comunidad de Madrid",
+      "started_on": "1999-01-01",
+      "ended_on": "2001-01-01",
+      "wikidata_id": "Q5889935"
+    },
+    {
+      "name": "Francisco Cabaco",
+      "office": "vicepresidente segundo de la Asamblea de Madrid",
+      "started_on": "1999-06-30",
+      "ended_on": "2003-04-01",
+      "wikidata_id": "Q55499835"
+    },
+    {
+      "name": "Carlos Mayor Oreja",
+      "office": "consejero de Medio Ambiente de la Comunidad de Madrid",
+      "started_on": "1999-07-09",
+      "ended_on": "2000-05-01",
+      "wikidata_id": "Q50569001"
+    },
+    {
+      "name": "Pilar Martínez",
+      "office": "consejero de Servicios Sociales de la Comunidad de Madrid",
+      "started_on": "1999-07-14",
+      "ended_on": "2003-06-14",
+      "wikidata_id": "Q52270126"
+    },
+    {
+      "name": "Carlos Mayor Oreja",
+      "office": "consejero de Justicia, Función Pública y Administración Local de la Comunidad de Madrid",
+      "started_on": "2000-05-01",
+      "ended_on": "2001-09-21",
+      "wikidata_id": "Q50569001"
+    },
+    {
+      "name": "Luis Peral",
+      "office": "consejero de Trabajo de la Comunidad de Madrid",
+      "started_on": "2001-09-01",
+      "ended_on": "2003-01-01",
+      "wikidata_id": "Q47464148"
+    },
+    {
+      "name": "Carlos Mayor Oreja",
+      "office": "consejero de Educación de la Comunidad de Madrid",
+      "started_on": "2001-09-21",
+      "ended_on": "2003-11-22",
+      "wikidata_id": "Q50569001"
+    },
+    {
+      "name": "Miguel Garrido de la Cierva",
+      "office": "consejero de Medio Ambiente de la Comunidad de Madrid",
+      "started_on": "2003-06-01",
+      "ended_on": "2013-11-01",
+      "wikidata_id": "Q50807985"
+    },
+    {
+      "name": "Carlos Mayor Oreja",
+      "office": "vicepresidente primero y consejero de Presidencia y Educación en funciones de la Comunidad de Madrid",
+      "started_on": "2003-07-01",
+      "ended_on": "2003-11-01",
+      "wikidata_id": "Q50569001"
+    },
+    {
+      "name": "Juan José Güemes",
+      "office": "consejero de Empleo y Mujer de la Comunidad de Madrid",
+      "started_on": "2003-11-21",
+      "ended_on": "2007-06-20",
+      "wikidata_id": "Q3815062"
+    },
+    {
+      "name": "Santiago Fisas",
+      "office": "consejero de Cultura y Deportes de la Comunidad de Madrid",
+      "started_on": "2003-11-21",
+      "ended_on": "2009-06-30",
+      "wikidata_id": "Q3817070"
+    },
+    {
+      "name": "Engracia Hidalgo",
+      "office": "consejero de Hacienda de la Comunidad de Madrid",
+      "started_on": "2003-11-22",
+      "ended_on": "2008-06-26",
+      "wikidata_id": "Q5832804"
+    },
+    {
+      "name": "Francisco Granados",
+      "office": "consejero de Transportes e Infraestructuras de la Comunidad de Madrid",
+      "started_on": "2003-11-22",
+      "ended_on": "2004-12-20",
+      "wikidata_id": "Q3081856"
+    },
+    {
+      "name": "Luis Peral",
+      "office": "consejero de Educación de la Comunidad de Madrid",
+      "started_on": "2003-11-22",
+      "ended_on": "2007-06-20",
+      "wikidata_id": "Q47464148"
+    },
+    {
+      "name": "María Dolores de Cospedal",
+      "office": "consejero de Transportes e Infraestructuras de la Comunidad de Madrid",
+      "started_on": "2004-12-21",
+      "ended_on": "2006-06-13",
+      "wikidata_id": "Q271658"
+    },
+    {
+      "name": "Elvira Rodríguez",
+      "office": "consejero de Transportes e Infraestructuras de la Comunidad de Madrid",
+      "started_on": "2006-06-13",
+      "ended_on": "2007-06-11",
+      "wikidata_id": "Q3051830"
+    },
+    {
+      "name": "Lucía Figar",
+      "office": "consejero de Educación de la Comunidad de Madrid",
+      "started_on": "2007-01-01",
+      "ended_on": null,
+      "wikidata_id": "Q5689942"
+    },
+    {
+      "name": "Francisco Cabaco",
+      "office": "vicepresidente segundo de la Asamblea de Madrid",
+      "started_on": "2007-06-12",
+      "ended_on": "2011-03-29",
+      "wikidata_id": "Q55499835"
+    },
+    {
+      "name": "Juan José Güemes",
+      "office": "consejero de Sanidad de la Comunidad de Madrid",
+      "started_on": "2007-06-20",
+      "ended_on": "2010-03-18",
+      "wikidata_id": "Q3815062"
+    },
+    {
+      "name": "Paloma Adrados",
+      "office": "consejero de Empleo y Mujer de la Comunidad de Madrid",
+      "started_on": "2007-06-20",
+      "ended_on": "2010-03-18",
+      "wikidata_id": "Q6059130"
+    },
+    {
+      "name": "Gádor Ongil",
+      "office": "consejero de Familia y Asuntos Sociales de la Comunidad de Madrid",
+      "started_on": "2007-06-21",
+      "ended_on": "2008-06-26",
+      "wikidata_id": "Q47483669"
+    },
+    {
+      "name": "Javier Fernández-Lasquetty",
+      "office": "consejero de Inmigración y Cooperación de la Comunidad de Madrid",
+      "started_on": "2007-06-21",
+      "ended_on": "2010-03-18",
+      "wikidata_id": "Q9011222"
+    },
+    {
+      "name": "Ana Isabel Mariño",
+      "office": "consejero de Medio Ambiente y Ordenación del Territorio de la Comunidad de Madrid",
+      "started_on": "2008-01-01",
+      "ended_on": "2012-01-01",
+      "wikidata_id": "Q5673801"
+    },
+    {
+      "name": "José Ignacio Echeverría",
+      "office": "consejero de Transportes de la Comunidad de Madrid",
+      "started_on": "2008-06-26",
+      "ended_on": "2011-06-07",
+      "wikidata_id": "Q5940492"
+    },
+    {
+      "name": "Ignacio González González",
+      "office": "vicepresidente, consejero de Cultura y Deporte y portavoz del Gobierno de la Comunidad de Madrid",
+      "started_on": "2009-11-22",
+      "ended_on": "2012-09-27",
+      "wikidata_id": "Q3081437"
+    },
+    {
+      "name": "Javier Fernández-Lasquetty",
+      "office": "consejero de Sanidad de la Comunidad de Madrid",
+      "started_on": "2010-03-18",
+      "ended_on": "2014-01-28",
+      "wikidata_id": "Q9011222"
+    },
+    {
+      "name": "Paloma Adrados",
+      "office": "consejero de Empleo, Mujer e Inmigración de la Comunidad de Madrid",
+      "started_on": "2010-03-18",
+      "ended_on": "2011-06-07",
+      "wikidata_id": "Q6059130"
+    },
+    {
+      "name": "Regina Plañiol",
+      "office": "consejero de Presidencia y Justicia de la Comunidad de Madrid",
+      "started_on": "2011-06-17",
+      "ended_on": "2012-09-28",
+      "wikidata_id": "Q6103881"
+    },
+    {
+      "name": "Ana Isabel Mariño",
+      "office": "consejero de Empleo, Turismo y Cultura de la Comunidad de Madrid",
+      "started_on": "2012-01-01",
+      "ended_on": "2015-01-01",
+      "wikidata_id": "Q5673801"
+    },
+    {
+      "name": "Enrique Ossorio",
+      "office": "consejero de Economía y Hacienda de la Comunidad de Madrid",
+      "started_on": "2012-01-01",
+      "ended_on": "2015-01-01",
+      "wikidata_id": "Q5833669"
+    },
+    {
+      "name": "Pablo Cavero",
+      "office": "consejero de Transportes e Infraestructuras de la Comunidad de Madrid",
+      "started_on": "2012-01-25",
+      "ended_on": "2012-09-28",
+      "wikidata_id": "Q6055883"
+    },
+    {
+      "name": "Pablo Cavero",
+      "office": "consejero de Transportes, Infraestructuras y Vivienda de la Comunidad de Madrid",
+      "started_on": "2012-09-28",
+      "ended_on": "2015-06-15",
+      "wikidata_id": "Q6055883"
+    },
+    {
+      "name": "Francisco Javier Rodríguez Rodríguez",
+      "office": "consejero de Sanidad de la Comunidad de Madrid",
+      "started_on": "2014-01-27",
+      "ended_on": "2014-12-04",
+      "wikidata_id": "Q16569048"
+    },
+    {
+      "name": "Javier Maldonado González",
+      "office": "consejero de Sanidad de la Comunidad de Madrid",
+      "started_on": "2014-12-05",
+      "ended_on": "2015-06-27",
+      "wikidata_id": "Q58008355"
+    },
+    {
+      "name": "Modesto Nolla",
+      "office": "vicepresidente segundo de la Asamblea de Madrid",
+      "started_on": "2015-01-01",
+      "ended_on": null,
+      "wikidata_id": "Q50761751"
+    },
+    {
+      "name": "Carlos Izquierdo Torres",
+      "office": "consejero de Políticas Sociales y Familia de la Comunidad de Madrid",
+      "started_on": "2015-06-26",
+      "ended_on": "2018-05-22",
+      "wikidata_id": "Q20337774"
+    },
+    {
+      "name": "Jesús Sánchez Martos",
+      "office": "consejero de Sanidad de la Comunidad de Madrid",
+      "started_on": "2015-06-27",
+      "ended_on": "2017-09-26",
+      "wikidata_id": "Q58007028"
+    },
+    {
+      "name": "Rafael van Grieken",
+      "office": "consejero de Educación, Juventud y Deporte de la Comunidad de Madrid",
+      "started_on": "2015-06-27",
+      "ended_on": "2017-09-26",
+      "wikidata_id": "Q39930324"
+    },
+    {
+      "name": "Ángel Garrido",
+      "office": "consejero de Presidencia, Justicia y Portavocía del Gobierno de la Comunidad de Madrid",
+      "started_on": "2015-06-27",
+      "ended_on": null,
+      "wikidata_id": "Q22987603"
+    },
+    {
+      "name": "Enrique Ruiz Escudero",
+      "office": "consejero de Sanidad de la Comunidad de Madrid",
+      "started_on": "2017-09-26",
+      "ended_on": null,
+      "wikidata_id": "Q48033764"
+    },
+    {
+      "name": "Jaime de los Santos",
+      "office": "consejero de Cultura, Turismo y Deportes de la Comunitat de Madrid",
+      "started_on": "2017-09-26",
+      "ended_on": null,
+      "wikidata_id": "Q58036863"
+    },
+    {
+      "name": "Rafael van Grieken",
+      "office": "consejero de Educación e Investigación de la Comunidad de Madrid",
+      "started_on": "2017-09-26",
+      "ended_on": "2019-08-01",
+      "wikidata_id": "Q39930324"
+    },
+    {
+      "name": "Lola Moreno",
+      "office": "consejero de Políticas Sociales y Familia de la Comunidad de Madrid",
+      "started_on": "2018-05-22",
+      "ended_on": null,
+      "wikidata_id": "Q58037522"
+    },
+    {
+      "name": "Enrique López López",
+      "office": "consejero de Justicia, Interior y Víctimas de la Comunidad de Madrid",
+      "started_on": "2019-01-01",
+      "ended_on": null,
+      "wikidata_id": "Q15980180"
+    },
+    {
+      "name": "Marta Rivera de la Cruz",
+      "office": "consejero de Cultura y Turismo de la Comunidad de Madrid",
+      "started_on": "2019-08-20",
+      "ended_on": null,
+      "wikidata_id": "Q3394433"
+    },
+    {
+      "name": "Paloma Martín Martín",
+      "office": "consejero de Medio Ambiente, Ordenación del Territorio y Sostenibilidad de la Comunidad de Madrid",
+      "started_on": "2019-08-20",
+      "ended_on": null,
+      "wikidata_id": "Q77329353"
+    },
+    {
+      "name": "Agapito Ramos",
+      "office": "consejero de Presidencia de la Comunidad de Madrid",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q5659640"
+    },
+    {
+      "name": "Antonio Beteta",
+      "office": "consejero de Economía y Hacienda de la Comunidad de Madrid",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q5697872"
+    },
+    {
+      "name": "Luis Alejandro Cendrero",
+      "office": "consejero de Economía y Hacienda de la Comunidad de Madrid",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q16594117"
+    },
+    {
+      "name": "Manuel Cobo Vega",
+      "office": "consejero de Presidencia de la Comunidad de Madrid",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q5992655"
+    },
+    {
+      "name": "Manuel Lamela",
+      "office": "consejero de Transportes e Infraestructuras de la Comunidad de Madrid",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q5993424"
+    },
+    {
+      "name": "Mariano Zabía Lasala",
+      "office": "consejero de Medio Ambiente y Ordenación del Territorio de la Comunidad de Madrid",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q5998022"
+    },
+    {
+      "name": "Percival Manglano",
+      "office": "consejero de Economía y Hacienda de la Comunidad de Madrid",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q6072133"
+    },
+    {
+      "name": "Salvador Victoria Bolívar",
+      "office": "consejero de Presidencia, Justicia y Portavocía del Gobierno de la Comunidad de Madrid",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q6117817"
+    }
+  ]
+}

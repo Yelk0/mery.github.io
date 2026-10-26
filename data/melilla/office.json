@@ -1,0 +1,36 @@
+{
+  "slug": "melilla",
+  "name": "Melilla",
+  "president_source": "wikidata",
+  "presidents": [
+    {
+      "name": "Mustafa Aberchán",
+      "party": "CpM",
+      "started_on": "1999-07-05",
+      "ended_on": "2000-07-18",
+      "wikidata_id": "Q3820551"
+    },
+    {
+      "name": "Juan José Imbroda",
+      "party": "PP",
+      "started_on": "2000-07-19",
+      "ended_on": "2019-06-14",
+      "wikidata_id": "Q1969815"
+    },
+    {
+      "name": "Eduardo de Castro González",
+      "party": "Cs",
+      "started_on": "2019-06-15",
+      "ended_on": "2023-07-06",
+      "wikidata_id": "Q64627309"
+    },
+    {
+      "name": "Juan José Imbroda",
+      "party": "PP",
+      "started_on": "2023-07-07",
+      "ended_on": null,
+      "wikidata_id": ""
+    }
+  ],
+  "members": []
+}

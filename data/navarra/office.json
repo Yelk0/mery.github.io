@@ -1,0 +1,36 @@
+{
+  "slug": "navarra",
+  "name": "Navarra",
+  "president_source": "wikidata",
+  "presidents": [
+    {
+      "name": "Miguel Sanz",
+      "party": "UPN",
+      "started_on": "1996-09-18",
+      "ended_on": "2011-06-30",
+      "wikidata_id": "Q3045524"
+    },
+    {
+      "name": "Yolanda Barcina",
+      "party": "UPN",
+      "started_on": "2011-07-01",
+      "ended_on": "2015-07-19",
+      "wikidata_id": "Q3133336"
+    },
+    {
+      "name": "Uxue Barkos",
+      "party": "Geroa Bai",
+      "started_on": "2015-07-20",
+      "ended_on": "2019-08-05",
+      "wikidata_id": "Q961601"
+    },
+    {
+      "name": "María Chivite Navascués",
+      "party": "PSOE",
+      "started_on": "2019-08-06",
+      "ended_on": null,
+      "wikidata_id": "Q12263205"
+    }
+  ],
+  "members": []
+}

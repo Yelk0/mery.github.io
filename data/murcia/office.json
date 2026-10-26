@@ -1,0 +1,36 @@
+{
+  "slug": "murcia",
+  "name": "Región de Murcia",
+  "president_source": "wikidata",
+  "presidents": [
+    {
+      "name": "Ramón Luis Valcárcel",
+      "party": "PP",
+      "started_on": "1995-06-26",
+      "ended_on": "2014-04-09",
+      "wikidata_id": "Q1021708"
+    },
+    {
+      "name": "Alberto Garre",
+      "party": "PP",
+      "started_on": "2014-04-10",
+      "ended_on": "2015-07-02",
+      "wikidata_id": ""
+    },
+    {
+      "name": "Pedro Antonio Sánchez",
+      "party": "PP",
+      "started_on": "2015-07-03",
+      "ended_on": "2017-04-04",
+      "wikidata_id": "Q20635201"
+    },
+    {
+      "name": "Fernando López Miras",
+      "party": "PP",
+      "started_on": "2017-05-03",
+      "ended_on": null,
+      "wikidata_id": "Q29168668"
+    }
+  ],
+  "members": []
+}

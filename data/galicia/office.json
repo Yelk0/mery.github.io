@@ -1,0 +1,205 @@
+{
+  "slug": "galicia",
+  "name": "Galicia",
+  "president_source": "wikipedia",
+  "presidents": [
+    {
+      "name": "Manuel Fraga Iribarne",
+      "party": "PP",
+      "started_on": "1990-02-02",
+      "ended_on": "2005-07-31",
+      "wikidata_id": ""
+    },
+    {
+      "name": "Emilio Pérez Touriño",
+      "party": "PSOE",
+      "started_on": "2005-08-01",
+      "ended_on": "2009-04-17",
+      "wikidata_id": ""
+    },
+    {
+      "name": "Alberto Núñez Feijóo",
+      "party": "PP",
+      "started_on": "2009-04-18",
+      "ended_on": "2022-05-11",
+      "wikidata_id": ""
+    },
+    {
+      "name": "Alfonso Rueda Valenzuela",
+      "party": "PP",
+      "started_on": "2022-05-12",
+      "ended_on": null,
+      "wikidata_id": ""
+    }
+  ],
+  "members": [
+    {
+      "name": "Xosé Cuíña",
+      "office": "consejero de la Junta de Galicia",
+      "started_on": "1990-01-01",
+      "ended_on": "2003-01-01",
+      "wikidata_id": "Q9096725"
+    },
+    {
+      "name": "Jesús Pérez Varela",
+      "office": "consejero de la Junta de Galicia",
+      "started_on": "1997-01-01",
+      "ended_on": "2005-01-01",
+      "wikidata_id": "Q20534521"
+    },
+    {
+      "name": "Juan Miguel Diz Guedes",
+      "office": "consejero de la Junta de Galicia",
+      "started_on": "2000-01-01",
+      "ended_on": "2001-01-01",
+      "wikidata_id": "Q12391261"
+    },
+    {
+      "name": "Corina Porro",
+      "office": "consejero de la Junta de Galicia",
+      "started_on": "2001-01-01",
+      "ended_on": "2003-01-01",
+      "wikidata_id": "Q588698"
+    },
+    {
+      "name": "Juan Miguel Diz Guedes",
+      "office": "consejero de la Junta de Galicia",
+      "started_on": "2001-01-01",
+      "ended_on": "2004-01-01",
+      "wikidata_id": "Q12391261"
+    },
+    {
+      "name": "Belén Prado",
+      "office": "consejero de Asuntos Sociales de la Junta de Galicia",
+      "started_on": "2004-01-01",
+      "ended_on": "2005-01-01",
+      "wikidata_id": "Q12384337"
+    },
+    {
+      "name": "Anxo Quintana",
+      "office": "vicepresidente de la Junta de Galicia",
+      "started_on": "2005-08-02",
+      "ended_on": "2009-04-20",
+      "wikidata_id": "Q3305593"
+    },
+    {
+      "name": "Agustín Hernández Fernández de Rojas",
+      "office": "consejero de la Junta de Galicia",
+      "started_on": "2009-01-01",
+      "ended_on": "2014-01-01",
+      "wikidata_id": "Q8191992"
+    },
+    {
+      "name": "Xesús Vázquez Abad",
+      "office": "consejero de la Junta de Galicia",
+      "started_on": "2009-01-01",
+      "ended_on": "2015-01-01",
+      "wikidata_id": "Q11684808"
+    },
+    {
+      "name": "Emilio de Llera",
+      "office": "consejero de la Junta de Galicia",
+      "started_on": "2012-01-01",
+      "ended_on": "2017-01-01",
+      "wikidata_id": "Q5831387"
+    },
+    {
+      "name": "Alfonso Rueda",
+      "office": "vicepresidente de la Junta de Galicia",
+      "started_on": "2012-12-02",
+      "ended_on": "2022-05-12",
+      "wikidata_id": "Q588412"
+    },
+    {
+      "name": "Jesús Vázquez Almuíña",
+      "office": "consejero de Sanidad de la Junta de Galicia",
+      "started_on": "2015-01-01",
+      "ended_on": "2020-01-01",
+      "wikidata_id": "Q12390882"
+    },
+    {
+      "name": "José Manuel Rey Varela",
+      "office": "consejero de la Junta de Galicia",
+      "started_on": "2015-01-01",
+      "ended_on": "2018-01-01",
+      "wikidata_id": "Q3329568"
+    },
+    {
+      "name": "Román Rodríguez González",
+      "office": "consejero de la Junta de Galicia",
+      "started_on": "2015-01-01",
+      "ended_on": null,
+      "wikidata_id": "Q12399239"
+    },
+    {
+      "name": "José González Vázquez",
+      "office": "consejero de la Junta de Galicia",
+      "started_on": "2018-01-01",
+      "ended_on": null,
+      "wikidata_id": "Q98150201"
+    },
+    {
+      "name": "Alfonso Villares",
+      "office": "consejero de la Junta de Galicia",
+      "started_on": "2023-01-01",
+      "ended_on": "2025-06-04",
+      "wikidata_id": "Q12382778"
+    },
+    {
+      "name": "José Carlos López Campos",
+      "office": "consejero de la Junta de Galicia",
+      "started_on": "2024-01-01",
+      "ended_on": null,
+      "wikidata_id": "Q12390995"
+    },
+    {
+      "name": "María José Gómez Rodríguez",
+      "office": "consejero de la Junta de Galicia",
+      "started_on": "2024-01-01",
+      "ended_on": null,
+      "wikidata_id": "Q109924478"
+    },
+    {
+      "name": "Marta Villaverde",
+      "office": "consejero de la Junta de Galicia",
+      "started_on": "2025-06-05",
+      "ended_on": null,
+      "wikidata_id": "Q134707002"
+    },
+    {
+      "name": "Alfredo Conde",
+      "office": "consejero de la Junta de Galicia",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q2338557"
+    },
+    {
+      "name": "Fernando Salgado García",
+      "office": "consejero de la Junta de Galicia",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q12388416"
+    },
+    {
+      "name": "José María Hernández Cochón",
+      "office": "consejero de Sanidad de la Junta de Galicia",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q12391113"
+    },
+    {
+      "name": "Juan Manuel de la Fuente Esperante",
+      "office": "consejero de la Junta de Galicia",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q98968170"
+    },
+    {
+      "name": "Manuel Montero",
+      "office": "consejero de Sanidad de la Junta de Galicia",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q12392784"
+    }
+  ]
+}

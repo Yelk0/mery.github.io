@@ -1,0 +1,310 @@
+{
+  "slug": "pais-vasco",
+  "name": "País Vasco",
+  "president_source": "wikipedia",
+  "presidents": [
+    {
+      "name": "Juan José Ibarretxe",
+      "party": "EAJ+PNV",
+      "started_on": "1999-01-02",
+      "ended_on": "2009-05-06",
+      "wikidata_id": ""
+    },
+    {
+      "name": "Patxi López",
+      "party": "PSOE",
+      "started_on": "2009-05-07",
+      "ended_on": "2012-12-14",
+      "wikidata_id": ""
+    },
+    {
+      "name": "Iñigo Urkullu",
+      "party": "EAJ+PNV",
+      "started_on": "2012-12-15",
+      "ended_on": "2024-06-21",
+      "wikidata_id": ""
+    },
+    {
+      "name": "Imanol Pradales",
+      "party": "EAJ+PNV",
+      "started_on": "2024-06-22",
+      "ended_on": null,
+      "wikidata_id": ""
+    }
+  ],
+  "members": [
+    {
+      "name": "Iñaki Azkuna",
+      "office": "Consejero de Salud del Gobierno Vasco",
+      "started_on": "1991-02-07",
+      "ended_on": "1999-01-02",
+      "wikidata_id": "Q853647"
+    },
+    {
+      "name": "Mari Karmen Garmendia",
+      "office": "Consejero de Cultura y Política Lingüística",
+      "started_on": "1995-01-01",
+      "ended_on": "2001-01-01",
+      "wikidata_id": "Q12263040"
+    },
+    {
+      "name": "Belen Greaves",
+      "office": "Consejero de Turismo, Comercio y Consumo",
+      "started_on": "1998-07-03",
+      "ended_on": "1999-01-07",
+      "wikidata_id": "Q12254960"
+    },
+    {
+      "name": "José Manuel Martiarena",
+      "office": "Consejero de Seguridad del Gobierno Vasco",
+      "started_on": "1998-11-26",
+      "ended_on": "1999-01-02",
+      "wikidata_id": "Q23907895"
+    },
+    {
+      "name": "Gabriel M.ª Inclán Iribar",
+      "office": "Consejero de Salud del Gobierno Vasco",
+      "started_on": "1999-01-02",
+      "ended_on": "2009-05-08",
+      "wikidata_id": "Q12258079"
+    },
+    {
+      "name": "Javier Balza",
+      "office": "Consejero de Seguridad del Gobierno Vasco",
+      "started_on": "1999-01-02",
+      "ended_on": "2009-05-08",
+      "wikidata_id": "Q9011182"
+    },
+    {
+      "name": "Anjeles Iztueta",
+      "office": "Consejero de Educación, Universidades e Investigación del Gobierno Vasco",
+      "started_on": "2001-01-01",
+      "ended_on": "2005-01-01",
+      "wikidata_id": "Q12253585"
+    },
+    {
+      "name": "Rafael Bengoa",
+      "office": "Consejero de Salud del Gobierno Vasco",
+      "started_on": "2009-03-08",
+      "ended_on": "2012-12-17",
+      "wikidata_id": "Q5558433"
+    },
+    {
+      "name": "Rodolfo Ares",
+      "office": "Consejero de Seguridad del Gobierno Vasco",
+      "started_on": "2009-05-08",
+      "ended_on": "2012-08-29",
+      "wikidata_id": "Q3330416"
+    },
+    {
+      "name": "Idoia Mendia Cueva",
+      "office": "Consejero de Justicia y Administración Pública del Gobierno Vasco",
+      "started_on": "2009-05-09",
+      "ended_on": "2012-09-02",
+      "wikidata_id": "Q5479644"
+    },
+    {
+      "name": "Isabel Celaá",
+      "office": "Consejero de Educación, Universidades e Investigación del Gobierno Vasco",
+      "started_on": "2009-05-09",
+      "ended_on": "2012-12-14",
+      "wikidata_id": "Q9009373"
+    },
+    {
+      "name": "Estefanía Beltrán de Heredia Arroniz",
+      "office": "Consejero de Seguridad del Gobierno Vasco",
+      "started_on": "2012-12-17",
+      "ended_on": "2020-09-05",
+      "wikidata_id": "Q5849224"
+    },
+    {
+      "name": "Jon Darpón Sierra",
+      "office": "Consejero de Salud del Gobierno Vasco",
+      "started_on": "2012-12-17",
+      "ended_on": "2019-03-14",
+      "wikidata_id": "Q5933905"
+    },
+    {
+      "name": "Josu Erkoreka Gervasio",
+      "office": "Consejero de Justicia y Administración Pública del Gobierno Vasco",
+      "started_on": "2012-12-17",
+      "ended_on": "2016-11-28",
+      "wikidata_id": "Q3321681"
+    },
+    {
+      "name": "Ricardo Gatzagaetxebarria Bastida",
+      "office": "Consejero de Hacienda y Finanzas",
+      "started_on": "2012-12-17",
+      "ended_on": "2016-11-28",
+      "wikidata_id": "Q2755968"
+    },
+    {
+      "name": "María Jesús San José",
+      "office": "Consejero del Gobierno Vasco",
+      "started_on": "2016-01-01",
+      "ended_on": "2020-01-01",
+      "wikidata_id": "Q131395654"
+    },
+    {
+      "name": "Alfredo Retortillo",
+      "office": "Consejero de Turismo, Comercio y Consumo",
+      "started_on": "2016-11-28",
+      "ended_on": "2019-03-01",
+      "wikidata_id": "Q27918419"
+    },
+    {
+      "name": "Bingen Zupiria",
+      "office": "Consejero de Cultura y Política Lingüística",
+      "started_on": "2016-11-28",
+      "ended_on": "2024-06-25",
+      "wikidata_id": "Q12255259"
+    },
+    {
+      "name": "Josu Erkoreka Gervasio",
+      "office": "Consejero de Gobernanza Pública y Autogobierno del Gobierno Vasco",
+      "started_on": "2016-11-28",
+      "ended_on": "2020-09-08",
+      "wikidata_id": "Q3321681"
+    },
+    {
+      "name": "Sonia Pérez Ezquerra",
+      "office": "Consejero de Turismo, Comercio y Consumo",
+      "started_on": "2019-03-01",
+      "ended_on": "2020-09-08",
+      "wikidata_id": "Q62070578"
+    },
+    {
+      "name": "Nekane Murga",
+      "office": "Consejero de Salud del Gobierno Vasco",
+      "started_on": "2019-03-14",
+      "ended_on": "2020-09-05",
+      "wikidata_id": "Q62070535"
+    },
+    {
+      "name": "Beatriz Artolazabal",
+      "office": "Consejero de Igualdad, Justicia y Políticas Sociales del Gobierno Vasco",
+      "started_on": "2020-09-08",
+      "ended_on": "2023-02-14",
+      "wikidata_id": "Q27918391"
+    },
+    {
+      "name": "Gotzone Sagardui Goikoetxea",
+      "office": "Consejero de Salud del Gobierno Vasco",
+      "started_on": "2020-09-08",
+      "ended_on": "2024-06-25",
+      "wikidata_id": "Q98923186"
+    },
+    {
+      "name": "Iñaki Arriola López",
+      "office": "Consejero de Planificación Territorial, Vivienda y Transportes del Gobierno Vasco",
+      "started_on": "2020-09-08",
+      "ended_on": "2024-06-25",
+      "wikidata_id": "Q11684197"
+    },
+    {
+      "name": "Javier Hurtado",
+      "office": "Consejero de Turismo, Comercio y Consumo",
+      "started_on": "2020-09-08",
+      "ended_on": null,
+      "wikidata_id": "Q98929913"
+    },
+    {
+      "name": "Josu Erkoreka Gervasio",
+      "office": "Consejero de Seguridad del Gobierno Vasco",
+      "started_on": "2020-09-08",
+      "ended_on": "2024-06-25",
+      "wikidata_id": "Q3321681"
+    },
+    {
+      "name": "Olatz Garamendi",
+      "office": "Consejero de Gobernanza Pública y Autogobierno del Gobierno Vasco",
+      "started_on": "2020-09-08",
+      "ended_on": "2024-06-26",
+      "wikidata_id": "Q98929451"
+    },
+    {
+      "name": "Nerea Melgosa Vega",
+      "office": "Consejero de Igualdad, Justicia y Políticas Sociales del Gobierno Vasco",
+      "started_on": "2023-02-14",
+      "ended_on": null,
+      "wikidata_id": "Q116773072"
+    },
+    {
+      "name": "María Jesús San José",
+      "office": "Consejero del Gobierno Vasco",
+      "started_on": "2024-01-01",
+      "ended_on": null,
+      "wikidata_id": "Q131395654"
+    },
+    {
+      "name": "Q140930774",
+      "office": "Consejero del Gobierno Vasco",
+      "started_on": "2024-01-01",
+      "ended_on": null,
+      "wikidata_id": "Q140930774"
+    },
+    {
+      "name": "Bingen Zupiria",
+      "office": "Consejero de Seguridad del Gobierno Vasco",
+      "started_on": "2024-06-25",
+      "ended_on": null,
+      "wikidata_id": "Q12255259"
+    },
+    {
+      "name": "Denis Itxaso",
+      "office": "Consejero del Gobierno Vasco",
+      "started_on": "2024-06-25",
+      "ended_on": null,
+      "wikidata_id": "Q5802668"
+    },
+    {
+      "name": "Ibone Bengoetxea",
+      "office": "Consejero de Cultura y Política Lingüística",
+      "started_on": "2024-06-25",
+      "ended_on": null,
+      "wikidata_id": "Q126872293"
+    },
+    {
+      "name": "Maria Ubarretxena",
+      "office": "Consejero de Gobernanza, Administración Digital y Autogobierno",
+      "started_on": "2024-06-25",
+      "ended_on": null,
+      "wikidata_id": "Q87412620"
+    },
+    {
+      "name": "Mikel Torres",
+      "office": "Consejero de Economía, Trabajo y Empleo del Gobierno Vasco",
+      "started_on": "2024-06-25",
+      "ended_on": null,
+      "wikidata_id": "Q14133432"
+    },
+    {
+      "name": "Noël d'Anjou",
+      "office": "Consejero de Hacienda y Finanzas",
+      "started_on": "2024-06-25",
+      "ended_on": null,
+      "wikidata_id": "Q126897460"
+    },
+    {
+      "name": "Ignacio Oliveri Albisu",
+      "office": "Consejero del Gobierno Vasco",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q12259575"
+    },
+    {
+      "name": "Javier Caño",
+      "office": "Consejero del Gobierno Vasco",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q12260237"
+    },
+    {
+      "name": "Luis María Bandrés Unanue",
+      "office": "Consejero de Cultura y Política Lingüística",
+      "started_on": null,
+      "ended_on": null,
+      "wikidata_id": "Q3755944"
+    }
+  ]
+}
