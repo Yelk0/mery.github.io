@@ -1,0 +1,67 @@
+html,
+body,
+#app {
+  margin: 0;
+}
+
+.top {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  align-items: center;
+  padding: 8px 16px;
+}
+
+.top nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.brand {
+  font-weight: 700;
+  text-decoration: none;
+  color: inherit;
+  margin-right: 8px;
+}
+
+.sheet {
+  overflow-x: auto;
+}
+
+.sheet td a {
+  display: inline-block;
+}
+
+.num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.faster {
+  color: #1f6b45;
+}
+
+.slower {
+  color: #9c3412;
+}
+
+.party {
+  display: block;
+  color: #6f675c;
+  font-size: 0.8rem;
+}
+
+.deck,
+.note {
+  max-width: 46rem;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  margin: 12px 0;
+}
