@@ -31,10 +31,14 @@ import {
 } from "../domain"
 import type { RawBlock, RawFlow, RawLaw, RawLeader, RawMeta, RawRegionSeries, RawStore, RawTerm, RawWindow, RawYear } from "./raw"
 
+export function dataFile(name: string): string {
+  return `${import.meta.env.BASE_URL}data/${name}`
+}
+
 export async function loadDataset(): Promise<Dataset> {
   const [storeResponse, lawsResponse] = await Promise.all([
-    fetch("/data/store.json"),
-    fetch("/data/laws.json"),
+    fetch(dataFile("store.json")),
+    fetch(dataFile("laws.json")),
   ])
   if (!storeResponse.ok) throw new Error(`HTTP ${storeResponse.status}`)
   const store = (await storeResponse.json()) as RawStore

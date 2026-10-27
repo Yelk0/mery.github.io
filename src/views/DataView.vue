@@ -2,6 +2,7 @@
 import { computed } from "vue"
 import { useI18n } from "vue-i18n"
 import type { Dataset } from "../domain"
+import { dataFile } from "../data/load"
 import { pageHref } from "../route"
 
 const props = defineProps<{ dataset: Dataset }>()
@@ -94,8 +95,8 @@ const beside = computed(() => {
         <p class="source-links">
           <a href="https://www.wikidata.org/wiki/Property:P39" target="_blank" rel="noopener">Wikidata P39</a>
           <a href="https://es.wikipedia.org/" target="_blank" rel="noopener">Wikipedia</a>
-          <a href="/data/people.json">{{ t("dataList") }}</a>
-          <a href="/data/office-corrections.json">{{ t("dataFixes") }}</a>
+          <a :href="dataFile('people.json')">{{ t("dataList") }}</a>
+          <a :href="dataFile('office-corrections.json')">{{ t("dataFixes") }}</a>
         </p>
       </div>
     </li>

@@ -10,7 +10,7 @@ import PresidentsView from "./views/PresidentsView.vue"
 import RegionView from "./views/RegionView.vue"
 
 export const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHashHistory(import.meta.env.BASE_URL),
   routes: [
     { path: "/:lang(es|en)", name: "presidents", component: PresidentsView },
     { path: "/:lang(es|en)/communities", name: "communities", component: CommunitiesView },
